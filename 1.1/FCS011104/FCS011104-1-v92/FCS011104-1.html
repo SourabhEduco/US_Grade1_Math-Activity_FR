@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html class="full" lang="en">
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=9,10,11 IE=EDGE" />
+<link type="text/css" rel="stylesheet" href="https://www.educosoft.com/sharedSite/HTML5Common/lowergrade/baseForLowergrade.css">
+<!--<link type="text/css" rel="stylesheet" href="template_files/css/baseForLowergrade.css">-->
+<script src="template_files/jquery/jquery.min.js"></script>
+<script src="template_files/jquery/calci.js"></script> 
+<script src="template_files/jquery/functionUses.js"></script>
+<script src="content_files/content.js"></script>
+<script src="content_files/app.js"></script> 
+<script src="https://www.educosoft.com/sharedSite/HTML5Common/lowergrade/baseForLowergradeKeypad.js"></script>
+<!--<script src="template_files/jquery/baseForLowergradeKeypad.js"></script>-->
+<script src="template_files/jquery/ForFrUse.js"></script>
+<link type="text/css" rel="stylesheet" href="content_files/content.css">
+<script src="template_files/jquery/jquery-ui.js"></script>
+<script src="template_files/jquery/DragDropTouch.js"></script>
+<!--<script src="template_files/jquery/ExampleDataSaveLowerGrade.js"></script>-->
+<script src="https://www.educosoft.com/sharedSite/HTML5Common/lowergrade/ExampleDataSaveLowerGrade.js"></script> 
+</head>
+
+<body>
+
+<div id='LoadingDiv' style="text-align:center; user-select:none"><img src="image/Loading.gif" style="width:20%"/></div>
+<script>
+ var height = $(window).innerHeight();
+ var LoadingDivHeight = $('#LoadingDiv').height();
+ var finalHeight = (height-LoadingDivHeight)/2;
+  $('#LoadingDiv').css({'margin-top':finalHeight+"px"})
+  ////////////////////////////////////////////////////////////////
+	 $('img').on('dragstart', function(event) { event.preventDefault();});
+  ///////////////////////////////////////////////////////////////
+</script>
+
+<div class="container-fluid" id="BgImage" style="display:none">
+
+<div class="ForBlurEffect">
+	<div class="containerHeaderQues">
+        <div class="header"><h4>Fifth grade > <span class="headerHeading">T.2 Complete an increasing number sequence</span></h4></div><!-- header end -->
+        <div class="container">
+        	<div class="containerLeft">
+            <div class="CommonAreaQuesNdKeypad">
+                <div class="quesPart quesStatment">
+                
+                <div class="newQues">			<!--add this-->
+              
+           					<!--Add:-->
+                
+                    <div class="paddingtopbtm30"><!--<span class="totalMarks ">1</span>) &nbsp;--> 
+                        <div class="NwvrsnAdDolBtn">
+                            <input type="button" value="Try Again" class="newSet" onClick="nextQuesGeneration()" /> 
+                            <input type="button" value="Solution" class="solution"  onClick="showSolution()"/>
+                        </div>
+                        
+                        <div class="InputDoneAndKeypad calc">
+                        	
+                            <span> Write the missing numbers.</span>
+                            
+                            <span style="display:block; margin-top:1em;"> 
+                            	<div class="Qdiv">
+                                <div class="QImg"><img src="image/NmbLine.png" class="NmbLine"></div>
+                                <div class="val1 hide"></div>
+                                <div class="val1"></div>
+                                <div class="val2"></div>
+                                <div class="rel"><input type="text" class="input1 input bold droppable" id="inputText" style="text-transform:lowercase;" spellcheck="false" autocomplete="off" tabindex="1"/></div>
+                                <div class="val4"></div>
+                                <div class="val5"></div>
+                                <div class="rel"><input type="text" class="input2 input bold droppable" id="inputText1" style="text-transform:lowercase;" spellcheck="false" autocomplete="off" tabindex="2"/></div>
+                                <div class="val7"></div>
+                                <div class="val8"></div>
+                                <div class="val8 hide"></div>
+                                </div>
+                                
+                                <div class="Qdiv" style="height:1.1em;">
+                                <div class="val1 hide" style="height:1em;"></div>
+                                <div class="val1 hide"></div>
+                                <div class="val2 hide"></div>
+                                <div class="rel"><font face="Garamond" class="cross cross1 red">&#10006;</font><font face="Garamond" class="tick tick1 green">&#10004;</font></div>
+                                <div class="val4 hide"></div>
+                                <div class="val5 hide"></div>
+                                <div class="rel"><font face="Garamond" class="cross cross2 red">&#10006;</font><font face="Garamond" class="tick tick2 green">&#10004;</font></div>
+                                <div class="val7 hide"></div>
+                                <div class="val8 hide"></div>
+                                <div class="val8 hide"></div>
+                                </div>
+                            </span> 
+                        
+                            <span class="InputNdDone">
+                            <table class="quesTab" border="0">
+                            <col width="50%">
+                            <col width="49%">
+                            
+                            <tr>
+                            <!--<td class="tar"><span class="hide"><span class="val1"></span>&nbsp;&nbsp;–&nbsp;&nbsp;<span class="val2"></span>&nbsp;&nbsp;=&nbsp;&nbsp;</span> </td>-->
+                            <td style="position:relative;"><div class="remark" style="position:absolute; top:0;right:.5em;"><div class="respond bold" style="color:#339966;"><span id="FB_TxtBox"></span></div></div></td>
+                            <td class=""><input type="button" value="Done" class="done" onClick="doneButton()"/></td>
+                            <!--<td class="tar"><input type="text" class="input1 input bold droppable" id="inputText" style="text-transform:lowercase;" spellcheck="false" autocomplete="off" tabindex="1"/></td>-->
+                            </tr>
+                            </table>
+                            </span><!-- InputNdDone -->
+                        
+                        </div> <!--InputDoneAndKeypad-->     
+                        
+                        
+                        <div class="KeypadArea" tabindex="3">
+                            <!--<div class="keypadNote"><b>Click or drag to enter the number</b></div>-->
+                            <div class="AllPrompt">
+                            <div class="prompt_New blankMessage_New"><span class="enterText">Enter the value.</span></div><!-- blankMessage_New -->
+                            <div class="prompt_New  WhatPrompt prompt1"><div class="promptText"><span class="WhatText">What <span id="whatValue"></span>?</span></div></div><!-- WhatPrompt -->
+                            <!--<div class="correct"><span class="CorrectText">Correct!</span></div> 
+                            <div class="incorrect"><span class="IncorrectText">Incorrect!</span></div>-->
+                            </div>
+                            
+                            <div class="keypadKeys">
+                            <div class="calc_btn less draggable button One" draggable="true" value="111">1</span></div>
+                            <div class="calc_btn less draggable button Two" draggable="true" value="112">2</span></div>
+                            <div class="calc_btn less draggable button Three" draggable="true" value="113">3</div>
+                            <div class="calc_btn less draggable button Four" draggable="true" value="114">4</div>
+                            
+                            <img src="image/hand_cursor.png" class="Handcursor Handcursor1"/>
+                            <div class="calc_btn less draggable button Four Handcursor" draggable="true" value="114">4</div>
+                            
+                            <div class="calc_btn less draggable button Five" draggable="true" value="115">5</div>
+                            <div class="calc_btn less draggable button Six" draggable="true" value="116">6</div>
+                            <div class="calc_btn less draggable button Seven" draggable="true" value="117">7</div>
+                            <div class="calc_btn less draggable button Eight" draggable="true" value="118">8</div>
+                            <div class="calc_btn less draggable button Nine" draggable="true" value="119">9</div>
+                            <div class="calc_btn less draggable button Zero" draggable="true" value="110">0</div>
+                    <button class="calc_btn tabDevice subtract ThreeCommonBtns"><b>Tab &nbsp;&#8644;</b></button>
+                            <button class="back ThreeCommonBtns" value="back">Back</button>
+                            <button class="clear ThreeCommonBtns" value="Clear">Clear</button>
+                            </div>	<!-- keypadKeys closed-->
+                        </div>	<!-- KeypadArea closed-->
+                    
+                    </div><!--paddingtopbtm30-->
+               
+                </div><!--newQues-->
+                 
+                </div><!--quesPart-->
+
+            </div><!--CommonAreaQuesNdKeypad-->        
+                
+                
+                <div class="SolutionPart">
+                
+                <span class="SolutionPartContent"><div class="solntext red_color red">&nbsp;&nbsp;<b>Solution:</b></div>
+  
+  
+				  <!--<div style="display: flex;margin: auto;margin-top: 1em;align-items: flex-start;flex-direction: column;width: 100%;">-->
+				  <div style="margin: auto;margin-top: 2em;margin-left: 15%;width: 84%;" class="BLDiv">
+                  	<table class="SoltbleBL">
+                    <tr>
+                    <td colspan="4">
+                            	<div class="Qdiv QdivSol">
+                                <div class="QImg"><img src="image/NmbLine.png" class="NmbLine"></div>
+                                <div class="val1 hide"></div>
+                                <div class="val1"></div>
+                                <div class="val2"></div>
+                                <div class="val3 box1 red_color"></div>
+                                <div class="val4"></div>
+                                <div class="val5"></div>
+                                <div class="val6 box1 red_color"></div>
+                                <div class="val7"></div>
+                                <div class="val8"></div>
+                                <div class="val8 hide"></div>
+                                </div>
+                    </td>
+                    </tr>
+
+                    <tr>
+                    <td colspan="4" class="tc"> <span class="pre">The missing numbers are  <b class="val3 red_color"></b>  and  <b class="val6 red_color"></b>.</span></td>
+                    </tr>
+                    </table>
+                  </div>
+
+                  
+                  
+                  
+                  <!--<div class="sidecon floatLeft">Coins left is <span class="val3 bold red_color"></span>.</div>-->
+                </span></div>
+                
+                
+                
+            </div><!-- containerLeft end -->
+               
+        </div><!-- container end -->
+    </div>
+    <div class="footer center GreenColor "> <h5 class="inlineBlock">Copyright @ 2018, Educo International, Inc.</h5>  </div><!-- footer end -->
+</div>
+<!--<div class="RightSpace"><img src="image/RightImg.jpg" class="modi"/></div>-->
+</div><!-- container-fluid end -->
+
+
+</body>
+<script src="template_files/jquery/timer.js"></script>
+</html>

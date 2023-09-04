@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html class="full" lang="en">
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=9,10,11 IE=EDGE" />
+<link type="text/css" rel="stylesheet" href="https://www.educosoft.com/sharedSite/HTML5Common/lowergrade/baseForLowergrade.css">
+<script src="template_files/jquery/jquery.min.js"></script>
+<script src="template_files/jquery/calci.js"></script> 
+<script src="template_files/jquery/functionUses.js"></script>
+<script src="content_files/content.js"></script>
+<script src="content_files/app.js"></script> 
+<script src="https://www.educosoft.com/sharedSite/HTML5Common/lowergrade/baseForLowergradeKeypad.js"></script>
+<script src="template_files/jquery/ForFrUse.js"></script>
+<link type="text/css" rel="stylesheet" href="content_files/content.css">
+<script src="template_files/jquery/jquery-ui.js"></script>
+<script src="template_files/jquery/DragDropTouch.js"></script>
+<script src="https://www.educosoft.com/sharedSite/HTML5Common/lowergrade/ExampleDataSaveLowerGrade.js"></script>
+</head>
+<body>
+
+
+
+<div id='LoadingDiv' style="text-align:center; user-select:none"><img src="image/Loading.gif" style="width:20%"/></div>
+<script>
+ var height = $(window).innerHeight();
+ 
+ var LoadingDivHeight = $('#LoadingDiv').height();
+ 
+ var finalHeight = (height-LoadingDivHeight)/2;
+
+  $('#LoadingDiv').css({'margin-top':finalHeight+"px"})
+  ////////////////////////////////////////////////////////////////
+	 $('img').on('dragstart', function(event) { event.preventDefault();});
+  ///////////////////////////////////////////////////////////////
+</script>
+
+
+
+
+<div class="container-fluid" id="BgImage" style="display:none">
+
+<div class="ForBlurEffect">
+	<div class="containerHeaderQues">
+        <div class="header"><h4>Fifth grade > <span class="headerHeading">T.2 Complete an increasing number sequence</span></h4></div><!-- header end -->
+        <div class="container">
+        	<div class="containerLeft">
+            <div class="CommonAreaQuesNdKeypad">
+            	<div class="quesPart quesStatment">
+                
+                
+                <div class="newQues">			<!--add this-->
+              
+                  Which number comes before <span class="val1 blueColor"></span>?
+             <!--  Counting backward from <span class="val1 blueColor"></span>, which number comes next? -->
+                
+                
+                
+               <div class="paddingtopbtm30"><!--<span class="totalMarks ">1</span>) &nbsp;--> 
+                 <div class="NwvrsnAdDolBtn"><input type="button" value="Try Again" class="newSet headerButton" onClick="nextQuesGeneration()">
+        		 <input type="button" value="Solution" class="solution headerButton" onClick="showSolution()"></div>
+          
+                <div class="InputDoneAndKeypad calc">
+                
+              <span class="InputNdDone"><input type="text" class="input1 input bold droppable " id="inputText" style="text-transform:lowercase;" spellcheck="false" autocomplete="off" tabindex="1"/> &nbsp;
+               <input type="button" value="Done" class="done" onClick="doneButton()"/>
+              </span><!-- InputNdDone -->
+              
+              <div class="remark"><div class="respond bold" style="color:#339966;"><span id="FB_TxtBox"></span></div></div> 
+              
+              <div class="KeypadArea" tabindex="2">
+         	<!--<div class="keypadNote"><b>Click or drag to enter the number</b></div>-->
+             <div class="AllPrompt">
+            	<div class="prompt_New blankMessage_New"><span class="enterText">Enter the value.</span></div><!-- blankMessage_New -->
+                <div class="prompt_New  WhatPrompt prompt1"><div class="promptText"><span class="WhatText">What <span id="whatValue"></span>?</span></div></div><!-- WhatPrompt -->
+                <!--<div class="correct"><span class="CorrectText">Correct!</span></div> 
+                <div class="incorrect"><span class="IncorrectText">Incorrect!</span></div>-->
+            </div>
+            <div class="keypadKeys">
+            	
+                    <div class="calc_btn less draggable button One" draggable="true" value="111">1</span></div>
+                    <div class="calc_btn less draggable button Two" draggable="true" value="112">2</span></div>
+                    <div class="calc_btn less draggable button Three" draggable="true" value="113">3</div>
+                    <div class="calc_btn less draggable button Four" draggable="true" value="114">4</div>
+                    <img src="image/hand_cursor.png" class="Handcursor Handcursor1"/>
+                    <div class="calc_btn less draggable button Five Handcursor" draggable="true" value="115">5</div>
+                    <div class="calc_btn less draggable button Five" draggable="true" value="115">5</div>
+                    
+                    <div class="calc_btn less draggable button Six" draggable="true" value="116">6</div>
+                    <div class="calc_btn less draggable button Seven" draggable="true" value="117">7</div>
+                    <div class="calc_btn less draggable button Eight" draggable="true" value="118">8</div>
+                    <div class="calc_btn less draggable button Nine" draggable="true" value="119">9</div>
+                    <div class="calc_btn less draggable button Zero" draggable="true" value="110">0</div>
+                    
+                    <button class="back ThreeCommonBtns" value="back">Back</button>
+                    <button class="clear ThreeCommonBtns" value="Clear">Clear</button>
+                    
+            </div>	<!-- keypadKeys closed-->
+            
+        </div>	<!-- KeypadArea closed-->
+              
+           </div> <!--InputDoneAndKeypad-->     
+               
+                
+                
+               
+                </div>
+               
+               
+               
+                
+                 
+                </div>
+                 
+                </div><!--quesPart-->
+                
+                
+                 
+
+</div><!--CommonAreaQuesNdKeypad-->        
+                
+                
+                
+                <div class="SolutionPart">
+                
+                <span class="SolutionPartContent"><div class="solntext red_color red">&nbsp;&nbsp;<b>Solution:</b></div>
+                
+                <div class="Line">
+                
+                <svg viewBox="20 -10 705 70" stroke-width="2"  class="svg1">
+        <defs>
+            <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+              <path d="M0,0 L0,6 L9,3 z" fill="blue" />
+            </marker>
+      </defs>	
+      
+<text x="80"  y="10" stroke="red" stroke-width=".5" fill="red" class="New_lined lined_0"></text>
+<text x="112" y="10" stroke="red" stroke-width=".5" fill="red" class="New_lined lined_1"></text>
+<text x="142" y="10" stroke="red" stroke-width=".5" fill="red" class="New_lined lined_2"></text>
+<text x="170" y="10" stroke="red" stroke-width=".5" fill="red" class="New_lined lined_3"></text>
+<text x="200" y="10" stroke="red" stroke-width=".5" fill="red" class="New_lined lined_4"></text>
+<text x="230" y="10" stroke="red" stroke-width=".5" fill="red" class="New_lined lined_5"></text>
+<text x="260" y="10" stroke="red" stroke-width=".5" fill="red" class="New_lined lined_6"></text>
+<text x="290" y="10" stroke="red" stroke-width=".5" fill="red" class="New_lined lined_7"></text>
+<text x="320" y="10" stroke="red" stroke-width=".5" fill="red" class="New_lined lined_8"></text>
+<text x="350" y="10" stroke="red" stroke-width=".5" fill="red" class="New_lined lined_9"></text>
+<text x="380" y="10" stroke="red" stroke-width=".5" fill="red" class="New_lined lined_10"></text>
+<text x="410" y="10" stroke="red" stroke-width=".5" fill="red" class="New_lined lined_11"></text>
+<text x="440" y="10" stroke="red" stroke-width=".5" fill="red" class="New_lined lined_12"></text>
+<text x="470" y="10" stroke="red" stroke-width=".5" fill="red" class="New_lined lined_13"></text>
+<text x="500" y="10" stroke="red" stroke-width=".5" fill="red" class="New_lined lined_14"></text>
+<text x="530" y="10" stroke="red" stroke-width=".5" fill="red" class="New_lined lined_15"></text>
+<text x="560" y="10" stroke="red" stroke-width=".5" fill="red" class="New_lined lined_16"></text>
+<text x="590" y="10" stroke="red" stroke-width=".5" fill="red" class="New_lined lined_17"></text>
+<text x="620" y="10" stroke="red" stroke-width=".5" fill="red" class="New_lined lined_18"></text>
+<text x="650" y="10" stroke="red" stroke-width=".5" fill="red" class="New_lined lined_19"></text>
+<!--<text x="663" y="10" stroke="blue" stroke-width=".5" fill="blue" class="lined lined20">20</text>
+-->   
+      
+   
+    <defs>
+         <marker id="path_arrow" markerWidth="7" markerHeight="10" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+            
+            
+            
+              <path d="M7,8 L2,6 L9,3 " fill="blue"></path>
+            </marker>
+      </defs>	
+      
+      
+      
+<path d="M70 35 Q 85 0 100 35" stroke="red" fill="transparent"  class="curve1 curve"    marker-end="url(#path_arrow)"/>
+<path d="M100 35 Q 115 0 130 35" stroke="red" fill="transparent" class="curve2 curve"   marker-end="url(#path_arrow)"/>
+<path d="M130 35 Q 145 0 160 35" stroke="red" fill="transparent" class="curve3 curve"   marker-end="url(#path_arrow)"/>
+<path d="M160 35 Q 175 0 190 35" stroke="red" fill="transparent" class="curve4 curve"   marker-end="url(#path_arrow)"/>
+<path d="M190 35 Q 205 0 220 35" stroke="red" fill="transparent" class="curve5 curve"   marker-end="url(#path_arrow)"/>
+<path d="M220 35 Q 235 0 250 35" stroke="red" fill="transparent" class="curve6 curve"   marker-end="url(#path_arrow)"/>
+<path d="M250 35 Q 265 0 280 35" stroke="red" fill="transparent" class="curve7 curve"   marker-end="url(#path_arrow)"/>
+<path d="M280 35 Q 295 0 310 35" stroke="red" fill="transparent" class="curve8 curve"   marker-end="url(#path_arrow)"/>
+<path d="M310 35 Q 325 0 340 35" stroke="red" fill="transparent" class="curve9 curve"   marker-end="url(#path_arrow)"/>
+<path d="M340 35 Q 355 0 370 35" stroke="red" fill="transparent" class="curve10 curve"  marker-end="url(#path_arrow)"/>
+<path d="M370 35 Q 385 0 400 35" stroke="red" fill="transparent" class="curve11 curve"  marker-end="url(#path_arrow)"/>
+<path d="M400 35 Q 415 0 430 35" stroke="red" fill="transparent" class="curve12 curve"  marker-end="url(#path_arrow)"/>
+<path d="M430 35 Q 445 0 460 35" stroke="red" fill="transparent" class="curve13 curve"  marker-end="url(#path_arrow)"/>
+<path d="M460 35 Q 475 0 490 35" stroke="red" fill="transparent" class="curve14 curve"  marker-end="url(#path_arrow)"/>
+<path d="M490 35 Q 505 0 520 35" stroke="red" fill="transparent" class="curve15 curve"  marker-end="url(#path_arrow)"/>
+<path d="M520 35 Q 535 0 550 35" stroke="red" fill="transparent" class="curve16 curve"  marker-end="url(#path_arrow)"/>
+<path d="M550 35 Q 565 0 580 35" stroke="red" fill="transparent" class="curve17 curve"  marker-end="url(#path_arrow)"/>
+<path d="M580 35 Q 595 0 610 35" stroke="red" fill="transparent" class="curve18 curve"  marker-end="url(#path_arrow)"/>
+<path d="M610 35 Q 625 0 640 35" stroke="red" fill="transparent" class="curve19 curve"  marker-end="url(#path_arrow)"/>
+<path d="M640 35 Q 655 0 670 35" stroke="red" fill="transparent" class="curve20 curve"  marker-end="url(#path_arrow)"/>
+
+<rect  y="-5"  height="40" fill="white" class="hide_curve"></rect>
+
+<line x1="40"  y1="35" x2="700" y2="35" stroke-width="2" stroke="blue" fill="blue" marker-end="url(#arrow)"/>
+<line x1="45"  y1="35" x2="40" y2="35" stroke-width="2" stroke="blue" fill="blue" marker-end="url(#arrow)"/>
+
+<text x="66"  y="55" stroke="blue" stroke-width=".5" fill="blue" class="lined linedA0 Nlined_0">0</text>
+<text x="96"  y="55" stroke="blue" stroke-width=".5" fill="blue" class="lined linedA1 Nlined_1">1</text>
+<text x="126" y="55" stroke="blue" stroke-width=".5" fill="blue" class="lined linedA2 Nlined_2">2</text>
+<text x="154" y="55" stroke="blue" stroke-width=".5" fill="blue" class="lined linedA3 Nlined_3">3</text>
+<text x="184" y="55" stroke="blue" stroke-width=".5" fill="blue" class="lined linedA4 Nlined_4">4</text>
+<text x="216" y="55" stroke="blue" stroke-width=".5" fill="blue" class="lined linedA5 Nlined_5">5</text>
+<text x="246" y="55" stroke="blue" stroke-width=".5" fill="blue" class="lined linedA6 Nlined_6">6</text>
+<text x="276" y="55" stroke="blue" stroke-width=".5" fill="blue" class="lined linedA7 Nlined_7">7</text>
+<text x="306" y="55" stroke="blue" stroke-width=".5" fill="blue" class="lined linedA8 Nlined_8">8</text>
+<text x="333" y="55" stroke="blue" stroke-width=".5" fill="blue" class="lined linedA9 Nlined_9">9</text>
+<text x="363" y="55" stroke="blue" stroke-width=".5" fill="blue" class="lined linedA10 Nlined_10">10</text>
+<text x="393" y="55" stroke="blue" stroke-width=".5" fill="blue" class="lined linedA11 Nlined_11">11</text>
+<text x="423" y="55" stroke="blue" stroke-width=".5" fill="blue" class="lined linedA12 Nlined_12">12</text>
+<text x="453" y="55" stroke="blue" stroke-width=".5" fill="blue" class="lined linedA13 Nlined_13">13</text>
+<text x="483" y="55" stroke="blue" stroke-width=".5" fill="blue" class="lined linedA14 Nlined_14">14</text>
+<text x="513" y="55" stroke="blue" stroke-width=".5" fill="blue" class="lined linedA15 Nlined_15">15</text>
+<text x="543" y="55" stroke="blue" stroke-width=".5" fill="blue" class="lined linedA16 Nlined_16">16</text>
+<text x="573" y="55" stroke="blue" stroke-width=".5" fill="blue" class="lined linedA17 Nlined_17">17</text>
+<text x="603" y="55" stroke="blue" stroke-width=".5" fill="blue" class="lined linedA18 Nlined_18">18</text>
+<text x="633" y="55" stroke="blue" stroke-width=".5" fill="blue" class="lined linedA19 Nlined_19">19</text>
+<text x="663" y="55" stroke="blue" stroke-width=".5" fill="blue" class="lined linedA20 Nlined_20">20</text>
+
+
+<line x1="70"  y1="30" x2="70"  y2="40" stroke="#006" stroke-width="2" class="tickMark tickMark2"/>
+<line x1="100" y1="30" x2="100" y2="40" stroke="#006" stroke-width="2" class="tickMark tickMark3"/>
+<line x1="130" y1="30" x2="130" y2="40" stroke="#006" stroke-width="2" class="tickMark tickMark4"/>
+<line x1="160" y1="30" x2="160" y2="40" stroke="#006" stroke-width="2" class="tickMark tickMark5"/>
+<line x1="190" y1="30" x2="190" y2="40" stroke="#006" stroke-width="2" class="tickMark tickMark6"/>
+<line x1="220" y1="30" x2="220" y2="40" stroke="#006" stroke-width="2" class="tickMark tickMark7"/>
+<line x1="250" y1="30" x2="250" y2="40" stroke="#006" stroke-width="2" class="tickMark tickMark8"/>
+<line x1="280" y1="30" x2="280" y2="40" stroke="#006" stroke-width="2" class="tickMark tickMark9"/>
+<line x1="310" y1="30" x2="310" y2="40" stroke="#006" stroke-width="2" class="tickMark tickMark10"/>
+<line x1="340" y1="30" x2="340" y2="40" stroke="#006" stroke-width="2" class="tickMark tickMark11"/>
+<line x1="370" y1="30" x2="370" y2="40" stroke="#006" stroke-width="2" class="tickMark tickMark12"/>
+<line x1="400" y1="30" x2="400" y2="40" stroke="#006" stroke-width="2" class="tickMark tickMark13"/>
+<line x1="430" y1="30" x2="430" y2="40" stroke="#006" stroke-width="2" class="tickMark tickMark14"/>
+<line x1="460" y1="30" x2="460" y2="40" stroke="#006" stroke-width="2" class="tickMark tickMark15"/>
+<line x1="490" y1="30" x2="490" y2="40" stroke="#006" stroke-width="2" class="tickMark tickMark16"/>
+<line x1="520" y1="30" x2="520" y2="40" stroke="#006" stroke-width="2" class="tickMark tickMark17"/>
+<line x1="550" y1="30" x2="550" y2="40" stroke="#006" stroke-width="2" class="tickMark tickMark18"/>
+<line x1="580" y1="30" x2="580" y2="40" stroke="#006" stroke-width="2" class="tickMark tickMark19"/>
+<line x1="610" y1="30" x2="610" y2="40" stroke="#006" stroke-width="2" class="tickMark tickMark20"/>
+<line x1="640"  y1="30" x2="640"  y2="40" stroke="#006" stroke-width="2" class="tickMark tickMark21"/>
+<line x1="670"  y1="30" x2="670"  y2="40" stroke="#006" stroke-width="2" class="tickMark tickMark22"/>
+
+
+</svg>
+
+</div>
+  
+  <div class="con1">Counting backward number next to <span class="val1"></span> is <span class="finalAns bold red_color"></span>.</div>
+                      
+                </span></div>
+            </div><!-- containerLeft end -->
+               
+        </div><!-- container end -->
+    </div>
+     <div class="footer center GreenColor "><div class="PrintImgDiv"><img src="image/print.png" class="Printer"/></div><h5 class="inlineBlock copyRight">Copyright @ 2018, Educo International, Inc.</h5>  </div><!-- footer end -->
+</div>
+<!--<div class="RightSpace"><img src="image/RightImg.jpg" class="modi"/></div>-->
+</div><!-- container-fluid end -->
+
+
+</body>
+<script src="template_files/jquery/timer.js"></script>
+</html>

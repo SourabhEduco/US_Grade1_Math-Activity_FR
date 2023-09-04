@@ -1,0 +1,1461 @@
+.container
+{
+	border:0px solid black;
+}
+
+.center
+{
+	text-align:center;
+}
+.GreenColor
+{
+	color:#28a745;
+}
+.blueColor
+{
+	color:#0000ff;
+}
+ .red_color
+{
+	color:#C00;
+}
+.shape{display:none;}
+
+.padL
+{
+	padding-left:5%;
+}
+.btn
+{
+	display:inline-block;
+}
+.symbol{
+	display:inline-block;
+	background:#ffb3e6;
+	border:outset;
+	/*width:11%;*/
+	font-weight:bold;
+	cursor:pointer;
+	margin-left:2%;
+	margin-bottom:1%;
+	padding:4px 6px;
+}
+ 
+
+.rel{
+	position:relative;
+}
+
+
+.InputNdDone {
+    margin-left: 0%;
+}
+.input{
+	width:20%;
+}
+.inl_blck{display:inline-block; width:100%;}
+.image {
+    width: 7.1em;
+    margin-left: 2.5%;
+    height: 8em;
+}
+.shape{width:100%;}
+.lft{float:left;}
+.txt_box{margin-top:12%; width:60%;}
+
+.tal
+{
+	text-align:left;
+}
+.tac
+{
+	text-align:center;
+}
+.table
+{
+	width:100%;
+	table-layout:fixed;
+	margin-top:0%;
+}
+tr,td
+{
+	border:0px solid;
+}
+.A1
+{
+	width:10%;
+	display:inline-block;
+	float:left;
+}
+.A2
+{
+	width:80%;
+	display:inline-block;
+	float:left;
+}
+.prompt_New {
+margin-left:0%;
+}
+.tab1
+{
+	margin-left: 17%;
+    margin-top: 0px;
+}
+
+.ans1
+{
+	width:88%;
+	display:inline-block;
+}
+.ThreeCommonBtns{margin-left:1.5%;}
+.button {margin-left: 1.4%; width:3.8%;}
+.button:hover{margin-left:1.4%; width:3.8%;}
+.button:active {margin-left: 1.4%; width:3.8%;}
+
+
+
+.image {
+    width: 10.9em;
+    margin-left: 0%;
+    height: 8.2em;
+}
+
+
+.image1 {
+    width: 12em;
+    margin-top: 0%;
+}
+	
+
+
+tr,td{border:0px solid #CCC;}
+
+.A2{
+	margin-left:0.4em;
+}
+
+
+.remark {
+    position: absolute;
+    margin-top: 1em;
+}
+
+
+
+
+@media (min-width: 531px) and (max-width: 1100px)
+{
+	
+	
+.table {
+    margin-top: -2.4em;
+}
+
+
+.remark {
+    position: absolute;
+    margin-top: 1.4em;
+    margin-left: -2.5em;
+}
+
+
+.tab1 {
+    margin-left: 17%;
+    margin-top: 3%;
+}
+
+
+.image {
+    width: 10.9em;
+    margin-left: 0%;
+    height: 6.8em;
+}
+
+
+
+
+
+	
+	
+}
+
+@media (min-width: 531px) and (max-width: 610px)
+{
+.clear {
+    margin-left: 1%;
+}
+.InputNdDone {
+    margin-left: 26%;
+}
+@keyframes move{
+		0%{
+			top: 0%;
+    left: 27%;
+
+		}
+100% {
+    top: -368%;
+    left: 60%;
+    display: none;
+}
+}
+.input {
+    width: 25%;
+}
+.button {margin-left: 0.5%;}
+.button:hover{margin-left: 0.5%;}
+.button:active {margin-left: 0.5%;}
+}
+
+@media (min-width: 611px) and (max-width: 690px)
+{
+		.input 
+{
+    width: 18%;
+}
+.clear {
+    margin-left: 1%;
+}
+.InputNdDone {
+    margin-left: 26%;
+}
+@keyframes move{
+		0%{
+			top: 0%;
+    left: 27%;
+
+		}
+100% {
+    top: -368%;
+    left: 60%;
+    display: none;
+}
+}
+.input {
+    width: 25%;
+}
+.button {margin-left: 0.7%;}
+.button:hover{margin-left: 0.7%;}
+.button:active {margin-left: 0.7%;}
+
+.table {
+    margin-top: -1.6em;
+}
+
+
+}
+
+@media (min-width: 691px) and (max-width: 770px)
+{
+		.input 
+{
+    width: 18%;
+}
+.clear {
+    margin-left: 1%;
+}
+.InputNdDone {
+    margin-left: 25%;
+}
+@keyframes move{
+		0%{
+			top: 0%;
+    left: 27%;
+
+		}
+100% {
+    top: -358%;
+    left: 62%;
+    display: none;
+}
+}
+.input {
+    width: 25%;
+}
+.button {margin-left: 0.8%;}
+.button:hover{margin-left: 0.8%;}
+.button:active {margin-left: 0.8%;}
+
+
+
+.image {
+    margin-left: 2%;
+}
+.table {
+    margin-top: -1.6em;
+}
+
+
+}
+
+@media (min-width: 771px) and (max-width: 850px)
+{
+.clear {
+    margin-left: 1%;
+}
+.InputNdDone {
+    margin-left: 25%;
+}
+@keyframes move{
+		0%{
+			top: 0%;
+    left: 27%;
+
+		}
+100% {
+    top: -358%;
+    left: 65%;
+    display: none;
+}
+}
+.input {
+    width: 25%;
+}
+.button {margin-left: 0.9%;}
+.button:hover{margin-left: 0.9%;}
+.button:active {margin-left: 0.9%;}
+
+.table {
+    margin-top: -2em;
+}
+
+
+.image {
+    margin-left: 0%;
+}
+
+
+.A2 {
+    margin-left: 0.5em;
+}
+
+
+.tab1 {
+    margin-left: 22%;
+    margin-top: 3%;
+}
+
+}
+
+@media (min-width: 851px) and (max-width: 930px)
+{
+.clear {
+    margin-left: 1%;
+}
+@keyframes move{
+		0%{
+			top: 0%;
+    left: 27%;
+
+		}
+100% {
+    top: -358%;
+    left: 62%;
+    display: none;
+}
+}
+.input {
+    width: 25%;
+}
+.button {margin-left: 1.1%;}
+.button:hover{margin-left: 1.1%;}
+.button:active {margin-left: 1.1%;}
+
+.table {
+    margin-top: -0.5em;
+}
+
+.image {
+    margin-left: 0%;
+}
+
+
+.A2 {
+    margin-left: 0.5em;
+}
+
+
+.tab1 {
+    margin-left: 15%;
+    margin-top: 3%;
+}
+
+
+}
+
+@media (min-width: 931px) and (max-width: 1010px)
+{
+.clear {
+    margin-left: 1%;
+}
+@keyframes move{
+		0%{
+			top: 0%;
+    left: 27%;
+
+		}
+100% {
+    top: -358%;
+    left: 62%;
+    display: none;
+}
+}
+.button {margin-left: 1.1%;}
+.button:hover{margin-left: 1.1%;}
+.button:active {margin-left: 1.1%;}
+
+.table {
+    margin-top: 0em;
+}
+
+
+.image {
+    margin-left: 0%;
+}
+
+
+.A2 {
+    margin-left: 0.5em;
+}
+
+
+
+.tab1 {
+    margin-left: 15%;
+    margin-top: 3%;
+}
+
+
+.table {
+    margin-top: -0.5em;
+}
+
+
+
+}
+
+@media (min-width: 1011px) and (max-width: 1100px)
+{
+.clear {
+    margin-left: 2%;
+}
+@keyframes move{
+		0%{
+			top: 0%;
+    left: 27%;
+
+		}
+100% {
+    top: -368%;
+    left: 61%;
+    display: none;
+}
+}
+.button {margin-left: 1.2%;}
+.button:hover{margin-left: 1.2%;}
+.button:active {margin-left: 1.2%;}
+
+.InputDoneAndKeypad{
+	margin-top:-1.3em;
+}
+
+
+.table {
+    margin-top: 1em;
+}
+
+
+.image {
+    margin-left: 0%;
+}
+
+
+.A2 {
+    margin-left: 0.5em;
+}
+
+
+
+}
+
+@media (min-width: 1101px) and (max-width: 1285px)
+{
+.InputNdDone {
+    margin-left: 29%;
+}
+@keyframes move{
+		0%{
+			top: 0%;
+    left: 27%;
+
+		}
+100% {
+    top: -378%;
+    left: 60%;
+    display: none;
+}
+}
+.button {margin-left: 1.2%;}
+.button:hover{margin-left: 1.2%;}
+.button:active {margin-left: 1.2%;}
+
+.InputDoneAndKeypad{
+	margin-top:-1.5em;
+}
+
+
+.tab1 {
+    margin-top: 4%;
+	margin-left: 17%;
+}
+
+
+
+.image1 {
+    width: 12.7em;
+    margin-top: 0%;
+}
+
+
+.image {
+    width: 10.9em;
+    margin-left: 0%;
+    height: 7em;
+}
+
+
+}
+
+@media (min-width: 1286px) and (max-width: 1400px)
+{
+
+@keyframes move{
+		0%{
+			top:0%;
+			
+		}
+		100%{
+			 top: -290%;
+			 display:none;
+		}
+	} 
+	
+	
+.KeypadArea {
+    margin-top: 0%;
+}
+
+
+.InputDoneAndKeypad {
+    margin-top: -0.3em;
+}
+
+
+
+@keyframes move{
+		0%{
+			top: 0%;
+    left: 27%;
+
+		}
+100% {
+    top: -388%;
+    left: 60%;
+    display: none;
+}
+	}
+
+
+
+}
+
+@media (min-width: 1401px) and (max-width: 1550px)
+{
+.InputNdDone {
+    margin-left: 28%;
+}
+@keyframes move{
+		0%{
+			top:0%;
+			
+		}
+		100%{
+			 top: -300%;
+			 display:none;
+		}
+	} 
+.button {margin-left: 1.5%;}
+.button:hover{margin-left: 1.5%;}
+.button:active {margin-left: 1.5%;}
+
+.InputDoneAndKeypad {
+    margin-top: -1.6em;
+}
+
+
+.tab1 {
+    margin-left: 22%;
+    margin-top: 5%;
+}
+
+
+@keyframes move{
+		0%{
+			top: 0%;
+    left: 27%;
+
+		}
+100% {
+    top: -418%;
+    left: 58%;
+    display: none;
+}
+}
+
+
+
+
+
+}
+
+@media (min-width: 1551px) and (max-width: 1700px)
+{
+.InputNdDone {
+    margin-left: 28%;
+}
+@keyframes move{
+		0%{
+			top:0%;
+			
+		}
+		100%{
+			 top: -315%;
+			 display:none;
+		}
+	}
+.button {margin-left: 1.6%;}
+.button:hover{margin-left: 1.6%;}
+.button:active {margin-left: 1.6%;}
+
+
+
+
+
+.InputDoneAndKeypad {
+    margin-top: -1.6em;
+}
+
+
+.tab1 {
+    margin-left: 25%;
+    margin-top: 5%;
+}
+
+
+@keyframes move{
+		0%{
+			top: 0%;
+    left: 27%;
+
+		}
+100% {
+    top: -428%;
+    left: 57%;
+    display: none;
+}
+}
+
+
+
+.image {
+    margin-left: 3%;
+}
+
+.remark {
+    position: absolute;
+    margin-top: 1em;
+    margin-left: -1.6em;
+}
+
+
+}
+
+@media (min-width: 1701px) and (max-width: 1850px)
+{
+.InputNdDone {
+    margin-left: 28%;
+}
+
+@keyframes move{
+		0%{
+			top: 0%;
+    left: 27%;
+
+		}
+100% {
+    top: -408%;
+    left: 57%;
+    display: none;
+}
+}
+
+
+
+.button {margin-left: 1.6%;}
+.button:hover{margin-left: 1.6%;}
+.button:active {margin-left: 1.6%;}
+
+.InputDoneAndKeypad{
+	margin-top:-1.56em;
+}
+
+
+.tab1 {
+    margin-left: 22%;
+    margin-top: 5%;
+}
+
+
+
+.image {
+    margin-left: 3%;
+}
+
+
+.remark {
+    position: absolute;
+    margin-top: 1em;
+    margin-left: -1.6em;
+}
+
+
+}
+
+@media (min-width: 1851px) and (max-width: 2000px)
+{
+.InputNdDone {
+    margin-left: 27%;
+}
+@keyframes move{
+		0%{
+			top: 0%;
+    left: 27%;
+
+		}
+100% {
+    top: -408%;
+    left: 56%;
+    display: none;
+}
+}
+	.button {margin-left: 1.6%;}
+.button:hover{margin-left: 1.6%;}
+.button:active {margin-left: 1.6%;}
+
+
+.InputDoneAndKeypad{
+	margin-top:-1.5em;
+}
+
+
+.tab1 {
+    margin-left: 22%;
+    margin-top: 5%;
+}
+
+.image {
+    margin-left: 3%;
+}
+
+
+.remark {
+    position: absolute;
+    margin-top: 1em;
+    margin-left: -1.6em;
+}
+
+
+
+}
+
+@media (min-width: 2001px)
+{
+.InputNdDone {
+    margin-left: 27%;
+}
+@keyframes move{
+		0%{
+			top: 0%;
+    left: 27%;
+
+		}
+100% {
+    top: -428%;
+    left: 56%;
+    display: none;
+}
+}
+.button {margin-left: 1.6%;}
+.button:hover{margin-left: 1.6%;}
+.button:active {margin-left: 1.6%;}
+
+.InputDoneAndKeypad{
+	margin-top:-1.5em;
+}
+
+
+.tab1 {
+    margin-left: 22%;
+    margin-top: 5%;
+}
+
+
+.image {
+    margin-left: 3%;
+}
+
+
+.remark {
+    position: absolute;
+    margin-top: 1em;
+    margin-left: -1.6em;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 					/*<-- Portrait-->*/
+
+@media (min-width: 320px) and (max-width: 370px) and (orientation:portrait)
+{
+
+.input {
+    width: 28%;
+}
+.InputNdDone {
+    margin-left: 17%;
+}
+.newQues{
+	margin-top:6px;
+}
+@keyframes move{
+		0%{
+			top: 0%;
+    left: 40%;
+
+		}
+		100%{
+				top: -95%;
+    			left: 58%;
+			 display:none;
+		}
+	}
+.respond {
+	margin-left: -5px;
+    margin-top: -7px;
+}
+}
+
+@media (min-width: 371px) and (max-width: 420px) and (orientation:portrait)
+{
+
+.clear {
+    margin-left: 5%;
+}
+.input {
+    width: 25%;
+}
+.InputNdDone {
+    margin-left: 12%;
+}
+@keyframes move{
+		0%{
+			top: 0%;
+    left: 38%;
+
+		}
+		100%{
+	top: -95%;
+    left: 57%;
+			 display:none;
+		}
+	}
+.respond {
+	margin-left: -14px;
+    margin-top: -7px;
+}
+}
+
+
+@media (min-width: 421px) and (max-width: 470px) and (orientation:portrait)
+{
+.clear {
+    margin-left: 3%;
+}
+.input {
+    width: 25%;
+}
+.InputNdDone {
+    margin-left: 12%;
+}
+@keyframes move{
+		0%{
+			top: 0%;
+    left: 36%;
+
+		}
+		100%{
+				top: -118%;
+    			left: 55%;
+			 display:none;
+		}
+	}
+.respond {
+	margin-left: -15px;
+    margin-top: -7px;
+}
+}
+
+@media (min-width: 471px) and (max-width: 520px) and (orientation:portrait)
+{
+.clear {
+    margin-left: 3%;
+}
+.input {
+    width: 25%;
+}
+.InputNdDone {
+    margin-left: 12%;
+}
+@keyframes move{
+		0%{
+			top: 0%;
+    left: 35%;
+
+		}
+		100%{
+				top: -120%;
+    			left: 58%;
+			 display:none;
+		}
+	}
+.respond {
+	margin-left: -15px;
+    margin-top: -7px;
+}
+
+}
+
+
+@media (min-width: 521px) and (max-width: 560px) and (orientation:portrait)
+{
+.clear {
+    margin-left: 3%;
+}
+.input {
+    width: 26%;
+}
+.InputNdDone {
+    margin-left: 12%;
+}
+@keyframes move{
+		0%{
+			top: 0%;
+   			 left: 31%;
+
+		}
+		100%{
+				top: -128%;
+    			left: 58%;
+			 display:none;
+		}
+	}
+.respond {
+	margin-left: -20px;
+    margin-top: -5px;
+}
+
+.remark {
+    top: 30%!important;
+}
+
+
+}
+
+
+@media (min-width: 561px) and (max-width: 640px) and (orientation:portrait)
+{
+.clear {
+    margin-left: 6%;
+}
+.input {
+    width: 26%;
+}
+.InputNdDone {
+    margin-left: 12%;
+}
+@keyframes move{
+		0%{
+			top: 0%;
+    		left: 40.3%;
+
+		}
+		100%{
+				top: -130%;
+   		 left: 58.5%;
+			 display:none;
+		}
+	}
+.respond {
+	margin-left: -20px;
+    margin-top: -5px;
+}
+
+.remark {
+    top: 30%!important;
+}
+
+
+.tab1 {
+    margin-left: 5%;
+    width: 90%;
+    margin-top: 3%;
+}
+
+}
+
+
+@media (min-width:641px) and (max-width: 720px) and (orientation:portrait)
+{
+.clear {
+    margin-left: 6%;
+}
+.input {
+    width: 26%;
+}
+.InputNdDone {
+    margin-left: 12%;
+}
+@keyframes move{
+		0%{
+			top: 0%;
+    		left: 38.4%;
+		}
+		100%{
+				top: -127%;
+    			left: 57%;
+			 display:none;
+		}
+	}
+.respond {
+	margin-left: -20px;
+    margin-top: -5px;
+}
+
+.remark {
+    top: 30%!important;
+}
+
+
+
+
+}
+
+
+@media (min-width: 721px) and (max-width: 800px) and (orientation:portrait)
+{
+.clear {
+    margin-left: 6%;
+}
+.input {
+    width: 26%;
+}
+.InputNdDone {
+    margin-left: 12%;
+}
+@keyframes move{
+		0%{
+			top: 0%;
+    		left: 37%;
+
+		}
+		100%{
+				top: -126%;
+   				left: 57%;
+			 display:none;
+		}
+	}
+.respond {
+	margin-left: -26px;
+    margin-top: -2px;
+}
+
+
+.image {
+    margin-left: 8%;
+}
+
+.remark {
+    top: 30%!important;
+}
+
+
+.tab1 {
+    margin-left: 5%;
+    width: 90%;
+    margin-top: 3%;
+}
+
+
+}
+
+
+@media (min-width: 801px) and (max-width: 880px) and (orientation:portrait)
+{
+.clear {
+    margin-left: 3%;
+}
+.input {
+    width: 26%;
+}
+.InputNdDone {
+    margin-left: 12%;
+}
+@keyframes move{
+		0%{
+			top: 0%;
+    		left: 36%;
+
+		}
+		100%{
+				top: -122%;
+    			left: 58%;
+			 display:none;
+		}
+	}
+.respond {
+	margin-left: -30px;
+    margin-top: -2px;
+}
+
+.image {
+    margin-left: 8%;
+}
+
+.remark {
+    top: 30%!important;
+}
+
+
+}
+
+
+@media (min-width: 881px) and (max-width: 960px) and (orientation:portrait)
+{
+.clear {
+    margin-left: 7%;
+}
+.input {
+    width: 26%;
+}
+.InputNdDone {
+    margin-left: 12%;
+}
+@keyframes move{
+		0%{
+			top: 0%;
+    		left: 36%;
+
+		}
+		100%{
+				top: -123%;
+    			left: 60%;
+			 display:none;
+		}
+	}
+.respond {
+	margin-left: -48px;
+    margin-top: -2px;
+}
+
+
+.image {
+    margin-left: 8%;
+}
+
+.remark {
+    top: 20%!important;
+}
+
+
+.tab1 {
+    margin-left: 5%!important;
+ 
+}
+
+
+}
+
+@media (min-width: 961px) and (max-width: 1040px) and (orientation:portrait)
+{
+
+.clear {
+    margin-left: 5%;
+}
+.input {
+    width: 26%;
+}
+.InputNdDone {
+    margin-left: 12%;
+}
+@keyframes move{
+		0%{
+			top: 1%;
+     		left: 34.8%;
+
+		}
+		100%{
+				top: -125%;
+    			left: 60%;
+			 display:none;
+		}
+	}
+.respond {
+	margin-left: -48px;
+    margin-top: -2px;
+}
+
+.image {
+    margin-left: 8%;
+}
+
+.remark {
+    top: 20%!important;
+}
+
+.forPort {
+    margin-top: -0.2em;
+}
+
+.tab1 {
+    margin-left: 5%!important;
+ 
+}
+
+
+}
+
+@media (min-width: 1041px)  and (orientation:portrait)
+{
+.clear {
+    margin-left: 5%;
+}
+.input {
+    width: 26%;
+}
+.InputNdDone {
+    margin-left: 12%;
+}
+@keyframes move{
+		0%{
+			top: 4%;
+    		left: 34.3%;
+
+		}
+		100%{
+				top: -124%;
+    			left: 60%;
+			 display:none;
+		}
+	}
+.respond {
+	margin-left: -48px;
+    margin-top: -2px;
+}
+
+.image {
+    margin-left: 8%;
+}
+
+.remark {
+    top: 20%!important;
+}
+
+
+
+.forPort {
+    margin-top: 1.2em!important;
+}
+
+
+.tab1 {
+    margin-left: 5%!important;
+ 
+}
+
+}
+@media (min-width: 320px) and (orientation:portrait)
+{					
+.clear {
+    margin-left: 7%;
+}
+.font
+{
+	font-size:18px;
+}
+
+.a{width:35%;}
+.b{width:55%;}
+.c{width:10%;}
+
+.ThreeCommonBtns{
+    margin-left:7px;
+}
+.tab1 {
+    margin-left: 8%;
+    width: 90%;
+    margin-top: 3%;
+}
+.InputNdDone {
+    margin-left: 0%;
+}
+/*.table {
+    width: 95%;}*/
+	
+.remark {
+    position: absolute;
+    top: 48%;
+    right: 0%;
+}
+
+
+.A2 {
+    width: 72%;
+}
+
+
+.image {
+    height: 7.2em;
+}
+
+
+.forPort{
+	margin-top:-0.6em;
+}
+
+}
+
+
+
+
+
+
+.opac
+{
+	opacity:0 !important;
+	cursor:default;
+}
+.inlineFlex
+{
+	display:inline-flex;
+}
+.width100
+{
+	width:100%;
+}
+.prompt_New{margin-left:0%;}
+
+
+
+
+.fraction {
+    display: inline-block;
+    vertical-align: middle; 
+    margin: 0 0.2em 0.4ex;
+    text-align: center;
+
+}
+.fraction > span {
+    display: block;
+    padding-top: 0.1em;
+}
+
+
+.fraction span.fdn {border-top: 2px solid black;
+padding:0px 3px;
+}
+ 
+
+.fraction span.fup{
+padding:0px 3px;
+}
+
+.fraction span.fdn{
+padding:0px 3px;
+}
+
+
+.fraction span.bar {display: none;}
+
+
+.blue span.fdn {border-top: 2px solid blue;}
+.purple span.fdn {border-top: 2px solid purple;}
+.red span.fdn {border-top: 2px solid #C00;}
+
+
+
+.TAR{
+	text-align:right;
+}
+.TAC{
+	text-align:center;
+}
+.hide{
+	visibility:hidden;
+}
+.bold
+{
+	font-weight:bold;
+}
+
+/*----- 32 -------*/
+
+.tab:focus,.done1:focus
+{
+	outline:none;
+}
+.remark{display:inline;
+
+
+
+}
+.header {
+	
+	background-image: none;
+ 	
+}
+
+
+
+.SolutionRemark
+{
+	float:left;
+	display:inline-block;
+
+}
+.doneDiv{
+	float:none;	
+		}

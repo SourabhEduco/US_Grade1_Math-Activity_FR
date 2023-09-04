@@ -1,0 +1,658 @@
+.container
+{
+	border:0px solid black;
+}
+
+.center
+{
+	text-align:center;
+}
+.GreenColor
+{
+	color:#28a745;
+}
+.blueColor
+{
+	color:#0000ff;
+}
+ .red_color
+{
+	color:#C00;
+}
+.td{
+	border-top:2px solid #000;
+}
+.sol_tbl{
+	border-collapse:collapse;
+}
+
+.btn
+{
+	display:inline-block;
+}
+.symbol{
+	display:inline-block;
+	background:#ffb3e6;
+	border:outset;
+	/*width:11%;*/
+	font-weight:bold;
+	cursor:pointer;
+	margin-left:2%;
+	margin-bottom:1%;
+	padding:4px 6px;
+}
+ 
+.TAL{
+	text-align:left;
+}
+.TAR{
+	text-align:right;
+}
+.TAC{
+	text-align:center;
+}
+.opac{
+	opacity:0;
+}
+
+.Lheight{
+	line-height:1.25;
+}
+.hide{
+	visibility:hidden;
+}
+.LH{
+	line-height:1.65;
+}
+
+.sol_tbl{
+	        width: 40%;
+    margin-left: 30%;
+    margin-top: 65px;
+}
+.p_top{
+	padding-top:10px;
+}
+.InputNdDone {
+    margin-left: 30%;
+}
+.input{
+	width:10%;
+}
+.fix{position:fixed;}
+.image{
+	width:7%;
+	margin-left:46.5%;
+}
+
+.img{
+	width:100%;
+}
+.VAB{
+	vertical-align:bottom;
+}
+.brdr{border:1px solid #00F;}
+
+@media (min-width: 531px) and (max-width: 610px)
+{
+		.input 
+{
+    width: 18%;
+}
+.clear {
+    margin-left: 1%;
+}
+.InputNdDone {
+    margin-left: 30%;
+}
+.input{
+	width:10%;
+}
+
+}
+
+@media (min-width: 611px) and (max-width: 690px)
+{
+		.input 
+{
+    width: 18%;
+}
+.clear {
+    margin-left: 1%;
+}
+.InputNdDone {
+    margin-left: 30%;
+}
+.input{
+	width:10%;
+}
+
+}
+
+@media (min-width: 691px) and (max-width: 770px)
+{
+		.input 
+{
+    width: 18%;
+}
+.clear {
+    margin-left: 1%;
+}
+.InputNdDone {
+    margin-left: 30%;
+}
+.input{
+	width:10%;
+}
+
+}
+
+@media (min-width: 771px) and (max-width: 850px)
+{
+	.input 
+{
+    width: 18%;
+}
+.clear {
+    margin-left: 1%;
+}
+.InputNdDone {
+    margin-left: 30%;
+}
+.input{
+	width:10%;
+}
+
+}
+
+@media (min-width: 851px) and (max-width: 930px)
+{
+.clear {
+    margin-left: 1%;
+}
+.InputNdDone {
+    margin-left: 30%;
+}
+.input{
+	width:10%;
+}
+
+}
+
+@media (min-width: 931px) and (max-width: 1010px)
+{
+.clear {
+    margin-left: 1%;
+}
+.InputNdDone {
+    margin-left: 30%;
+}
+.input{
+	width:10%;
+}
+
+}
+
+@media (min-width: 1011px) and (max-width: 1100px)
+{
+.clear {
+    margin-left: 2%;
+}
+.InputNdDone {
+    margin-left: 30%;
+}
+.input{
+	width:10%;
+}
+
+}
+
+@media (min-width: 1101px) and (max-width: 1285px)
+{
+.InputNdDone {
+    margin-left: 30%;
+}
+.input{
+	width:10%;
+}
+	
+}
+
+@media (min-width: 1286px) and (max-width: 1400px)
+{
+.InputNdDone {
+    margin-left: 11%;
+}
+.input{
+	width:15%;
+}
+
+}
+
+@media (min-width: 1401px) and (max-width: 1550px)
+{
+	.InputNdDone {
+    margin-left: 30%;
+}
+.input{
+	width:10%;
+}
+
+	
+}
+
+@media (min-width: 1551px) and (max-width: 1700px)
+{
+	.InputNdDone {
+    margin-left: 28%;
+}
+.input{
+	width:10%;
+}
+
+}
+
+@media (min-width: 1701px) and (max-width: 1850px)
+{
+	.InputNdDone {
+    margin-left: 30%;
+}
+.input{
+	width:10%;
+}
+
+}
+
+@media (min-width: 1851px) and (max-width: 2000px)
+{
+	.InputNdDone {
+    margin-left: 27%;
+}
+.input{
+	width:10%;
+}
+
+}
+
+@media (min-width: 2001px)
+{
+	.InputNdDone {
+    margin-left: 27%;
+}
+.input{
+	width:10%;
+}
+
+}
+
+
+
+.bold1{font-weight:bold;}
+
+.InputNdDone {
+    margin-left: 12%;
+}
+
+
+
+
+
+
+
+ 					/*<-- Portrait-->*/
+
+@media (min-width: 320px) and (max-width: 370px) and (orientation:portrait)
+{
+
+.newQues{
+	margin-top:6px;
+}
+	.InputNdDone {
+    margin-left: 25%;
+}
+.input{
+	width:25%;
+}
+	.InputNdDone {
+    margin-left: 25%;
+}
+.input{
+	width:25%;
+}
+.remark{
+	position:absolute;
+	top:14%;
+	left:68%;
+}
+}
+
+@media (min-width: 371px) and (max-width: 420px) and (orientation:portrait)
+{
+.remark{
+	position:absolute;
+	top:12%;
+	left:68%;
+}
+.clear {
+    margin-left: 5%;
+}
+
+.InputNdDone {
+    margin-left: 16%;
+}
+	.InputNdDone {
+    margin-left:31%;
+}
+.input{
+	width:20%;
+}
+}
+
+
+@media (min-width: 421px) and (max-width: 470px) and (orientation:portrait)
+{
+.clear {
+    margin-left: 3%;
+}
+	.InputNdDone {
+    margin-left: 21%;
+}
+.input{
+	width:25%;
+}
+.remark{
+	position:absolute;
+	top:12%;
+	left:68%;
+}
+}
+
+@media (min-width: 471px) and (max-width: 520px) and (orientation:portrait)
+{
+.clear {
+    margin-left: 3%;
+}
+
+	.InputNdDone {
+   margin-left: 28%;
+}
+.input{
+	width:25%;
+}
+.remark{
+	position:absolute;
+	top:10%;
+	left:68%;
+}
+
+}
+
+
+@media (min-width: 521px) and (max-width: 560px) and (orientation:portrait)
+{
+.remark{
+	position:absolute;
+	top:10%;
+	left:68%;
+}
+.clear {
+    margin-left: 3%;
+}
+
+	.InputNdDone {
+    margin-left: 28%;
+}
+.input{
+	width:25%;
+}
+
+}
+
+
+@media (min-width: 561px) and (max-width: 640px) and (orientation:portrait)
+{
+.clear {
+    margin-left: 6%;
+}
+	.InputNdDone {
+    margin-left:26%;
+}
+.input{
+	width:25%;
+}
+.remark{
+	position:absolute;
+	top:12%;
+	left:72%;
+}
+}
+
+
+@media (min-width:641px) and (max-width: 720px) and (orientation:portrait)
+{
+.remark{
+	position:absolute;
+	top:12%;
+	left:72%;
+}
+.clear {
+    margin-left: 6%;
+}
+	.InputNdDone {
+   margin-left:28%;
+}
+.input{
+	width:25%;
+}
+}
+
+
+@media (min-width: 721px) and (max-width: 800px) and (orientation:portrait)
+{
+.remark{
+	position:absolute;
+	top:12%;
+	left:72%;
+}
+.clear {
+    margin-left: 6%;
+}
+
+	.InputNdDone {
+   margin-left: 28%;
+}
+.input{
+	width:20%;
+}
+}
+
+
+@media (min-width: 801px) and (max-width: 880px) and (orientation:portrait)
+{
+.remark{
+	position:absolute;
+	top:9%;
+	left:72%;
+}
+.clear {
+    margin-left: 3%;
+}
+	.InputNdDone {
+    margin-left: 35%;
+}
+.input{
+	width:15%;
+}
+}
+
+
+@media (min-width: 881px) and (max-width: 960px) and (orientation:portrait)
+{
+.clear {
+    margin-left: 7%;
+}
+	.InputNdDone {
+    margin-left:33%;
+}
+.input{
+	width:21%;
+}
+.TAR{
+	text-align:left;
+}
+.remark{
+	position:absolute;
+	top:9%;
+	left:72%;
+}
+}
+
+@media (min-width: 961px) and (max-width: 1040px) and (orientation:portrait)
+{
+.remark{
+	position:absolute;
+	top:9%;
+	left:72%;
+}
+.clear {
+    margin-left: 5%;
+}
+	.InputNdDone {
+    margin-left:33%;
+}
+.input{
+	width:20%;
+}
+.TAR{
+	text-align:left;
+}
+}
+
+@media (min-width: 1041px)  and (orientation:portrait)
+{
+.remark{
+	position:absolute;
+	top:9%;
+	left:72%;
+}
+.clear {
+    margin-left: 5%;
+}
+	.InputNdDone {
+    margin-left: 28%;
+}
+.input{
+	width:25%;
+}
+.TAR{
+	text-align:left;
+}
+}
+
+@media (min-width: 320px)  and (orientation:portrait)
+{
+.sol_tbl {
+    width: 60%;
+    margin-left: 15%;
+    margin-top: 50px;
+}
+.whtspcpre1{
+	white-space:nowrap;
+}
+.TAR{
+	text-align:right;
+}
+.InputNdDone {
+    margin-left: 0%;
+}
+}
+
+
+
+
+
+
+.opac
+{
+	opacity:0 !important;
+	cursor:default;
+}
+.inlineFlex
+{
+	display:inline-flex;
+}
+.width100
+{
+	width:100%;
+}
+.prompt_New{margin-left:0%;}
+
+
+
+
+.fraction {
+    display: inline-block;
+    vertical-align: middle; 
+    margin: 0 0.2em 0.4ex;
+    text-align: center;
+
+}
+.fraction > span {
+    display: block;
+    padding-top: 0.1em;
+}
+
+
+.fraction span.fdn {border-top: 2px solid black;
+padding:0px 3px;
+}
+ 
+
+.fraction span.fup{
+padding:0px 3px;
+}
+
+.fraction span.fdn{
+padding:0px 3px;
+}
+
+
+.fraction span.bar {display: none;}
+
+
+.blue span.fdn {border-top: 2px solid blue;}
+.purple span.fdn {border-top: 2px solid purple;}
+.red span.fdn {border-top: 2px solid #C00;}
+
+
+.f_left{
+	float:left;
+}
+
+
+/*----- 32 -------*/
+
+.tab:focus,.done1:focus
+{
+	outline:none;
+}
+.remark{display:inline;
+
+}
+.header {
+	
+	background-image: none;
+ 	
+}
+.bold{font-weight:bold;}
+
+
+.SolutionRemark
+{
+	float:left;
+	display:inline-block;
+
+}
+.doneDiv{
+	float:none;	
+		}

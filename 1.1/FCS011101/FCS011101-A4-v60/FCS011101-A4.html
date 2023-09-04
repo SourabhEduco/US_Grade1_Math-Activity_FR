@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html class="full" lang="en">
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=9,10,11 IE=EDGE" />
+<link type="text/css" rel="stylesheet" href="https://www.educosoft.com/sharedSite/HTML5Common/lowergrade/baseForLowergrade.css">
+<script src="template_files/jquery/jquery.min.js"></script>
+<script src="template_files/jquery/calci.js"></script> 
+<script src="template_files/jquery/functionUses.js"></script>
+<script src="content_files/content.js"></script>
+<script src="content_files/app.js"></script> 
+<script src="https://www.educosoft.com/sharedSite/HTML5Common/lowergrade/baseForLowergradeKeypad.js"></script>
+<script src="template_files/jquery/ForFrUse.js"></script>
+<link type="text/css" rel="stylesheet" href="content_files/content.css">
+<script src="template_files/jquery/jquery-ui.js"></script>
+<script src="template_files/jquery/DragDropTouch.js"></script>
+<script src="https://www.educosoft.com/sharedSite/HTML5Common/lowergrade/ExampleDataSaveLowerGrade.js"></script>
+
+</head>
+<body>
+
+
+
+<div id='LoadingDiv' style="text-align:center; user-select:none"><img src="image/Loading.gif" style="width:20%"/></div>
+<script>
+ var height = $(window).innerHeight();
+ 
+ var LoadingDivHeight = $('#LoadingDiv').height();
+ 
+ var finalHeight = (height-LoadingDivHeight)/2;
+
+  $('#LoadingDiv').css({'margin-top':finalHeight+"px"})
+  ////////////////////////////////////////////////////////////////
+	 $('img').on('dragstart', function(event) { event.preventDefault();});
+  ///////////////////////////////////////////////////////////////
+</script>
+
+<div class="container-fluid" id="BgImage" style="display:none">
+
+<div class="ForBlurEffect">
+	<div class="containerHeaderQues">
+        <div class="header"><h4>Fifth grade > <span class="headerHeading">T.2 Complete an increasing number sequence</span></h4></div><!-- header end -->
+        <div class="container">
+        	<div class="containerLeft">
+            <div class="CommonAreaQuesNdKeypad">
+            	<div class="quesPart quesStatment">
+                
+                
+                <div class="newQues">			<!--add this-->
+              
+         <div class="div_wdth">Count the dots, then respond to the question. </div>
+                
+                
+               <div class="paddingtopbtm30"><!--<span class="totalMarks ">1</span>) &nbsp;--> 
+                   <div class="NwvrsnAdDolBtn"><input type="button" value="Try Again" class="newSet headerButton" onClick="nextQuesGeneration()">
+                 <input type="button" value="Solution" class="solution headerButton" onClick="showSolution()"></div>
+          
+                <div class="InputDoneAndKeypad">
+               
+                  <div class="AllImages image_div">
+                		<img src="image/1a.png" class="ImgA A1"/>
+                        <img src="image/2a.png" class="ImgA A2"/>
+                        <img src="image/3a.png" class="ImgA A3"/>
+                        <img src="image/4a.png" class="ImgA A4"/>
+                        <img src="image/5a.png" class="ImgA A5"/>
+                        <img src="image/6a.png" class="ImgA A6"/>
+                        <img src="image/7a.png" class="ImgA A7"/>
+                        <img src="image/8a.png" class="ImgA A8"/>
+                         <img src="image/9a.png" class="ImgA A9"/>
+                       
+                
+                </div>
+                   
+              
+                
+              <div class="InputNdDone">
+              
+        <div class="div div1">
+                <table class="radio_tbl calc" border="0">
+               <col width="2%">
+                <col width="30%">
+                <col width="2%">
+                <col width="30%">
+                <col width="36%">
+                
+                
+               <tr><td colspan="5">Which of the following group has <span class="BlueCol">one less</span> than the above?</td></tr>
+                
+                <tr>
+                <td class="TAR"><div class="RdBtn"><input type="radio" id="a-option" class="crlr" name="selector" onClick="radioReturn1('a-option')"/></div></td>
+                <td>  <div class=""><div class="RdInfo m_top"><label for="a-option"> <div class="AllImages image_div sol_image1">
+                		<img src="image/1c.png" class="ImgA A1"/>
+                        <img src="image/2c.png" class="ImgA A2"/>
+                        <img src="image/3b.png" class="ImgA A3"/>
+                        <img src="image/4b.png" class="ImgA A4"/>
+                        <img src="image/5c.png" class="ImgA A5"/>
+                        <img src="image/6c.png" class="ImgA A6"/>
+                        <img src="image/7b.png" class="ImgA A7"/>
+                        <img src="image/8b.png" class="ImgA A8"/>
+                        <img src="image/9c.png" class="ImgA A9"/>
+                
+                </div></label></div></div></td>
+                                                         
+                <td class="TAR"><div class="RdBtn"><input type="radio" id="b-option" class="crlr" name="selector" onClick="radioReturn2('b-option')"/></div></td>
+                <td><div class=""><div class="RdInfo"><label for="b-option"> <div class="AllImages image_div sol_image1">
+                		<img src="image/1b.png" class="ImgA A1"/>
+                        <img src="image/2b.png" class="ImgA A2"/>
+                        <img src="image/3c.png" class="ImgA A3"/>
+                        <img src="image/4c.png" class="ImgA A4"/>
+                        <img src="image/5b.png" class="ImgA A5"/>
+                        <img src="image/6b.png" class="ImgA A6"/>
+                        <img src="image/7c.png" class="ImgA A7"/>
+                        <img src="image/8c.png" class="ImgA A8"/>
+                        <img src="image/9b.png" class="ImgA A9"/>
+                
+                </div></label></div></div> </td>
+                <td> <div class="remark"><div class="respond bold" style="color:#339966;"><span id="FB_TxtBox"></span></div></div></td>
+                 </tr>
+                 
+              
+                </table>
+                 </div>
+                 
+                 
+                 
+                 
+                 
+                 
+                   <div class="div div2">
+                <table class="radio_tbl calc" border="0">
+              <col width="2%">
+                <col width="30%">
+                <col width="2%">
+                <col width="30%">
+                <col width="36%">
+                
+                
+                
+                <tr><td colspan="5">Which of the following group has <span class="BlueCol">one less</span> than the above?</td></tr>
+                
+                <tr>
+                <td class="TAR"><div class="RdBtn"><input type="radio" id="b1-option" class="crlr" name="selector" onClick="radioReturn2('b1-option')"/></div></td>
+                <td><div class=""><div class="RdInfo"><label for="b1-option"> <div class="AllImages image_div sol_image1">
+                		<img src="image/1b.png" class="ImgA A1"/>
+                        <img src="image/2b.png" class="ImgA A2"/>
+                        <img src="image/3c.png" class="ImgA A3"/>
+                        <img src="image/4c.png" class="ImgA A4"/>
+                        <img src="image/5b.png" class="ImgA A5"/>
+                        <img src="image/6b.png" class="ImgA A6"/>
+                        <img src="image/7c.png" class="ImgA A7"/>
+                        <img src="image/8c.png" class="ImgA A8"/>
+                        <img src="image/9b.png" class="ImgA A9"/>
+                       </div></label></div></div> </td>
+                
+                
+                
+                 <td class="TAR"><div class="RdBtn"><input type="radio" id="a1-option" class="crlr" name="selector" onClick="radioReturn1('a1-option')"/></div></td>
+                <td>  <div class=""><div class="RdInfo m_top"><label for="a1-option"> <div class="AllImages image_div sol_image1">
+                		<img src="image/1c.png" class="ImgA A1"/>
+                        <img src="image/2c.png" class="ImgA A2"/>
+                        <img src="image/3b.png" class="ImgA A3"/>
+                        <img src="image/4b.png" class="ImgA A4"/>
+                        <img src="image/5c.png" class="ImgA A5"/>
+                        <img src="image/6c.png" class="ImgA A6"/>
+                        <img src="image/7b.png" class="ImgA A7"/>
+                        <img src="image/8b.png" class="ImgA A8"/>
+                        <img src="image/9c.png" class="ImgA A9"/>
+                    </div></label></div></div></td>
+                      <td> <div class="remark"><div class="respond bold" style="color:#339966;"><span id="FB_TxtBox"></span></div></div></td>
+                 </tr>
+                 
+              
+                </table>
+                 </div>
+                 
+                 
+                 
+                 
+          
+             
+            
+                
+                
+              </div><!-- InputNdDone -->
+             
+              <div class="KeypadArea hide">
+         	<!--<div class="keypadNote"><b>Click or drag to enter the number</b></div>-->
+             <div class="AllPrompt">
+            	<div class="prompt_New blankMessage_New"><span class="enterText">Enter the value.</span></div><!-- blankMessage_New -->
+                <div class="prompt_New  WhatPrompt prompt1"><div class="promptText"><span class="WhatText">What <span id="whatValue"></span>?</span></div></div><!-- WhatPrompt -->
+                <div class="prompt_New Comma_prompt"><span class="CommaText">Place Comma ( , ) <span class="red_clr">appropriately</span> and Retry Your Answer  </span></div><!-- blankMessage_New -->
+               <!-- <div class="correct"><span class="CorrectText">Correct!</span></div> 
+                <div class="incorrect"><span class="IncorrectText">Incorrect!</span></div>-->
+                
+            </div>
+            <div class="keypadKeys">
+            	
+                    <div class="calc_btn less draggable button One hidden" draggable="true" value="111">1</span></div>
+                   <!-- <div class="calc_btn less draggable button Two" draggable="true" value="112">2</span></div>
+                    <div class="calc_btn less draggable button Three" draggable="true" value="113">3</div>
+                    <div class="calc_btn less draggable button Four" draggable="true" value="114">4</div>
+                    
+                    <div class="calc_btn less draggable button Five" draggable="true" value="115">5</div>
+                    
+                    <div class="calc_btn less draggable button Six" draggable="true" value="116">6</div>
+                     <img src="image/hand_cursor.png" class="Handcursor Handcursor1"/>
+                    <div class="calc_btn less draggable button Seven Handcursor" draggable="true" value="117">7</div>
+                    <div class="calc_btn less draggable button Seven" draggable="true" value="117">7</div>
+                   
+                    <div class="calc_btn less draggable button Eight" draggable="true" value="118">8</div>
+                    <div class="calc_btn less draggable button Nine" draggable="true" value="119">9</div>
+                    <div class="calc_btn less draggable button Zero" draggable="true" value="110">0</div>
+                     <div class="calc_btn less draggable button decimal" draggable="true" value=".">.</div>
+                    
+                   
+                    
+                    <button class="back ThreeCommonBtns" value="back">Back</button>
+                    <button class="clear ThreeCommonBtns" value="Clear">Clear</button>-->
+                    
+            </div>	<!-- keypadKeys closed-->
+            
+        </div>	<!-- KeypadArea closed-->
+              
+           </div> <!--InputDoneAndKeypad-->     
+               
+                
+                
+               
+                </div>
+               
+               
+               
+                
+                 
+                </div>
+                 
+                </div><!--quesPart-->
+                
+                
+                 
+
+</div><!--CommonAreaQuesNdKeypad-->        
+                
+                
+                
+                <div class="SolutionPart">
+                
+                <span class="SolutionPartContent"><div class="solntext red_color red fix">&nbsp;&nbsp;<b>Solution:</b></div>
+                
+               <div class="div1 div divA"><table class="sol_tbl1" border="0">
+                <col width="33%">
+                <col width="33%">
+                <col width="34%">
+               
+               
+                <tr>
+               <td>  <div class="AllImages image_div sol_image">
+                		<img src="image/1a.png" class="ImgA A1"/>
+                        <img src="image/2a.png" class="ImgA A2"/>
+                        <img src="image/3a.png" class="ImgA A3"/>
+                        <img src="image/4a.png" class="ImgA A4"/>
+                        <img src="image/5a.png" class="ImgA A5"/>
+                        <img src="image/6a.png" class="ImgA A6"/>
+                        <img src="image/7a.png" class="ImgA A7"/>
+                        <img src="image/8a.png" class="ImgA A8"/>
+                         <img src="image/9a.png" class="ImgA A9"/>
+               	    </div>
+                 </td>
+                   
+                <td><div class="AllImages image_div sol_image brdr_red">
+                		<img src="image/1c.png" class="ImgA A1"/>
+                        <img src="image/2c.png" class="ImgA A2"/>
+                        <img src="image/3b.png" class="ImgA A3"/>
+                        <img src="image/4b.png" class="ImgA A4"/>
+                        <img src="image/5c.png" class="ImgA A5"/>
+                        <img src="image/6c.png" class="ImgA A6"/>
+                        <img src="image/7b.png" class="ImgA A7"/>
+                        <img src="image/8b.png" class="ImgA A8"/>
+                        <img src="image/9c.png" class="ImgA A9"/>
+                        
+                    </div></td>
+                    
+               <td><div class="AllImages image_div sol_image">
+                		<img src="image/1b.png" class="ImgA A1"/>
+                        <img src="image/2b.png" class="ImgA A2"/>
+                        <img src="image/3c.png" class="ImgA A3"/>
+                        <img src="image/4c.png" class="ImgA A4"/>
+                        <img src="image/5b.png" class="ImgA A5"/>
+                        <img src="image/6b.png" class="ImgA A6"/>
+                        <img src="image/7c.png" class="ImgA A7"/>
+                        <img src="image/8c.png" class="ImgA A8"/>
+                         <img src="image/9c.png" class="ImgA A9"/>
+                       </div></td>
+               </tr>
+            
+                <tr>
+                <td class="TAC"><span class="val3 BlueCol"></span></td>
+                <td class="TAC"><span class="val4  bold red_clr"></span> ( <span class="val3 BlueCol"></span> – 1 )</td>
+                <td class="TAC"><span class="val5"></span> </td>
+                </tr>
+            
+             
+             </table></div>
+                
+                
+                
+                 <div class="div2 div divA"><table class="sol_tbl1" border="0">
+                <col width="33%">
+                <col width="33%">
+                <col width="34%">
+               
+               
+                <tr>
+               <td>  <div class="AllImages image_div sol_image">
+                		<img src="image/1a.png" class="ImgA A1"/>
+                        <img src="image/2a.png" class="ImgA A2"/>
+                        <img src="image/3a.png" class="ImgA A3"/>
+                        <img src="image/4a.png" class="ImgA A4"/>
+                        <img src="image/5a.png" class="ImgA A5"/>
+                        <img src="image/6a.png" class="ImgA A6"/>
+                        <img src="image/7a.png" class="ImgA A7"/>
+                        <img src="image/8a.png" class="ImgA A8"/>
+                         <img src="image/9a.png" class="ImgA A9"/>
+               	    </div>
+                 </td>
+                   
+             <td><div class="AllImages image_div sol_image">
+                		<img src="image/1b.png" class="ImgA A1"/>
+                        <img src="image/2b.png" class="ImgA A2"/>
+                        <img src="image/3c.png" class="ImgA A3"/>
+                        <img src="image/4c.png" class="ImgA A4"/>
+                        <img src="image/5b.png" class="ImgA A5"/>
+                        <img src="image/6b.png" class="ImgA A6"/>
+                        <img src="image/7c.png" class="ImgA A7"/>
+                        <img src="image/8c.png" class="ImgA A8"/>
+                         <img src="image/9c.png" class="ImgA A9"/>
+                       </div></td>
+                       
+                   <td><div class="AllImages image_div sol_image brdr_red">
+                		<img src="image/1c.png" class="ImgA A1"/>
+                        <img src="image/2c.png" class="ImgA A2"/>
+                        <img src="image/3b.png" class="ImgA A3"/>
+                        <img src="image/4b.png" class="ImgA A4"/>
+                        <img src="image/5c.png" class="ImgA A5"/>
+                        <img src="image/6c.png" class="ImgA A6"/>
+                        <img src="image/7b.png" class="ImgA A7"/>
+                        <img src="image/8b.png" class="ImgA A8"/>
+                        <img src="image/9c.png" class="ImgA A9"/>
+                    </div></td>       
+               </tr>
+            
+            
+             <tr>
+                <td class="TAC"><span class="val3 BlueCol"></span></td>
+                <td class="TAC"><span class="val5"></span></td>
+                <td class="TAC"><span class="val4  bold red_clr"></span> ( <span class="val3 BlueCol"></span> – 1 )</td>
+                </tr>
+             
+             </table></div>
+                
+               
+                
+                
+                </span></div>
+            </div><!-- containerLeft end -->
+               
+        </div><!-- container end -->
+    </div>
+    <div class="footer center GreenColor "><div class="PrintImgDiv"><img src="image/print.png" class="Printer"/></div><h5 class="inlineBlock copyRight">Copyright @ 2018, Educo International, Inc.</h5>  </div><!-- footer end -->
+</div>
+<!--<div class="RightSpace"><img src="image/RightImg.jpg" class="modi"/></div>-->
+</div><!-- container-fluid end -->
+
+
+</body>
+<script src="template_files/jquery/timer.js"></script>
+</html>

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html class="full" lang="en">
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=9,10,11 IE=EDGE" />
+<link type="text/css" rel="stylesheet" href="https://www.educosoft.com/sharedSite/HTML5Common/lowergrade/baseForLowergrade.css">
+<script src="template_files/jquery/jquery.min.js"></script>
+<script src="template_files/jquery/calci.js"></script> 
+<script src="template_files/jquery/functionUses.js"></script>
+<script src="content_files/content.js"></script>
+<script src="content_files/app.js"></script> 
+<script src="https://www.educosoft.com/sharedSite/HTML5Common/lowergrade/baseForLowergradeKeypad.js"></script>
+<script src="template_files/jquery/ForFrUse.js"></script>
+<link type="text/css" rel="stylesheet" href="content_files/content.css">
+<script src="template_files/jquery/jquery-ui.js"></script>
+<script src="template_files/jquery/DragDropTouch.js"></script>
+<script src="https://www.educosoft.com/sharedSite/HTML5Common/lowergrade/ExampleDataSaveLowerGrade.js"></script> 
+
+</head>
+<body>
+
+
+<div id='LoadingDiv' style="text-align:center; user-select:none"><img src="image/Loading.gif" style="width:20%"/></div>
+<script>
+ var height = $(window).innerHeight();
+ 
+ var LoadingDivHeight = $('#LoadingDiv').height();
+ 
+ var finalHeight = (height-LoadingDivHeight)/2;
+
+  $('#LoadingDiv').css({'margin-top':finalHeight+"px"})
+  ////////////////////////////////////////////////////////////////
+	 $('img').on('dragstart', function(event) { event.preventDefault();});
+  ///////////////////////////////////////////////////////////////
+</script>
+
+<div class="container-fluid" id="BgImage" style="display:none">
+
+<div class="ForBlurEffect">
+	<div class="containerHeaderQues">
+        <div class="header"><h4>Fifth grade > <span class="headerHeading">T.2 Complete an increasing number sequence</span></h4></div><!-- header end -->
+        <div class="container">
+        	<div class="containerLeft">
+            <div class="CommonAreaQuesNdKeypad">
+            	<div class="quesStatment  quesStatment">
+                
+                
+                <div class="newQues">			<!--add this-->
+          
+                  
+                
+               How do you write this number using digits?
+                
+                
+               <div class="paddingtopbtm30"><!--<span class="totalMarks ">1</span>) &nbsp;--> 
+                 <div class="NwvrsnAdDolBtn">
+        <input type="button" value="Try Again" class="newSet headerButton" onClick="nextQuesGeneration()">
+        <input type="button" value="Solution" class="solution headerButton" onClick="showSolution()">
+        </div>
+          
+                <div class="InputDoneAndKeypad calc">
+                
+                <span class="blueColor bold">
+             
+             
+             
+             </span> 
+                
+              <span class="InputNdDone"><span class="val2 blueColor"></span> &nbsp; <input type="text" class="input1 input bold droppable " id="inputText" style="text-transform:lowercase;" spellcheck="false" autocomplete="off" tabindex="1"/>&nbsp;
+               <input type="button" value="Done" class="done" onClick="doneButton()"/>
+              </span><!-- InputNdDone -->
+              
+              
+               <div class="remark"><div class="respond bold" style="color:#339966;"><span id="FB_TxtBox"></span></div></div> 
+              
+              
+              
+              <div class="KeypadArea" tabindex="2">
+         	<!--<div class="keypadNote"><b>Click or drag to enter the number</b></div>-->
+             <div class="AllPrompt">
+            	<div class="prompt_New blankMessage_New"><span class="enterText">Enter the value.</span></div><!-- blankMessage_New -->
+                <div class="prompt_New  WhatPrompt prompt1"><div class="promptText"><span class="WhatText">What <span id="whatValue"></span>?</span></div></div><!-- WhatPrompt -->
+               <!-- <div class="correct"><span class="CorrectText">Correct!</span></div> 
+                <div class="incorrect"><span class="IncorrectText">Incorrect!</span></div>-->
+            </div>
+            <div class="keypadKeys">
+            	
+                    <div class="calc_btn less draggable button One" draggable="true" value="111">1</span></div>
+                    <div class="calc_btn less draggable button Two" draggable="true" value="112">2</span></div>
+                    <div class="calc_btn less draggable button Three" draggable="true" value="113">3</div>
+                    <div class="calc_btn less draggable button Four" draggable="true" value="114">4</div>
+                    <!--<img src="image/hand_cursor.png" class="Handcursor Handcursor1"/>
+                    <div class="calc_btn less draggable button Five Handcursor" draggable="true" value="115">5</div>-->
+                    <div class="calc_btn less draggable button Five" draggable="true" value="115">5</div>
+                    
+                    <div class="calc_btn less draggable button Six" draggable="true" value="116">6</div>
+                    <div class="calc_btn less draggable button Seven" draggable="true" value="117">7</div>
+                    <div class="calc_btn less draggable button Eight" draggable="true" value="118">8</div>
+                    <div class="calc_btn less draggable button Nine" draggable="true" value="119">9</div>
+                    <div class="calc_btn less draggable button Zero" draggable="true" value="110">0</div>
+                    
+                    <button class="back ThreeCommonBtns" value="back">Back</button>
+                    <button class="clear ThreeCommonBtns" value="Clear">Clear</button>
+                    
+            </div>	<!-- keypadKeys closed-->
+            
+        </div>	<!-- KeypadArea closed-->
+              
+           </div> <!--InputDoneAndKeypad-->     
+               
+                
+                
+               
+                </div>
+               
+               
+               
+                
+                 
+                </div>
+                 
+                </div><!--quesPart-->
+                
+                
+                 
+
+</div><!--CommonAreaQuesNdKeypad-->        
+                
+                
+                
+                <div class="SolutionPart">
+                
+                <span class="SolutionPartContent"><div class="solntext red_color red fix">&nbsp;&nbsp;<b>Solution:</b></div>
+                  <table class="sol_tbl" border="0">
+                    <col width="60%">
+                    <col width="20%">
+                    <col width="20%">
+                   
+                    
+                  <tr>
+                  <td class="TAC"><span class="val2"></span></td>
+                  <td class="">=</td>
+                  <td class="TAC red_color bold1"><span class="val1"></span></td> 
+                 </tr>
+                 
+                
+                  
+                    </table>
+                </span></div>
+            </div><!-- containerLeft end -->
+               
+        </div><!-- container end -->
+    </div>
+    <div class="footer center GreenColor "><div class="PrintImgDiv"><img src="image/print.png" class="Printer"/></div><h5 class="inlineBlock copyRight">Copyright @ 2018, Educo International, Inc.</h5>  </div><!-- footer end -->
+</div>
+<!--<div class="RightSpace"><img src="image/RightImg.jpg" class="modi"/></div>-->
+</div><!-- container-fluid end -->
+
+
+</body>
+<script src="template_files/jquery/timer.js"></script>
+</html>

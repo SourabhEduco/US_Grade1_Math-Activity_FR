@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html class="full" lang="en">
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=9,10,11 IE=EDGE" />
+<link type="text/css" rel="stylesheet" href="https://www.educosoft.com/sharedSite/HTML5Common/lowergrade/baseForLowergrade.css">
+<script src="template_files/jquery/jquery.min.js"></script>
+<script src="template_files/jquery/calci.js"></script> 
+<script src="template_files/jquery/functionUses.js"></script>
+<script src="content_files/content.js"></script>
+<script src="content_files/app.js"></script> 
+<script src="https://www.educosoft.com/sharedSite/HTML5Common/lowergrade/baseForLowergradeKeypad.js"></script>
+<script src="template_files/jquery/ForFrUse.js"></script>
+<link type="text/css" rel="stylesheet" href="content_files/content.css">
+<script src="template_files/jquery/jquery-ui.js"></script>
+<script src="template_files/jquery/DragDropTouch.js"></script>
+<script src="https://www.educosoft.com/sharedSite/HTML5Common/lowergrade/ExampleDataSaveLowerGrade.js"></script>
+</head>
+<body>
+
+
+
+<div id='LoadingDiv' style="text-align:center; user-select:none"><img src="image/Loading.gif" style="width:20%"/></div>
+<script>
+ var height = $(window).innerHeight();
+ 
+ var LoadingDivHeight = $('#LoadingDiv').height();
+ 
+ var finalHeight = (height-LoadingDivHeight)/2;
+
+  $('#LoadingDiv').css({'margin-top':finalHeight+"px"})
+  ////////////////////////////////////////////////////////////////
+	 $('img').on('dragstart', function(event) { event.preventDefault();});
+  ///////////////////////////////////////////////////////////////
+</script>
+
+
+
+
+<div class="container-fluid" id="BgImage" style="display:none">
+
+<div class="ForBlurEffect">
+	<div class="containerHeaderQues">
+        <div class="header"><h4>Fifth grade > <span class="headerHeading">T.2 Complete an increasing number sequence</span></h4></div><!-- header end -->
+        <div class="container">
+        	<div class="containerLeft">
+            <div class="CommonAreaQuesNdKeypad">
+            	<div class="quesPart quesStatment">
+                
+                
+                <div class="newQues">			<!--add this-->
+              
+              Count the stars by 10's:
+                
+                
+                
+               <div class="paddingtopbtm30"><!--<span class="totalMarks ">1</span>) &nbsp;--> 
+                 <div class="NwvrsnAdDolBtn"><input type="button" value="Try Again" class="newSet headerButton" onClick="nextQuesGeneration()">
+                 <input type="button" value="Solution" class="solution headerButton" onClick="showSolution()"></div>
+          
+                <div class="InputDoneAndKeypad calc">
+                
+               
+                
+              <span class="InputNdDone">
+              <table class="table forDesktop" border="0" style="white-space:nowrap;">
+                <col width="38%" class="a">
+                <col width="46%" class="b">
+                <col width="16%" class="c">
+                
+                <tr>
+                <td rowspan="2" class="tac">
+                        <div class="inl_blck">
+                        <div class="image lft">                        
+                        <img src="image/Question Img/1.png" class="shape shape1" alt="sq">
+                        <img src="image/Question Img/2.png" class="shape shape2" alt="sq">
+                        <img src="image/Question Img/3.png" class="shape shape3" alt="sq">
+                        <img src="image/Question Img/4.png" class="shape shape4" alt="sq">
+                        <img src="image/Question Img/5.png" class="shape shape5" alt="sq">
+                        <img src="image/Question Img/6.png" class="shape shape6" alt="sq">
+                        <img src="image/Question Img/7.png" class="shape shape7" alt="sq">
+                        <img src="image/Question Img/8.png" class="shape shape8" alt="sq">
+                        <img src="image/Question Img/9.png" class="shape shape9" alt="sq">
+     
+                      
+                        </div>
+                        </div>  
+                </td>
+                <td class="tal"></td>
+                <td></td>
+                </tr>
+                
+              
+               
+                <tr>
+                
+                <td class="tal"><div class="A2"><span style="font-size:0.9em;">Number of stars =</span> <input type="text" class="input1 input droppable bold" id="inputText" style="text-transform:uppercase;" spellcheck="false" autocomplete="off" tabindex="1"/><span style="font-size:0.9em;"> tens</span>
+                <span style="font-size:0.9em;">=</span> <input type="text" class="input2 input droppable bold" id="inputText1" style="text-transform:uppercase;" spellcheck="false" autocomplete="off" tabindex="2"/> &nbsp;&nbsp;<input type="button" value="Done" class="done" onClick="doneButton()"/></div></td>
+                
+                
+                <td> <div><span class="hidden"></span><div class="remark"><div class="respond bold" style="color:#339966;"><span id="FB_TxtBox"></span></div></div></div></td>
+                </tr>
+                </table>
+                
+                <table class="table forPort" border="0">
+           <!--     <col width="26%" class="a">
+                <col width="44%" class="b">
+                <col width="30%" class="c">-->
+                
+                <tr>
+                <td class="tac" colspan="2"><div class="inl_blck">
+                        <div class="image lft">
+                        
+                        <img src="image/Question Img/1.png" class="shape shape1" alt="sq">
+                        <img src="image/Question Img/2.png" class="shape shape2" alt="sq">
+                        <img src="image/Question Img/3.png" class="shape shape3" alt="sq">
+                        <img src="image/Question Img/4.png" class="shape shape4" alt="sq">
+                        <img src="image/Question Img/5.png" class="shape shape5" alt="sq">
+                        <img src="image/Question Img/6.png" class="shape shape6" alt="sq">
+                        <img src="image/Question Img/7.png" class="shape shape7" alt="sq">
+                        <img src="image/Question Img/8.png" class="shape shape8" alt="sq">
+                        <img src="image/Question Img/9.png" class="shape shape9" alt="sq">
+
+
+                        </div>
+                        </div>
+                        
+                      
+                        </td>
+                
+                </tr>
+                
+                <tr>
+                <td colspan=""><span style="font-size:0.9em;">Number of stars =</span> </td>
+                </tr>
+                <tr>
+                <td class="tal rel" colspan="2"><div class="A2"><input type="text" class="input1 input droppable bold" id="inputText" style="text-transform:uppercase;" spellcheck="false" autocomplete="off" tabindex="1"/> &nbsp;<b>tens</b>
+                <b>&nbsp;=&nbsp;</b> <input type="text" class="input2 input droppable bold" id="inputText1" style="text-transform:uppercase;" spellcheck="false" autocomplete="off" tabindex="2"/></div>
+                
+                <input type="button" value="Done" class="done" onClick="doneButton()"/> <div class="remark"><div class="respond bold" style="color:#339966;"><span id="FB_TxtBox"></span></div></div>
+                </td>
+               
+                </tr>
+                </table>
+              </span><!-- InputNdDone -->
+              
+              <div class="KeypadArea" tabindex="3">
+         	<!--<div class="keypadNote"><b>Click or drag to enter the number</b></div>-->
+             <div class="AllPrompt">
+            	<div class="prompt_New blankMessage_New"><span class="enterText">Enter the value.</span></div><!-- blankMessage_New -->
+                <div class="prompt_New  WhatPrompt prompt1"><div class="promptText"><span class="WhatText">What <span id="whatValue"></span>?</span></div></div><!-- WhatPrompt -->
+                <!--<div class="correct"><span class="CorrectText">Correct!</span></div> 
+                <div class="incorrect"><span class="IncorrectText">Incorrect!</span></div>-->
+            </div>
+            <div class="keypadKeys">
+            	
+                    <div class="calc_btn less draggable button One" draggable="true" value="111">1</span></div>
+                    <div class="calc_btn less draggable button Two" draggable="true" value="112">2</span></div>
+                    <div class="calc_btn less draggable button Three" draggable="true" value="113">3</div>
+                    <div class="calc_btn less draggable button Four" draggable="true" value="114">4</div>
+                    <img src="image/hand_cursor.png" class="Handcursor Handcursor1"/>
+                    <div class="calc_btn less draggable button Five Handcursor" draggable="true" value="115">5</div>
+                    <div class="calc_btn less draggable button Five" draggable="true" value="115">5</div>
+                    
+                    <div class="calc_btn less draggable button Six" draggable="true" value="116">6</div>
+                    <div class="calc_btn less draggable button Seven" draggable="true" value="117">7</div>
+                    <div class="calc_btn less draggable button Eight" draggable="true" value="118">8</div>
+                    <div class="calc_btn less draggable button Nine" draggable="true" value="119">9</div>
+                    <div class="calc_btn less draggable button Zero" draggable="true" value="110">0</div>
+                    
+                    <button class="calc_btn tabDevice subtract ThreeCommonBtns"><b>Tab &nbsp;&#8644;</b></button>
+                    <button class="back ThreeCommonBtns" value="back">Back</button>
+                    <button class="clear ThreeCommonBtns" value="Clear">Clear</button>
+                    
+            </div>	<!-- keypadKeys closed-->
+            
+        </div>	<!-- KeypadArea closed-->
+              
+           </div> <!--InputDoneAndKeypad-->     
+               
+                
+                
+               
+                </div>
+               
+               
+               
+                
+                 
+                </div>
+                 
+                </div><!--quesPart-->
+                
+                
+                 
+
+</div><!--CommonAreaQuesNdKeypad-->        
+                
+                
+                
+                <div class="SolutionPart">
+                
+                <span class="SolutionPartContent"><div class="solntext red_color red">&nbsp;&nbsp;<b>Solution:</b></div>
+                
+                <div class="ans1 ans">
+               <table class="tab1" style="white-space:nowrap;">
+               
+                
+                <tr>
+                <td class="tac" rowspan="2">
+                <div class="inl_blck">
+                <div class="image1 lft">
+                        <img src="image/Question Img/1A.png" class="shape shape1" alt="sq">
+                        <img src="image/Question Img/2A.png" class="shape shape2" alt="sq">
+                        <img src="image/Question Img/3A.png" class="shape shape3" alt="sq">
+                        <img src="image/Question Img/4A.png" class="shape shape4" alt="sq">
+                        <img src="image/Question Img/5A.png" class="shape shape5" alt="sq">
+                        <img src="image/Question Img/6A.png" class="shape shape6" alt="sq">
+                        <img src="image/Question Img/7A.png" class="shape shape7" alt="sq">
+                        <img src="image/Question Img/8A.png" class="shape shape8" alt="sq">
+                        <img src="image/Question Img/9A.png" class="shape shape9" alt="sq">
+
+                  </div>
+                  </div>  
+                </td>
+                
+                <td style="visibility:hidden">111</td>
+                
+                <td class="tal" colspan="2"><b class="q1 red_color"></b> tens &nbsp;=&nbsp; <b class="q2 bold red_color"></b></td>
+                </tr>
+                
+                </table>
+                </div>
+                      
+                </span></div>
+            </div><!-- containerLeft end -->
+               
+        </div><!-- container end -->
+    </div>
+     <div class="footer center GreenColor "><div class="PrintImgDiv"><img src="image/print.png" class="Printer"/></div><h5 class="inlineBlock copyRight">Copyright @ 2018, Educo International, Inc.</h5>  </div><!-- footer end -->
+</div>
+<!--<div class="RightSpace"><img src="image/RightImg.jpg" class="modi"/></div>-->
+</div><!-- container-fluid end -->
+
+
+</body>
+<script src="template_files/jquery/timer.js"></script>
+</html>

@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html class="full" lang="en">
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=9,10,11 IE=EDGE" />
+<link type="text/css" rel="stylesheet" href="https://www.educosoft.com/sharedSite/HTML5Common/lowergrade/baseForLowergrade.css">
+<script src="template_files/jquery/jquery.min.js"></script>
+<script src="template_files/jquery/calci.js"></script> 
+<script src="template_files/jquery/functionUses.js"></script>
+<script src="content_files/content.js"></script>
+<script src="content_files/app.js"></script> 
+<script src="https://www.educosoft.com/sharedSite/HTML5Common/lowergrade/baseForLowergradeKeypad.js"></script>
+<link type="text/css" rel="stylesheet" href="content_files/content.css">
+<script src="template_files/jquery/jquery-ui.js"></script>
+<script src="template_files/jquery/DragDropTouch.js"></script>
+<script src="template_files/jquery/timer.js"></script>
+<script src="template_files/jquery/EndJs.js"></script>
+<script src="https://www.educosoft.com/sharedSite/HTML5Common/lowergrade/ExampleDataSaveLowerGrade.js"></script>
+
+</head>
+<body>
+
+
+<div id='LoadingDiv' style="text-align:center; user-select:none"><img src="image/Loading.gif" style="width:20%"/></div>
+<script>
+ var height = $(window).innerHeight();
+ 
+ var LoadingDivHeight = $('#LoadingDiv').height();
+ 
+ var finalHeight = (height-LoadingDivHeight)/2;
+
+  $('#LoadingDiv').css({'margin-top':finalHeight+"px"})
+  ////////////////////////////////////////////////////////////////
+	 $('img').on('dragstart', function(event) { event.preventDefault();});
+  ///////////////////////////////////////////////////////////////
+</script>
+
+
+
+
+<div class="container-fluid" id="BgImage" style="display:none">
+<div class="ForBlurEffect">
+	<div class="containerHeaderQues">
+        <div class="header"><h4>Fifth grade > <span class="headerHeading">T.2 Complete an increasing number sequence</span></h4></div><!-- header end -->
+        <div class="container">
+        	<div class="containerLeft">
+            <div class="CommonAreaQuesNdKeypad">
+            	<div class="quesPart quesStatment">
+                
+                
+                <div class="newQues">			<!--add this-->
+           Counting <span class="BlueCol">forward</span> from <span class="val1 BlueCol"></span>, write next four numbers.
+        
+               <div class="paddingtopbtm30"><!--<span class="totalMarks ">1</span>) &nbsp;--> 
+                 <div class="NwvrsnAdDolBtn"><input type="button" value="Try Again" class="newSet headerButton" onClick="nextQuesGeneration()">
+        <input type="button" value="Solution" class="solution headerButton" onClick="showSolution()"></div>
+          
+                <div class="InputDoneAndKeypad calc">
+                
+                <span class="blueColor bold">
+             
+             
+             
+             </span> 
+                
+              <span class="InputNdDone"> 
+              
+                <table class="tblA1" border="0">
+             
+                <col width="15%">
+                <col width="5%">
+                <col width="15%"> 
+                <col width="5%"> 
+                <col width="15%"> 
+                <col width="5%">
+                <col width="15%"> 
+                <col width="5%">
+                <col width="10%">
+                <col width="10%">
+             
+             
+             <tr> 
+             <td><span class="hidden2">asd</span></td>
+             <td class="TAR" colspan="8"><div class="remark"><div class="respond bold" style="color:#339966;"><span id="FB_TxtBox"></span></div></div></td>
+            <td></td>
+             
+             </tr>
+             
+             
+             
+             <tr> 
+             <td class="TAR"><span class="val1"></span></td>
+             <td>,</td>
+             <td><input type="text" class="input1 input bold droppable " id="inputText" style="text-transform:lowercase;" spellcheck="false" autocomplete="off" tabindex="1"/></td>
+             <td>,</td>
+             <td> <input type="text" class="input2 input bold droppable " id="inputText1" style="text-transform:lowercase;" spellcheck="false" autocomplete="off" tabindex="2"/></td>
+             <td>,</td>
+             <td> <input type="text" class="input3 input bold droppable " id="inputText2" style="text-transform:lowercase;" spellcheck="false" autocomplete="off" tabindex="3"/> </td>
+             <td>,</td>
+             <td> <input type="text" class="input4 input bold droppable " id="inputText3" style="text-transform:lowercase;" spellcheck="false" autocomplete="off" tabindex="4"/> </td>
+             
+            
+             <td> <input type="button" value="Done" class="done" onClick="doneButton()"/></td>
+             </tr>   
+             
+             
+             
+              <tr>
+              <td></td>
+             <td> </td>
+             <td><div class="TickDiv"><span class="cross cross1">&#10006;</span><span class="tick tick1">&#10004;</span></div></td>
+             <td></td>
+             <td><div class="TickDiv"><span class="cross cross2">&#10006;</span><span class="tick tick2">&#10004;</span></div></td>
+             <td><span class="hidden2">as</span></td>
+             <td> <div class="TickDiv"><span class="cross cross3">&#10006;</span><span class="tick tick3">&#10004;</span></div></td>
+              <td><span class="hidden2">as</span></td>
+             <td> <div class="TickDiv"><span class="cross cross4">&#10006;</span><span class="tick tick4">&#10004;</span></div></td>
+             <td></td>
+             
+             </tr>   
+             
+              </table>
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              <!--  <div class="TAC"><span class="hidden2">asd</span><div class="remark"><div class="respond bold" style="color:#339966;"><span id="FB_TxtBox"></span></div></div></div> 
+         <div class="Child1">     
+         
+            
+             <div class="dave daveMobile"><span class="val1"></span>  &nbsp;,&nbsp; <input type="text" class="input1 input bold droppable " id="inputText" style="text-transform:lowercase;" spellcheck="false" autocomplete="off" tabindex="1"/> &nbsp;,&nbsp;
+              <input type="text" class="input2 input bold droppable " id="inputText1" style="text-transform:lowercase;" spellcheck="false" autocomplete="off" tabindex="2"/>   &nbsp;,&nbsp;
+              <input type="text" class="input3 input bold droppable " id="inputText2" style="text-transform:lowercase;" spellcheck="false" autocomplete="off" tabindex="3"/> 
+              &nbsp;,&nbsp;
+              <input type="text" class="input4 input bold droppable " id="inputText3" style="text-transform:lowercase;" spellcheck="false" autocomplete="off" tabindex="4"/> 
+             <input type="button" value="Done" class="done" onClick="doneButton()"/></div>
+               
+               -->
+               <!--check bracket-->
+               
+             <!--   <div class="dave1 dave hidden set"> ,&nbsp; <span class="val3"></span>  &nbsp;,&nbsp;</div> 
+             <div class="dave daveMobile nxt"><div class="dave daveMobile ToSETNew daveMobile1"><div class="TickDiv"><span class="cross cross1">&#10006;</span><span class="tick tick1">&#10004;</span></div><div class="hidden2">&nbsp; ,. &nbsp;</div>
+              <div class="TickDiv"><span class="cross cross2">&#10006;</span><span class="tick tick2">&#10004;</span></div><div class="hidden2">&nbsp; , &nbsp;</div>
+              <div class="TickDiv"><span class="cross cross3">&#10006;</span><span class="tick tick3">&#10004;</span></div><div class="hidden2">&nbsp; , &nbsp;</div>
+                <div class="TickDiv"><span class="cross cross4">&#10006;</span><span class="tick tick4">&#10004;</span></div></div></div>-->
+              <!--check bracket--> 
+               
+           <!-- Child1 -->    
+              </span><!-- InputNdDone -->
+              
+              <div class="KeypadArea" tabindex="5">
+         	<!--<div class="keypadNote"><b>Click or drag to enter the number</b></div>-->
+             <div class="AllPrompt">
+            	<div class="prompt_New blankMessage_New"><span class="enterText">Enter the value.</span></div><!-- blankMessage_New -->
+                <div class="prompt_New  WhatPrompt prompt1"><div class="promptText"><span class="WhatText">What <span id="whatValue"></span>?</span></div></div><!-- WhatPrompt -->
+                <div class="prompt_New Comma_prompt"><span class="CommaText">Place Comma ( , ) <span class="red_clr">appropriately</span> and Retry Your Answer  </span></div><!-- blankMessage_New -->
+                <div class="partial prompt_New TAC"><span class="partial TAC BlueCol">partially correct</span></div>
+               <!-- <div class="correct"><span class="CorrectText">Correct!</span></div> 
+                <div class="incorrect"><span class="IncorrectText">Incorrect!</span></div>-->
+            </div>
+            <div class="keypadKeys">
+            	
+                    <div class="calc_btn less draggable button One" draggable="true" value="111">1</span></div>
+                    <div class="calc_btn less draggable button Two" draggable="true" value="112">2</span></div>
+                    <div class="calc_btn less draggable button Three" draggable="true" value="113">3</div>
+                    <div class="calc_btn less draggable button Four" draggable="true" value="114">4</div>
+                    
+                    <div class="calc_btn less draggable button Five" draggable="true" value="115">5</div>
+                    
+                    <img src="image/hand_cursor.png" class="Handcursor Handcursor1"/>
+                    <div class="calc_btn less draggable button Six Handcursor" draggable="true" value="116">6</div>
+                    <div class="calc_btn less draggable button Six" draggable="true" value="116">6</div>
+                    <div class="calc_btn less draggable button Seven" draggable="true" value="117">7</div>
+                    <div class="calc_btn less draggable button Eight" draggable="true" value="118">8</div>
+                    <div class="calc_btn less draggable button Nine" draggable="true" value="119">9</div>
+                    <div class="calc_btn less draggable button Zero" draggable="true" value="110">0</div>
+                 
+                    <button class="calc_btn tabDevice subtract ThreeCommonBtns"><b>Tab &nbsp;&#8644;</b></button>
+                    <button class="back ThreeCommonBtns" value="back">Back</button>
+                    <button class="clear ThreeCommonBtns" value="Clear">Clear</button>
+                    
+            </div>	<!-- keypadKeys closed-->
+            
+        </div>	<!-- KeypadArea closed-->
+              
+           </div> <!--InputDoneAndKeypad-->     
+               
+                </div>
+              
+                </div>
+                 
+                </div><!--quesPart-->
+                
+                
+                 
+
+</div><!--CommonAreaQuesNdKeypad-->        
+                
+                
+                
+                <div class="SolutionPart">
+                
+                <span class="SolutionPartContent"><div class="solntext red_color red">&nbsp;&nbsp;<b>Solution:</b></div>
+               
+              
+              <table class="sol_tbl" border="0">
+              <col width="5%">
+              <col width="5%">
+              <col width="10%">
+              <col width="5%">
+               <col width="10%">
+              <col width="5%">
+              <col width="10%">
+               <col width="5%">
+                <col width="10%">
+                 <col width="35%">
+            
+              
+             
+              
+                <tr>
+                <td class=""><span class="val1"></span></td>
+                <td> ,</td>
+                <td class="TAC brdr"><span class="val2 bold red_clr"></span></td>
+                <td> ,</td>
+                <td class="TAC brdr"><span class="val3 bold red_clr"></span> </td>
+                <td> ,</td>
+                <td class="TAC brdr"><span class="val4 bold red_clr"></span> </td>
+                <td> ,</td>
+                <td class="TAC brdr"><span class="val5 bold red_clr"></span> </td>
+                <td></td>
+                </tr>
+             
+              <tr>
+                 <td> </td>
+              <td class=""></td>
+              <td class="TAC"><div class="image"><img src="image/up_arw.png" class="imgA"/></div></td>
+                <td></td>
+              <td class="TAC"><div class="image"><img src="image/up_arw.png" class="imgA"/></div></td>
+                <td></td>
+              <td class="TAC"><div class="image"><img src="image/up_arw.png" class="imgA"/></div></td>
+                <td></td>
+                  <td class="TAC"><div class="image"><img src="image/up_arw.png" class="imgA"/></div></td>
+                <td></td>
+             </tr>
+             
+             
+              <tr>
+                <td></td>
+              <td class=""></td>
+              <td class="TAC whtspcpre"><span class="val1"></span> + 1 </td>
+                <td></td>
+              <td class="TAC whtspcpre"><span class="val2"></span> + 1 </td>
+               <td></td>
+              <td class="TAC whtspcpre"><span class="val3"></span> + 1 </td>
+                <td></td>
+                <td class="TAC whtspcpre"><span class="val4"></span> + 1 </td>
+                <td></td>
+             </tr>
+              
+              </table>
+              
+                
+                
+                </span></div>
+            </div><!-- containerLeft end -->
+               
+        </div><!-- container end -->
+    </div>
+    <div class="footer center GreenColor "><div class="PrintImgDiv"><img src="image/print.png" class="Printer"/></div><h5 class="inlineBlock copyRight">Copyright @ 2018, Educo International, Inc.</h5>  </div><!-- footer end -->
+</div>
+<!--<div class="RightSpace"><img src="image/RightImg.jpg" class="modi"/></div>-->
+</div><!-- container-fluid end -->
+
+
+</body>
+
+</html>

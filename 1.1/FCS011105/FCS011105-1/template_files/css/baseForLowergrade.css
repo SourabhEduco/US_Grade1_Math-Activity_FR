@@ -1,0 +1,3510 @@
+*{
+	margin:0px;
+	padding:0px; 
+}
+  body{
+    -webkit-text-size-adjust: none;
+	 -moz-text-size-adjust: none;
+	 -ms-text-size-adjust: none;
+	 
+  }
+.container-fluid {
+	font-family:calibri;
+	text-align:left;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: 100%, 100%;
+	margin:auto;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	height: calc(100%);
+	width:100%;
+	position:absolute;
+
+	/*left:calc((100% - 1200px) / 2);*/
+	
+	 
+}
+.header
+{
+	display:none !important;
+}
+.remark{
+display:inline-block;	
+	}
+
+.quesvalues h3
+{
+	font-size:24px;
+	font-weight:bold;
+}
+
+.header
+{
+	float:left;
+	min-height:1px;
+	width:100%;
+	background-color:#e9ecef;
+	padding:5px;
+	border-radius:5px;
+	margin-top:5px
+}
+.container {
+	min-height:1px;
+	display:inline-block;
+	width:100%;
+	float:left;
+ 	
+}
+/*.containerHeaderQues,.footer
+{
+	width:66%;
+ 	display: inline-block;
+	margin-left:16.5%;
+}
+*/
+.footer {
+	
+	min-height:1px;
+ 	background-color:#e9ecef;
+	padding:0px 0px;
+	border-radius:0px;
+ 	
+}
+.containerLeft
+{
+	width:100% !important;
+	float:left;
+ 	height:102%;
+	background:#FFF;
+}
+
+
+.containerRight
+{
+	width:20%;
+	float:right;
+	border:1px solid black;
+	height:100%;
+	display:none !important;
+}
+.headerHeading
+{
+	color:red;
+}
+.scoreText,.timeText
+{
+	height:60px;
+	background-color:#28a745;
+	text-align:center;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	color:#FFF;
+	
+}
+.timeText
+{
+	background-color:#007bff;
+}
+.stars
+{
+	width:100%;
+	position:relative;
+	border-bottom:1px solid black;
+	height:60px;
+	
+}
+.StarImg
+{
+	width:19%;
+	position:absolute;
+	padding:5px 0px 5px 0px;
+}
+.StarImg1
+{
+	margin-left:2.5%;
+}
+
+.StarImg2
+{
+	margin-left:21.5%;
+}
+
+.StarImg3
+{
+	margin-left:40.5%;
+}
+
+.StarImg4
+{
+	margin-left:59.5%;
+}
+
+.StarImg5
+{
+	margin-left:78.5%;
+}
+.timer
+{
+	height:60px;
+	text-align:center;
+	 display: flex;
+    align-items: center;
+    justify-content: center;
+	border-bottom:1px solid black;
+}
+.quesPart
+{
+	min-height:1px;
+	padding:0px;
+	width:100%;
+	display:inline-block;
+	float:left;
+}
+.input
+{
+	width:16%;
+	text-align:center;
+	font-family:calibri;
+}
+.done,.newSet,.skip,.solution,.submit
+{
+align-items:flex-start;
+background-color:rgb(40, 167, 69);
+border-bottom-color:rgb(40, 167, 69);
+border-bottom-left-radius:4px;
+border-bottom-right-radius:4px;
+border-bottom-style:solid;
+border-bottom-width:1px;
+border-collapse:collapse;
+border-image-outset:0px;
+border-image-repeat:stretch;
+border-image-slice:100%;
+border-image-source:none;
+border-image-width:1;
+border-left-color:rgb(40, 167, 69);
+border-left-style:solid;
+border-left-width:1px;
+border-right-color:rgb(40, 167, 69);
+border-right-style:solid;
+border-right-width:1px;
+border-top-color:rgb(40, 167, 69);
+border-top-left-radius:4px;
+border-top-right-radius:4px;
+border-top-style:solid;
+border-top-width:1px;
+box-sizing:border-box;
+color:rgb(255, 255, 255);
+cursor:pointer;
+display:inline-block;
+font-family:calibri;
+
+font-stretch:100%;
+font-style:normal;
+font-variant-caps:normal;
+font-variant-east-asian:normal;
+font-variant-ligatures:normal;
+font-variant-numeric:normal;
+font-weight:bold;
+
+letter-spacing:normal;
+
+margin-bottom:0px;
+margin-left:0px;
+margin-right:0px;
+margin-top:0px;
+opacity:1;
+overflow-wrap:break-word;
+overflow-x:visible;
+overflow-y:visible;
+padding-bottom:3px;
+padding-left:12px;
+padding-right:12px;
+padding-top:3px;
+text-align:center;
+text-indent:0px;
+text-rendering:auto;
+text-shadow:none;
+text-size-adjust:100%;
+text-transform:none;
+transition-delay:0s, 0s, 0s, 0s;
+transition-duration:0.15s, 0.15s, 0.15s, 0.15s;
+transition-property:color, background-color, border-color, box-shadow;
+transition-timing-function:ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+user-select:none;
+vertical-align:middle;
+white-space:nowrap;
+word-spacing:0px;
+writing-mode:horizontal-tb;
+-webkit-appearance:none;
+-webkit-border-horizontal-spacing:2px;
+-webkit-border-vertical-spacing:2px;
+-webkit-box-direction:normal;
+-webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+-webkit-border-image:none;
+margin-left:3%;
+
+}
+.newSet
+{
+	margin-left:0px;
+}
+.newSet,.solution,.submit
+{
+	background-color:#007bff;
+}
+.submit
+{
+	
+}
+.padding5
+{
+	padding:10px;
+}
+.paddingtopbtm30
+{
+	padding-top:10px;
+ 	display:inline-block;
+	width:100%;
+}
+.hidden
+{
+	visibility:hidden;
+}
+.inlineBlock
+{
+	display:inline-block;
+}
+.arrows
+{
+	float:left;
+	width:25%;
+}
+.arrowImage
+{
+
+	width:100%;
+	cursor:pointer;
+}
+.arrowDiv
+{
+	width:17%;
+}
+.leftArrow
+{
+	margin-left:17%;
+}
+.blackColor
+{
+	color:black;
+}
+.floatLeft
+{
+	float:left;
+}
+.text
+{
+	padding:0px 5px;
+}
+.paddingLeft0
+{
+	padding-left:0px;
+}
+.SolutionPartContent
+{
+	display:none;
+}
+.solntext 
+{
+	display:inline-block;
+	float:left;
+}
+ 
+.Procedure_banner,.prompt,.blankMessage,.promptComma,.ReducePromt{
+border: 4px solid #d9d9d9;
+box-shadow: 2px 2px 2px #cccccc;
+border-style:outset;
+text-align:center;
+z-index:6;
+background:#055c88;
+position:absolute;
+}
+ .Cross_PB,.Cross_BM {
+	float:right;
+	cursor:pointer;
+	width:100%;
+}
+.Cross_Img{
+	width:12%;
+	float:right;
+}
+.Procedure_banner,.prompt,.blankMessage,.promptComma,.ReducePromt{
+width: 16%;
+border: 2px solid #d9d9d9;
+box-shadow: 1px 1px 1px #cccccc;
+}
+ 
+.ForPortMode{
+	display:none;
+}
+tr,td{
+	/*border:1px solid #000;*/
+}
+.ForDevInput{
+	width:60%;
+	 
+}
+.SolutionPart
+{
+	width:100%;
+	overflow-y: auto;
+}
+.prompt_New{
+	color:#00F;
+ 	background: #FFF;
+	border: 0px solid #000;
+	display: inline-block;
+	display:none;
+	z-index:50;
+	position:absolute;
+	width:98%;
+	height:100%;
+}
+.enterText,.WhatText{
+	font-weight:bold;
+	margin-left:22%; 
+	
+}
+ .correct,.incorrect{
+	background: #FFF;
+	display: inline-block;
+	z-index:50;
+	position:absolute;
+	width:98%;
+	height:100%;
+	display:none;
+}
+.CorrectText,.IncorrectText{
+	font-weight:bold;
+	margin-left:26%; 
+	}
+.correct
+{
+	color:#093;
+}
+.incorrect
+{
+	color:#F00;
+}
+.KeypadArea{
+	border:1px solid #000;
+}
+.keypadNote{
+	border-bottom:1px solid #000;
+	text-align:center;
+}
+.KeypadArea {
+    border: 1px solid #000;
+    display: inline-block;
+    float: left;
+    width: 100%;
+	min-height: 1px;
+    padding-bottom: 5px;
+	position: relative;
+	margin-top: 1%;
+}
+.CommonAreaQuesNdKeypad{
+	display:inline-block;
+	width:100%;
+	border-bottom:0px solid #000;
+	padding-bottom:2px;
+	
+}
+.button{
+	display:inline-block;
+	border:outset;
+	font-weight:bold;
+	cursor:pointer;
+	background:#ecf2f8;
+	border:.2% outset;
+	background-color: #00adee;
+	color: white;
+	box-shadow:2px 2px 2px #888888;
+	cursor:pointer;
+	text-align:center;
+    margin-left:1%;
+	
+	}
+.button:hover
+{
+	color:#C00;
+	background-image: linear-gradient(top, #fff 0%, #EFEFEF 100%);
+	background-image: -o-linear-gradient(top, #fff 0%, #EFEFEF 100%);
+	background-image: -moz-linear-gradient(top, #fff 0%, #EFEFEF 100%);
+	background-image: -webkit-linear-gradient(top, #fff 0%, #EFEFEF 100%);
+	background-image: -ms-linear-gradient(top, #fff 0%, #EFEFEF 100%);
+	background-image: -webkit-gradient(  linear,  left bottom,  left top,  color-stop(0,  #fff),  color-stop(1,  #EFEFEF));
+	text-align:center;
+
+}
+.button:active
+{
+	background:#ecf2f8;
+	border:.2% outset;
+ 	background-color: #00adee;
+	color: white;
+	box-shadow:0px 0px 0px #888888;
+	text-align:center;
+	}
+.One{margin-left:3%;}	
+.ThreeCommonBtns:active
+{
+	background:#ecf2f8;
+	border:.2% outset;
+ 	color: white;
+	box-shadow:0px 0px 0px #888888;
+	text-align:center;
+	 
+	}
+
+.ThreeCommonBtns {
+    margin-left: 3%;
+	color: black;
+	width:10%;
+	background:#CDEECC;
+	background:#fbc36a;
+	border:.2% outset;
+	text-align:center;
+	
+}
+
+.ThreeCommonBtns:hover {
+	
+	color:#C00;
+	background-image: linear-gradient(top, #fff 0%, #EFEFEF 100%);
+	background-image: -o-linear-gradient(top, #fff 0%, #EFEFEF 100%);
+	background-image: -moz-linear-gradient(top, #fff 0%, #EFEFEF 100%);
+	background-image: -webkit-linear-gradient(top, #fff 0%, #EFEFEF 100%);
+	background-image: -ms-linear-gradient(top, #fff 0%, #EFEFEF 100%);
+	background-image: -webkit-gradient(  linear,  left bottom,  left top,  color-stop(0,  #fff),  color-stop(1,  #EFEFEF));
+	text-align:center;
+	cursor:pointer;
+	
+}
+.SpecialButton{
+	
+	display: inline-block;
+	background: #ffb3e6;
+	border:outset;
+	color:#000;
+	
+	}
+ 
+.InputDoneAndKeypad{
+	display:inline-block;
+	width:75%;
+	float:left; 
+}
+.NwvrsnAdDolBtn{
+	display:inline-block;
+	float:left;
+	width:20%;
+	}	
+.Handcursor{    
+	width: 4%;
+    position: absolute;
+    margin-left: 8px;
+ 	animation : move 1.2s linear forwards;
+	}
+	.Handcursor1{
+		z-index:20;
+		margin-top:15px;
+		width:3%;
+	}
+.containerHeaderQues, .footer{
+	display:inline-block;
+	float:left;
+}
+
+@keyframes  move{
+		0%{
+			top:0%;
+		}
+		100%{
+			 top: -130%;
+			 display:none;
+		}
+	}
+.keypadKeys{
+	position:relative;
+}
+.newSet,.solution{
+	width:75%;
+	margin-left:0px;
+}
+.solution{
+    margin-top: 7%;
+}
+.InputNdDone{
+	margin-left:27%;
+}
+.LeftSpace{position:absolute;left:0;}
+.RightSpace{position:absolute;right:0;}
+.LeftSpace,.RightSpace{background: #800000;}
+.background{
+	position:absolute;
+	height:100%;
+	width:100%;
+	z-index: -1;
+	left:0;
+}
+.footer {
+    color: #28a745;
+	 text-align: center;
+}
+.solntext{
+	 color: #C00;}
+/*.container-fluid{background-image:url(../../image/background.png);}
+.containerHeaderQues,.footer{z-index:100;}*/
+ 
+@media (min-width: 450px) and (max-width: 530px)
+{
+	.container-fluid
+	{
+		width:450px;
+		left:calc((100% - 450px) / 2);
+		font-size:10px;
+	}
+	button
+	{
+		font-size:10px;
+	}
+	.done,.newSet,.Solution
+	{
+		font-size:10px;
+	}
+
+	
+}
+
+@media (min-width: 531px) and (max-width: 610px)
+{
+	.container-fluid
+	{
+		width:531px;
+		left:calc((100% - 531px) / 2);
+		font-size:10px;
+	}
+	button
+	{
+		font-size:10px;
+	}
+.done,.newSet,.Solution
+{
+		font-size:10px;
+}
+.keypadNote{font-size: 18px !important;}	
+.KeypadArea {
+    padding-bottom: 3px;
+
+}
+.button{
+	width: 4%;
+	margin-left: 1.2%;
+}
+.button:hover
+{
+	 width: 4%;
+	 margin-left:1.2%;
+}
+.button:active
+{
+	width: 4%;
+	margin-left:1.2%;
+}
+.containerHeaderQues,.footer
+{
+    width: 80%;
+    display: inline-block;
+    margin-left: 10%;
+}
+.InputDoneAndKeypad{
+	display:inline-block;
+	width:85%;
+	float:left; 
+}
+.NwvrsnAdDolBtn{
+	display:inline-block;
+	float:left;
+	width:15%;
+	}	
+
+.newSet, .solution {
+    width: 95%;
+    margin-left: 0px;
+    padding: 4% 3%;
+	}	
+.solution {
+    margin-top: 9%;
+}
+.ThreeCommonBtns {
+    margin-left: 2%;
+    width: 9%;
+    height: 11px;
+    font-size: 7px;
+	 }
+	.clear {
+    margin-left: 2%;
+}
+.InputNdDone {
+    margin-left: 26%;
+}
+
+.CorrectText, .IncorrectText {
+    font-weight: bold;
+    margin-left: 30%;
+}
+.enterText, .WhatText {
+    font-weight: bold;
+    margin-left: 26%;
+}
+.correct, .incorrect {
+     width: 100%;
+ }
+.newQues{
+	margin-top:10px;
+}
+
+.Handcursor1 {
+    z-index: 20;
+    margin-top: 8px;
+    width: 2%;
+}
+
+@keyframes move{
+		0%{
+			top:0%;
+		}
+		100%{
+			 top: -140%;
+			 display:none;
+		}
+	}
+	
+	
+}
+
+@media (min-width: 611px) and (max-width: 690px)
+{
+	.container-fluid
+	{
+		width:611px;
+		left:calc((100% - 611px) / 2);
+		font-size:12px;
+	}
+	button
+	{
+		font-size:10px;
+	}
+	.done,.newSet,.solution
+	{
+		font-size:12px;
+	}
+.keypadNote{font-size: 18px !important;}	
+
+.button{
+	width: 4%;
+	margin-left: 1.6%;
+}
+.button:hover
+{
+	 width: 4%;
+	 margin-left:1.6%;
+}
+.button:active
+{
+	width: 4%;
+	margin-left:1.6%;
+}
+.containerHeaderQues,.footer
+{
+    width: 80%;
+    display: inline-block;
+    margin-left: 10%;
+}
+.InputDoneAndKeypad{
+	display:inline-block;
+	width:85%;
+	float:left; 
+}
+.NwvrsnAdDolBtn{
+	display:inline-block;
+	float:left;
+	width:15%;
+	}	
+
+.newSet, .solution {
+    width: 95%;
+    margin-left: 0px;
+    padding: 4% 3%;
+	}	
+.solution {
+    margin-top: 9%;
+}
+.ThreeCommonBtns {
+    margin-left: 2%;
+    width: 9%;
+	height: 14px;
+    font-size: 8px;
+	 }
+	.clear {
+    margin-left: 2%;
+}
+.InputNdDone {
+    margin-left: 26%;
+}
+
+.CorrectText, .IncorrectText {
+    font-weight: bold;
+    margin-left: 30%;
+}
+.enterText, .WhatText {
+    font-weight: bold;
+    margin-left: 26%;
+}
+.correct, .incorrect {
+     width: 100%;
+ }
+.newQues{
+	margin-top:10px;
+}
+@keyframes move{
+		0%{
+			top:0%;
+		}
+		100%{
+			 top: -140%;
+			 display:none;
+		}
+	}
+	
+	
+}
+
+@media (min-width: 691px) and (max-width: 770px)
+{
+	.container-fluid
+	{
+		width:691px;
+		left:calc((100% - 691px) / 2);
+		font-size:15px;
+	}
+	button
+	{
+		font-size:10px;
+	}
+	.done,.newSet,.solution
+	{
+		font-size:15px;
+	}
+	
+.keypadNote{font-size: 18px !important;}	
+
+.button{
+	width: 4%;
+	margin-left: 1.6%;
+}
+.button:hover
+{
+	 width: 4%;
+	 margin-left:1.6%;
+}
+.button:active
+{
+	width: 4%;
+	margin-left:1.6%;
+}
+.containerHeaderQues,.footer
+{
+    width: 80%;
+    display: inline-block;
+    margin-left: 10%;
+}
+.InputDoneAndKeypad{
+	display:inline-block;
+	width:85%;
+	float:left; 
+}
+.NwvrsnAdDolBtn{
+	display:inline-block;
+	float:left;
+	width:15%;
+	}	
+.newSet, .solution {
+    width: 95%;
+    margin-left: 0px;
+    padding: 2% 3%;
+	}	
+.solution {
+    margin-top: 9%;
+}
+.ThreeCommonBtns {
+    margin-left: 2%;
+    width: 9%;
+	height: 18px;
+ }
+	.clear {
+    margin-left: 2%;
+}
+.InputNdDone {
+    margin-left: 26%;
+}
+
+.CorrectText, .IncorrectText {
+    font-weight: bold;
+    margin-left: 30%;
+}
+.enterText, .WhatText {
+    font-weight: bold;
+    margin-left: 26%;
+}
+.correct, .incorrect {
+     width: 100%;
+ }
+.newQues{
+	margin-top:10px;
+}
+@keyframes move{
+		0%{
+			top:0%;
+		}
+		100%{
+			 top: -140%;
+			 display:none;
+		}
+	}
+	
+	
+	
+	
+}
+
+@media (min-width: 771px) and (max-width: 850px)
+{
+	.container-fluid
+	{
+		width:771px;
+		left:calc((100% - 771px) / 2);
+		font-size:18px;
+	}
+	.done,.newSet,.solution
+	{
+		font-size:18px;
+	}
+	
+.keypadNote{font-size: 18px !important;}	
+
+.button{
+	width: 4%;
+	margin-left: 1.6%;
+}
+.button:hover
+{
+	 width: 4%;
+	 margin-left:1.6%;
+}
+.button:active
+{
+	width: 4%;
+	margin-left:1.6%;
+}
+.containerHeaderQues,.footer
+{
+    width: 80%;
+    display: inline-block;
+    margin-left: 10%;
+}
+.InputDoneAndKeypad{
+	display:inline-block;
+	width:85%;
+	float:left; 
+}
+.NwvrsnAdDolBtn{
+	display:inline-block;
+	float:left;
+	width:15%;
+	}	
+.newSet, .solution {
+    width: 95%;
+    margin-left: 0px;
+    padding: 2% 3%;
+	}	
+.solution {
+    margin-top: 9%;
+}
+.ThreeCommonBtns {
+    margin-left: 2%;
+    width: 9%;
+	height: 20px;
+ }
+	.clear {
+    margin-left: 2%;
+}
+.InputNdDone {
+    margin-left: 26%;
+}
+
+.CorrectText, .IncorrectText {
+    font-weight: bold;
+    margin-left: 30%;
+}
+.enterText, .WhatText {
+    font-weight: bold;
+    margin-left: 26%;
+}
+.correct, .incorrect {
+     width: 100%;
+ }
+.newQues{
+	margin-top:10px;
+}
+@keyframes move{
+		0%{
+			top:0%;
+		}
+		100%{
+			 top: -140%;
+			 display:none;
+		}
+	}
+	
+	
+	
+}
+
+@media (min-width: 851px) and (max-width: 930px)
+{
+.container-fluid
+{
+	width:851px;
+	left:calc((100% - 851px) / 2);
+	font-size:18px;
+}
+.done,.newSet,.solution
+{
+	font-size:18px;
+}
+	
+.keypadNote{font-size: 18px !important;}	
+
+.button{
+	width: 4%;
+	margin-left:2%;
+}
+.button:hover
+{
+	 width: 4%;
+	 margin-left:2%;
+}
+.button:active
+{
+	width: 4%;
+	margin-left:2%;
+}
+.containerHeaderQues,.footer
+{
+    width: 80%;
+    display: inline-block;
+    margin-left: 10%;
+}
+.InputDoneAndKeypad{
+	display:inline-block;
+	width:85%;
+	float:left; 
+}
+.NwvrsnAdDolBtn{
+	display:inline-block;
+	float:left;
+	width:15%;
+	}	
+.newSet, .solution {
+    width: 95%;
+    margin-left: 0px;
+    padding: 2% 3%;
+
+}	
+.solution {
+    margin-top: 9%;
+}
+.ThreeCommonBtns {
+    margin-left: 2%;
+    width: 9%;
+	height: 20px;
+ }
+	.clear {
+    margin-left: 2%;
+}
+.InputNdDone {
+    margin-left: 30%;
+}
+
+.CorrectText, .IncorrectText {
+    font-weight: bold;
+    margin-left: 30%;
+}
+.enterText, .WhatText {
+    font-weight: bold;
+    margin-left: 26%;
+}
+.correct, .incorrect {
+     width: 100%;
+ }
+.newQues{
+	margin-top:10px;
+}
+@keyframes move{
+		0%{
+			top:0%;
+		}
+		100%{
+			 top: -140%;
+			 display:none;
+		}
+	}
+	
+	
+
+}
+
+@media (min-width: 931px) and (max-width: 1010px)
+{
+	.container-fluid
+	{
+		width:931px;
+		left:calc((100% - 931px) / 2);
+		font-size:20px;
+	}
+	.done,.newSet,.solution
+	{
+		font-size:20px;
+	}
+	
+.keypadNote{font-size: 18px !important;}	
+
+.button{
+	width: 4%;
+	margin-left:2%;
+}
+.button:hover
+{
+	 width: 4%;
+	 margin-left:2%;
+}
+.button:active
+{
+	width: 4%;
+	margin-left:2%;
+}
+.containerHeaderQues,.footer
+{
+    width: 80%;
+    display: inline-block;
+    margin-left: 10%;
+}
+.InputDoneAndKeypad{
+	display:inline-block;
+	width:85%;
+	float:left; 
+}
+.NwvrsnAdDolBtn{
+	display:inline-block;
+	float:left;
+	width:15%;
+	}	
+.newSet, .solution {
+    width: 95%;
+    margin-left: 0px;
+    padding: 2% 3%;
+	
+	 }	
+.solution {
+    margin-top: 9%;
+}
+.ThreeCommonBtns {
+    margin-left: 2%;
+    width: 9%;
+	height: 23px;
+ }
+	.clear {
+    margin-left: 2%;
+}
+.InputNdDone {
+    margin-left: 30%;
+}
+
+.CorrectText, .IncorrectText {
+    font-weight: bold;
+    margin-left: 30%;
+}
+.enterText, .WhatText {
+    font-weight: bold;
+    margin-left: 26%;
+}
+.correct, .incorrect {
+     width: 100%;
+ }
+.newQues{
+	margin-top:10px;
+}
+@keyframes move{
+		0%{
+			top:0%;
+		}
+		100%{
+			 top: -140%;
+			 display:none;
+		}
+	}
+	
+
+}
+
+@media (min-width: 1011px) and (max-width: 1100px)
+{
+	.container-fluid
+	{
+		width:1011px;
+		left:calc((100% - 1011px) / 2);
+		font-size:21px;
+	}
+	.done,.newSet,.solution
+	{
+		font-size:21px;
+	}
+	
+.keypadNote{font-size: 22px !important;}	
+.button{
+	width: 4%;
+	margin-left:2%;
+}
+.button:hover
+{
+	 width: 4%;
+	 margin-left:2%;
+}
+.button:active
+{
+	width: 4%;
+	margin-left:2%;
+}
+.containerHeaderQues,.footer
+{
+    width: 80%;
+    display: inline-block;
+    margin-left: 10%;
+}
+.InputDoneAndKeypad{
+	display:inline-block;
+	width:85%;
+	float:left; 
+}
+.NwvrsnAdDolBtn{
+	display:inline-block;
+	float:left;
+	width:15%;
+	}	
+.newSet, .solution {
+    width: 92%;
+    margin-left: 0px;
+}	
+.solution {
+    margin-top: 9%;
+}
+.ThreeCommonBtns {
+    margin-left: 2%;
+    width: 9%;
+	height: 23px;
+ }
+	.clear {
+    margin-left: 2%;
+}
+.InputNdDone {
+    margin-left: 30%;
+}
+
+.CorrectText, .IncorrectText {
+    font-weight: bold;
+    margin-left: 28%;
+}
+.enterText, .WhatText {
+    font-weight: bold;
+    margin-left: 26%;
+}
+.correct, .incorrect {
+     width: 100%;
+ }
+.newQues{
+	margin-top:10px;
+}
+@keyframes move{
+		0%{
+			top:0%;
+		}
+		100%{
+			 top: -140%;
+			 display:none;
+		}
+	}
+
+ 	
+}
+
+@media (min-width: 1101px) and (max-width: 1285px)
+{
+.container-fluid
+{
+	width:1101px;
+	left:calc((100% - 1101px) / 2);
+	font-size:22px;
+}
+.done,.newSet,.solution
+{
+	font-size:22px;
+}
+.done, .newSet,.skip{font-size: 18px;}
+.button{
+	width: 4%;
+	margin-left:2%;
+}
+.button:hover
+{
+	 width: 4%;
+	 margin-left:2%;
+}
+.button:active
+{
+	width: 4%;
+	margin-left:2%;
+}
+.containerHeaderQues,.footer
+{
+    width: 80%;
+    display: inline-block;
+    margin-left: 10%;
+}
+.InputDoneAndKeypad{
+	display:inline-block;
+	width:85%;
+	float:left; 
+}
+.NwvrsnAdDolBtn{
+	display:inline-block;
+	float:left;
+	width:15%;
+	}	
+.newSet, .solution {
+    width: 92%;
+    margin-left: 0px;
+}	
+.solution {
+    margin-top: 9%;
+}
+.ThreeCommonBtns {
+    margin-left: 2%;
+    width: 9%;
+	height: 23px;
+ }
+	.clear {
+    margin-left: 2%;
+}
+.InputNdDone {
+    margin-left: 28%;
+}
+
+.CorrectText, .IncorrectText {
+    font-weight: bold;
+    margin-left: 30%;
+}
+.enterText, .WhatText {
+    font-weight: bold;
+    margin-left: 26%;
+}
+.newQues{
+	margin-top:10px;
+}
+@keyframes move{
+		0%{
+			top:0%;
+		}
+		100%{
+			 top: -140%;
+			 display:none;
+		}
+	}
+
+
+}
+@media (min-width: 1286px) and (max-width: 1400px)
+{
+.container-fluid
+{
+	width:1286px;
+	left:calc((100% - 1286px) / 2);
+	font-size:24px;
+}
+.done,.newSet,.solution
+{
+	font-size:24px;
+}
+.button{
+	width: 4%;
+	margin-left:2%;
+}
+.button:hover
+{
+	 width: 4%;
+	 margin-left:2%;
+}
+.button:active
+{
+	width: 4%;
+	margin-left:2%;
+}
+.containerHeaderQues,.footer
+{
+    width: 74%;
+    display: inline-block;
+    margin-left: 13%;
+}
+.InputDoneAndKeypad{
+	display:inline-block;
+	width:85%;
+	float:left; 
+}
+.NwvrsnAdDolBtn{
+	display:inline-block;
+	float:left;
+	width:15%;
+	}	
+.newSet, .solution {
+    width: 92%;
+    margin-left: 0px;
+}	
+.solution {
+    margin-top: 9%;
+}
+.ThreeCommonBtns {
+    margin-left: 2%;
+    width: 9%;
+	height: 23px;
+ }
+	.clear {
+    margin-left: 2%;
+}
+.InputNdDone {
+    margin-left: 28%;
+}
+
+.CorrectText, .IncorrectText {
+    font-weight: bold;
+    margin-left: 30%;
+}
+.enterText, .WhatText {
+    font-weight: bold;
+    margin-left: 26%;
+}
+.newQues{
+	margin-top:10px;
+}
+	.Handcursor1{
+		z-index:20;
+		margin-top:15px;
+		margin-left:2%;
+		width:2%;
+	}
+@keyframes move{
+		0%{
+			top:0%;
+			
+		}
+		100%{
+			 top: -140%;
+			 display:none;
+		}
+	} 
+	
+}
+@media (min-width: 1401px) and (max-width: 1550px)
+{
+.container-fluid
+{
+	width:1401px;
+	left:calc((100% - 1401px) / 2);
+	font-size:24px;
+}
+.done,.newSet,.solution
+{
+	font-size:24px;
+}
+.button{
+	width: 4%;
+	margin-left:2%;
+}
+.button:hover
+{
+	 width: 4%;
+	 margin-left:2%;
+}
+.button:active
+{
+	width: 4%;
+	margin-left:2%;
+}
+.containerHeaderQues,.footer
+{
+    width: 74%;
+    display: inline-block;
+    margin-left: 13%;
+}
+.InputDoneAndKeypad{
+	display:inline-block;
+	width:85%;
+	float:left; 
+}
+.NwvrsnAdDolBtn{
+	display:inline-block;
+	float:left;
+	width:15%;
+	}	
+.newSet, .solution {
+    width: 92%;
+    margin-left: 0px;
+}	
+.solution {
+    margin-top: 9%;
+}
+.ThreeCommonBtns {
+    margin-left: 2%;
+    width: 9%;
+    height: 25px;
+    font-size: 18px;
+	}
+.clear {
+    margin-left: 2%;
+}
+.InputNdDone {
+    margin-left: 28%;
+}
+
+.CorrectText, .IncorrectText {
+    font-weight: bold;
+    margin-left: 30%;
+}
+.enterText, .WhatText {
+    font-weight: bold;
+    margin-left: 26%;
+}
+.newQues{
+	margin-top:10px;
+}
+	.Handcursor1{
+		z-index:20;
+		margin-top:15px;
+		margin-left:2%;
+		width:2%;
+	}
+@keyframes move{
+		0%{
+			top:0%;
+			
+		}
+		100%{
+			 top: -140%;
+			 display:none;
+		}
+	} 
+
+}
+@media (min-width: 1551px) and (max-width: 1700px)
+{
+	
+.container-fluid
+{
+	width:1551px;
+	left:calc((100% - 1551px) / 2);
+	font-size:25px;
+}
+.done,.newSet,.solution
+{
+	font-size:25px;
+}
+.button{
+	width: 4%;
+	margin-left:2%;
+}
+.button:hover
+{
+	 width: 4%;
+	 margin-left:2%;
+}
+.button:active
+{
+	width: 4%;
+	margin-left:2%;
+}
+.containerHeaderQues,.footer
+{
+    width: 74%;
+    display: inline-block;
+    margin-left: 13%;
+}
+.InputDoneAndKeypad{
+	display:inline-block;
+	width:85%;
+	float:left; 
+}
+.NwvrsnAdDolBtn{
+	display:inline-block;
+	float:left;
+	width:15%;
+	}	
+.newSet, .solution {
+    width: 92%;
+    margin-left: 0px;
+}	
+.solution {
+    margin-top: 9%;
+}
+.ThreeCommonBtns {
+    margin-left: 3%;
+    width: 9%;
+    height: 25px;
+    font-size: 18px;
+	}
+.clear {
+    margin-left: 3%;
+}
+.InputNdDone {
+    margin-left: 30%;
+}
+
+.CorrectText, .IncorrectText {
+    font-weight: bold;
+    margin-left: 30%;
+}
+.enterText, .WhatText {
+    font-weight: bold;
+    margin-left: 26%;
+}
+
+.newQues{
+	margin-top:10px;
+}
+	.Handcursor1{
+		z-index:20;
+		margin-top:15px;
+		margin-left:2%;
+		width:2%;
+	}
+@keyframes move{
+		0%{
+			top:0%;
+			
+		}
+		100%{
+			 top: -140%;
+			 display:none;
+		}
+	} 
+	
+
+
+}	
+@media (min-width: 1701px) and (max-width: 1850px)
+{
+.container-fluid
+{
+	width:1701px;
+	left:calc((100% - 1701px) / 2);
+	font-size:28px;
+}
+.done,.newSet,.solution
+{
+	font-size:28px;
+}
+.button{
+	width: 4%;
+	margin-left:2%;
+}
+.button:hover
+{
+	 width: 4%;
+	 margin-left:2%;
+}
+.button:active
+{
+	width: 4%;
+	margin-left:2%;
+}
+.containerHeaderQues,.footer
+{
+    width: 74%;
+    display: inline-block;
+    margin-left: 13%;
+}
+.InputDoneAndKeypad{
+	display:inline-block;
+	width:85%;
+	float:left; 
+}
+.NwvrsnAdDolBtn{
+	display:inline-block;
+	float:left;
+	width:15%;
+	}	
+.newSet, .solution {
+    width: 92%;
+    margin-left: 0px;
+}	
+.solution {
+    margin-top: 9%;
+}
+.ThreeCommonBtns {
+    margin-left: 3%;
+    width: 9%;
+    height: 30px;
+    font-size: 20px;
+	}
+.clear {
+    margin-left: 3%;
+}
+.InputNdDone {
+    margin-left: 28%;
+}
+
+.CorrectText, .IncorrectText {
+    font-weight: bold;
+    margin-left: 30%;
+}
+.enterText, .WhatText {
+    font-weight: bold;
+    margin-left: 26%;
+}
+
+.newQues{
+	margin-top:10px;
+}
+	.Handcursor1{
+		z-index:20;
+		margin-top:15px;
+		margin-left:2%;
+		width:2%;
+	}
+@keyframes move{
+		0%{
+			top:0%;
+			
+		}
+		100%{
+			 top: -140%;
+			 display:none;
+		}
+	} 
+	
+
+	
+	
+}
+@media (min-width: 1851px) and (max-width: 2000px)
+{
+	.container-fluid
+	{
+		width:1851px;
+		left:calc((100% - 1851px) / 2);
+		font-size:28px;
+	}
+	.done,.newSet,.solution
+	{
+		font-size:28px;
+	}
+.button{
+	width: 4%;
+	margin-left:2%;
+}
+.button:hover
+{
+	 width: 4%;
+	 margin-left:2%;
+}
+.button:active
+{
+	width: 4%;
+	margin-left:2%;
+}
+.containerHeaderQues,.footer
+{
+    width: 74%;
+    display: inline-block;
+    margin-left: 13%;
+}
+.InputDoneAndKeypad{
+	display:inline-block;
+	width:85%;
+	float:left; 
+}
+.NwvrsnAdDolBtn{
+	display:inline-block;
+	float:left;
+	width:15%;
+	}	
+.newSet, .solution {
+    width: 92%;
+    margin-left: 0px;
+}	
+.solution {
+    margin-top: 9%;
+}
+.ThreeCommonBtns {
+    margin-left: 3%;
+    width: 9%;
+    height: 30px;
+    font-size: 20px;
+	}
+.clear {
+    margin-left: 3%;
+}
+.InputNdDone {
+    margin-left: 26%;
+}
+
+.CorrectText, .IncorrectText {
+    font-weight: bold;
+    margin-left: 30%;
+}
+.enterText, .WhatText {
+    font-weight: bold;
+    margin-left: 26%;
+}
+
+.newQues{
+	margin-top:10px;
+}
+	.Handcursor1{
+		z-index:20;
+		margin-top:15px;
+		margin-left:2%;
+		width:2%;
+	}
+@keyframes move{
+		0%{
+			top:0%;
+			
+		}
+		100%{
+			 top: -140%;
+			 display:none;
+		}
+	} 
+	
+
+}
+@media (min-width: 2001px)
+{
+	.container-fluid
+	{
+		width:2001px;
+		left:calc((100% - 2001px) / 2);
+		font-size:30px;
+	}
+	.done,.newSet,.solution
+	{
+		font-size:30px;
+	}
+
+.button{
+	width: 4%;
+	margin-left:2%;
+}
+.button:hover
+{
+	 width: 4%;
+	 margin-left:2%;
+}
+.button:active
+{
+	width: 4%;
+	margin-left:2%;
+}
+.containerHeaderQues,.footer
+{
+    width: 74%;
+    display: inline-block;
+    margin-left: 13%;
+}
+.InputDoneAndKeypad{
+	display:inline-block;
+	width:85%;
+	float:left; 
+}
+.NwvrsnAdDolBtn{
+	display:inline-block;
+	float:left;
+	width:15%;
+	}	
+.newSet, .solution {
+    width: 92%;
+    margin-left: 0px;
+}	
+.solution {
+    margin-top: 9%;
+}
+.ThreeCommonBtns {
+    margin-left: 3%;
+    width: 9%;
+    height: 30px;
+    font-size: 20px;
+	}
+.clear {
+    margin-left: 3%;
+}
+.InputNdDone {
+    margin-left: 26%;
+}
+
+.CorrectText, .IncorrectText {
+    font-weight: bold;
+    margin-left: 30%;
+}
+.enterText, .WhatText {
+    font-weight: bold;
+    margin-left: 26%;
+}
+
+.newQues{
+	margin-top:10px;
+}
+	.Handcursor1{
+		z-index:20;
+		margin-top:15px;
+		margin-left:2%;
+		width:2%;
+	}
+@keyframes move{
+		0%{
+			top:0%;
+			
+		}
+		100%{
+			 top: -140%;
+			 display:none;
+		}
+	} 
+	
+	
+}
+
+
+
+
+
+
+
+.promptSpace
+{width:55%; white-space:normal; text-align:center;}
+
+.newQues
+{
+	float:left;
+	display:inline-block;
+	width:100%;
+	width: 97%;
+    margin-left: 1.5%;
+}
+.promptSpace
+{
+	display:inline-block;
+}
+.buttonsDiv
+{
+	display:inline-block;
+	width:100%;
+}
+ 
+.promptSpace
+{
+	display:inline-flex;
+	
+}
+.prompt_New 
+{padding:0px 5px;
+}
+.nobold
+{
+	font-weight:normal;
+}
+.rap{white-space:nowrap;}
+.containerRight
+{
+	display:none;
+}
+ 
+.Printer{width:100%;display:inline-block;margin-top:0px;}
+.PrintImgDiv{width:4%; float:left; margin-left:1.5%;padding-top: 4px;}
+.copyRight{font-size: 70%;font-weight: normal;}
+
+ 					/*<-- Portrait-->*/
+ 
+@media (min-width: 320px) and (max-width: 370px) and (orientation:portrait)
+{
+	.container-fluid
+	{
+		width:320px;
+		left:calc((100% - 320px) / 2);
+		font-size: 13px;
+		background: #fff;
+	}
+	.done,.newSet,.solution
+	{
+		font-size:12px;
+	}
+	.done,.newSet,.skip,.solution,.submit
+	{
+		padding-left:6px;
+		padding-right:6px;
+	}
+.keypadNote{
+ 
+    font-size: 16px !important;
+}
+.containerHeaderQues,.footer {
+    width:100%;
+    display:inline-block;
+    margin-left:0%;
+}
+.ThreeCommonBtns{
+ 
+    font-size: 14px !important;
+	height: 28px;
+    margin-left: 20px;
+	width: 20%;
+}
+.InputDoneAndKeypad{
+	display:inline-block;
+	width:75%;
+	float:left; 
+}
+.NwvrsnAdDolBtn{
+	display:inline-block;
+	float:left;
+	width:25%;
+	}	
+
+.button{
+    font-size: 15px !important;
+    margin-left: 2.3%;
+    margin-top: 8px;
+    padding:3px;
+	width: 7%;
+	
+	}
+.button:active{
+ 	width:7%;
+	margin-left: 2.3%;
+  
+	}
+	.button:hover{
+ 	width:7%;
+	margin-left: 2.3%;
+  
+	}
+.newSet, .solution {
+    width: 100%;
+     
+}
+.enterText, .WhatText {
+    font-weight: bold;
+    margin-left: 32%;
+    margin-top: 1%;
+    position: absolute;
+    font-size: 18px;
+}
+.IncorrectText,.CorrectText {
+    font-weight: bold;
+    margin-left: 38%;
+    margin-top: 1%;
+    position: absolute;
+    font-size: 18px;
+}
+
+
+.One,.Two,.Three,.Four{
+	 margin-top: 8px; 
+}
+.KeypadArea {
+    width:135%;
+    margin-left:-34%;
+    margin-top:18px;
+}.input{
+		font-size:16px !important;
+		height: 36px;
+		width: 35%;
+	}
+.quesPart {
+    width: 100%;
+}
+.prompt_New {
+    color: #00F;
+    background: #FFF;
+    border: 0px solid #000;
+    display: inline-block;
+    display: none; 
+    z-index: 50;
+    position: absolute;
+    width: 96%;
+    height: 100%;
+}
+.Handcursor1{
+		z-index:20;
+		margin-top:19px;
+		width:5%;
+	}
+@keyframes move{
+		0%{
+			top:0%;
+			    left: 58%;
+
+		}
+		100%{
+			 top: -80%;
+			 left: 45%;
+			 display:none;
+		}
+	}
+
+
+.Printer{width:100%;display:inline-block;margin-top:0px;}
+.PrintImgDiv{width:5%; float:left; margin-left:1.5%;padding-top: 2px;}
+.copyRight{font-size: 70%;font-weight: normal;}
+
+
+
+}
+
+@media (min-width: 371px) and (max-width: 420px) and (orientation:portrait)
+{
+.container-fluid{
+	
+		width:371px;
+		left:calc((100% - 371px) / 2);
+		font-size: 16px;
+	}
+.done,.newSet,.solution
+	{
+		font-size:12px;
+	}
+.keypadNote{
+ 
+    font-size: 15px !important;
+}
+.containerHeaderQues, .footer {
+    width:100%;
+    display:inline-block;
+    margin-left:0%;
+}
+
+.ThreeCommonBtns{
+ 
+    font-size: 14px !important;
+	height: 28px;
+    margin-left: 20px;
+	width: 20%;
+}
+.InputDoneAndKeypad{
+	display:inline-block;
+	width:75%;
+	float:left; 
+}
+.NwvrsnAdDolBtn{
+	display:inline-block;
+	float:left;
+	width:25%;
+	}	
+
+.button{
+    font-size: 15px !important;
+    margin-left: 2.6%;
+    margin-top: 8px;
+    padding:3px;
+	width: 7%;
+	
+	}
+.button:active{
+ 	width:7%;
+	margin-left: 2.6%;
+  
+	}
+	.button:hover{
+ 	width:7%;
+	margin-left: 2.6%;
+  
+	}
+
+.One,.Two,.Three,.Four{
+	 margin-top:5px; 
+}
+.KeypadArea {
+    width:100%;
+    padding-bottom: 8px;
+	margin-top: 8px;
+}
+.newSet, .solution {
+    width: 100%;
+     
+}
+.enterText, .WhatText {
+    font-weight: bold;
+    margin-left: 32%;
+    margin-top: 1%;
+    position: absolute;
+    font-size: 18px;
+}
+.IncorrectText,.CorrectText {
+    font-weight: bold;
+    margin-left: 38%;
+    margin-top: 1%;
+    position: absolute;
+    font-size: 18px;
+}
+
+
+.KeypadArea {
+    width:135%;
+    margin-left:-34%;
+    margin-top:18px;
+}.input{
+		font-size:16px !important;
+		height: 36px;
+		width: 35%;
+	}
+.quesPart {
+    width: 100%;
+}
+.prompt_New {
+    color: #00F;
+    background: #FFF;
+    border: 0px solid #000;
+    display: inline-block;
+    display: none; 
+    z-index: 50;
+    position: absolute;
+    width: 96%;
+    height: 100%;
+}
+.newQues {
+    margin-top: 6px;
+}
+.Handcursor1{
+		z-index:20;
+		margin-top:19px;
+		width:5%;
+	}
+@keyframes move{
+		0%{
+			top:0%;
+			    left: 58%;
+
+		}
+		100%{
+			 top: -80%;
+			 left: 48%;
+			 display:none;
+		}
+	}
+
+.CommonAreaQuesNdKeypad {
+     padding-bottom: 6px;
+}
+
+.Printer{width:100%;display:inline-block;margin-top:0px;}
+.PrintImgDiv{width:5%; float:left; margin-left:1.5%;padding-top: 2px;}
+.copyRight{font-size: 70%;font-weight: normal;}
+
+
+}
+
+
+@media (min-width: 421px) and (max-width: 470px) and (orientation:portrait)
+{
+	.container-fluid
+	{
+		width:421px;
+		left:calc((100% - 421px) / 2);
+		font-size: 18px;
+	}
+ 	.done,.newSet,.solution
+	{
+		font-size:14px;
+	}
+.keypadNote{
+ 
+    font-size: 15px !important;
+}
+.containerHeaderQues, .footer {
+    width:100%;
+    display:inline-block;
+    margin-left:0%;
+}
+
+.ThreeCommonBtns{
+ 
+    font-size: 14px !important;
+	height: 28px;
+    margin-left: 20px;
+	width: 20%;
+}
+.InputDoneAndKeypad{
+	display:inline-block;
+	width:75%;
+	float:left; 
+}
+.NwvrsnAdDolBtn{
+	display:inline-block;
+	float:left;
+	width:25%;
+	}	
+
+.button{
+    font-size: 15px !important;
+    margin-left: 2.6%;
+    margin-top: 8px;
+    padding:3px;
+	width: 7%;
+	
+	}
+.button:active{
+ 	width:7%;
+	margin-left: 2.6%;
+  
+	}
+	.button:hover{
+ 	width:7%;
+	margin-left: 2.6%;
+  
+	}
+
+.One,.Two,.Three,.Four{
+	 margin-top:5px; 
+}
+.KeypadArea {
+    width:100%;
+    padding-bottom: 8px;
+	margin-top: 8px;
+}
+.newSet, .solution {
+    width: 100%;
+     
+}
+.enterText, .WhatText {
+    font-weight: bold;
+    margin-left: 32%;
+    margin-top: 1%;
+    position: absolute;
+    font-size: 18px;
+}
+.IncorrectText,.CorrectText {
+    font-weight: bold;
+    margin-left: 38%;
+    margin-top: 1%;
+    position: absolute;
+    font-size: 18px;
+}
+
+
+.KeypadArea {
+    width:135%;
+    margin-left:-34%;
+    margin-top:34px;
+}.input{
+		font-size:16px !important;
+		height: 36px;
+		width: 35%;
+	}
+.quesPart {
+    width: 100%;
+}
+.prompt_New {
+    color: #00F;
+    background: #FFF;
+    border: 0px solid #000;
+    display: inline-block;
+    display: none; 
+    z-index: 50;
+    position: absolute;
+    width: 96%;
+    height: 100%;
+}
+.newQues {
+    margin-top: 6px;
+}
+.Handcursor1{
+		z-index:20;
+		margin-top:19px;
+		width:5%;
+	}
+@keyframes move{
+		0%{
+			top:0%;
+			left: 58%;
+
+		}
+		100%{
+			top: -102%;
+    		left: 48%;
+			 display:none;
+		}
+	}
+
+.CommonAreaQuesNdKeypad {
+     padding-bottom: 6px;
+}
+
+.Printer{width:100%;display:inline-block;margin-top:0px;}
+.PrintImgDiv{width:5%; float:left; margin-left:1.5%;padding-top: 2px;}
+.copyRight{font-size: 70%;font-weight: normal;}
+
+
+
+	
+	
+}
+
+@media (min-width: 471px) and (max-width: 520px) and (orientation:portrait)
+{
+	.container-fluid
+	{
+		width:471px;
+		left:calc((100% - 481px) / 2);
+		font-size: 21px;
+	}
+.done,.newSet,.solution
+	{
+		font-size:18px;
+	}
+.keypadNote{
+ 
+    font-size: 15px !important;
+}
+.containerHeaderQues, .footer {
+    width:100%;
+    display:inline-block;
+    margin-left:0%;
+}
+
+.ThreeCommonBtns{
+ 
+    font-size: 14px !important;
+	height: 28px;
+    margin-left: 20px;
+	width: 20%;
+}
+.InputDoneAndKeypad{
+	display:inline-block;
+	width:75%;
+	float:left; 
+}
+.NwvrsnAdDolBtn{
+	display:inline-block;
+	float:left;
+	width:25%;
+	}	
+
+.button{
+    font-size: 15px !important;
+    margin-left: 2.6%;
+    margin-top: 8px;
+    padding:3px;
+	width: 7%;
+	
+	}
+.button:active{
+ 	width:7%;
+	margin-left: 2.6%;
+  
+	}
+	.button:hover{
+ 	width:7%;
+	margin-left: 2.6%;
+  
+	}
+
+.One,.Two,.Three,.Four{
+	 margin-top:5px; 
+}
+.KeypadArea {
+    width:100%;
+    padding-bottom: 8px;
+	margin-top: 8px;
+}
+.newSet, .solution {
+    width: 100%;
+     
+}
+.enterText, .WhatText {
+    font-weight: bold;
+    margin-left: 32%;
+    margin-top: 1%;
+    position: absolute;
+    font-size: 18px;
+}
+.IncorrectText,.CorrectText {
+    font-weight: bold;
+    margin-left: 38%;
+    margin-top: 1%;
+    position: absolute;
+    font-size: 18px;
+}
+
+
+.KeypadArea {
+    width:135%;
+    margin-left:-34%;
+    margin-top:34px;
+}.input{
+		font-size:16px !important;
+		height: 36px;
+		width: 35%;
+	}
+.quesPart {
+    width: 100%;
+}
+.prompt_New {
+    color: #00F;
+    background: #FFF;
+    border: 0px solid #000;
+    display: inline-block;
+    display: none; 
+    z-index: 50;
+    position: absolute;
+    width: 96%;
+    height: 100%;
+}
+.newQues {
+    margin-top: 6px;
+}
+.Handcursor1{
+		z-index:20;
+		margin-top:19px;
+		width:5%;
+	}
+@keyframes move{
+		0%{
+			top:0%;
+			left: 58%;
+
+		}
+		100%{
+			top: -102%;
+    		left: 48%;
+			 display:none;
+		}
+	}
+
+.CommonAreaQuesNdKeypad {
+     padding-bottom: 6px;
+}
+.Printer{width:100%;display:inline-block;margin-top:0px;}
+.PrintImgDiv{width:5%; float:left; margin-left:1.5%;padding-top: 2px;}
+.copyRight{font-size: 70%;font-weight: normal;}
+
+
+
+}
+
+
+@media (min-width: 521px) and (max-width: 560px) and (orientation:portrait)
+{
+
+.container-fluid
+	{
+		width:521px;
+		left:calc((100% - 521px) / 2);
+		font-size: 23px;
+	}
+.done,.newSet,.solution
+	{
+		font-size:18px;
+	}
+.keypadNote{
+ 
+    font-size: 15px !important;
+}
+.containerHeaderQues, .footer {
+    width:100%;
+    display:inline-block;
+    margin-left:0%;
+}
+
+.ThreeCommonBtns{
+ 
+    font-size: 14px !important;
+	height: 28px;
+    margin-left: 20px;
+	width: 20%;
+}
+.InputDoneAndKeypad{
+	display:inline-block;
+	width:75%;
+	float:left; 
+}
+.NwvrsnAdDolBtn{
+	display:inline-block;
+	float:left;
+	width:25%;
+	}	
+
+.button{
+    font-size: 18px !important;
+    margin-left: 3.5%;
+    margin-top: 8px;
+    padding:3px;
+	width: 7%;
+	
+	}
+.button:active{
+ 	width:7%;
+	margin-left: 3.5%;
+  
+	}
+	.button:hover{
+ 	width:7%;
+	margin-left: 3.5%;
+  
+	}
+
+.One,.Two,.Three,.Four{
+	 margin-top:5px; 
+}
+.KeypadArea {
+    width:100%;
+    padding-bottom: 8px;
+	margin-top: 8px;
+}
+.newSet, .solution {
+    width: 100%;
+     
+}
+.enterText, .WhatText {
+    font-weight: bold;
+	margin-left: 44%;
+    margin-top: 1%;
+    position: absolute;
+    font-size: 22px;
+	}
+.IncorrectText,.CorrectText {
+    font-weight: bold;
+    margin-left: 48%;
+    margin-top: 1%;
+    position: absolute;
+    font-size: 22px;
+}
+
+
+.KeypadArea {
+    width:135%;
+    margin-left:-34%;
+    margin-top:46px;
+}.input{
+		font-size:16px !important;
+		height: 36px;
+		width: 35%;
+	}
+.quesPart {
+    width: 100%;
+}
+.prompt_New {
+    color: #00F;
+    background: #FFF;
+    border: 0px solid #000;
+    display: inline-block;
+    display: none; 
+    z-index: 50;
+    position: absolute;
+    width: 96%;
+    height: 100%;
+}
+.newQues {
+    margin-top: 6px;
+}
+.Handcursor1 {
+    z-index: 20;
+    margin-top: 22px;
+    width: 4%;
+    margin-left: 16px;
+}
+@keyframes move{
+		0%{
+			top:0%;
+			left: 58%;
+
+		}
+		100%{
+			top: -108%;
+			left: 49%;
+			display:none;
+		}
+	}
+
+.CommonAreaQuesNdKeypad {
+     padding-bottom: 6px;
+}
+.Printer{width:100%;display:inline-block;margin-top:0px;}
+.PrintImgDiv{width:5%; float:left; margin-left:1.5%;padding-top: 2px;}
+.copyRight{font-size: 70%;font-weight: normal;}
+
+
+ 
+}
+
+
+@media (min-width: 561px) and (max-width: 640px) and (orientation:portrait)
+{
+.container-fluid{
+		
+		width:561px;
+		left:calc((100% - 561px) / 2);
+		font-size: 25px;
+		
+	}
+.prompt_New{font-size: 31px;}	
+.done,.newSet,.solution
+	{
+		font-size:24px;
+	}
+	.keypadNote{
+ 
+    font-size: 32px !important;
+	
+	}
+	.ThreeCommonBtns{
+    font-size: 28px !important;
+    height: 42px;
+    margin-left: 28px;
+	}
+	.button{
+    font-size: 34px !important;
+    margin-left: 3.4%;
+	margin-top: 6px;
+    padding: 0px 10px 0px 10px;
+	width:5%;
+	}
+	.button:hover{margin-left: 3.4%;width:5%;}
+	.button:active{margin-left: 3.4%;width:5%;}
+	.ThreeCommonBtns {
+    margin-left: 4%;
+    width: 20%;
+	}
+ 	.input{
+ 	font-size: 30px !important;
+    height: 55px;
+	width: 35%;
+	
+	}
+	.CommonAreaQuesNdKeypad {
+     padding-bottom: 6px;
+}
+.enterText, .WhatText {
+    font-weight: bold;
+	margin-left: 44%;
+    margin-top: 1%;
+    position: absolute;
+    font-size: 25px;
+	}
+.IncorrectText,.CorrectText {
+    font-weight: bold;
+    margin-left: 48%;
+    margin-top: 1%;
+    position: absolute;
+    font-size: 25px;
+}
+
+.containerHeaderQues, .footer {
+    width:100%;
+    display:inline-block;
+    margin-left:0%;
+}
+.InputDoneAndKeypad{
+	display:inline-block;
+	width:75%;
+	float:left; 
+}
+.NwvrsnAdDolBtn{
+	display:inline-block;
+	float:left;
+	width:25%;
+	}	
+.InputDoneAndKeypad{
+	display:inline-block;
+	width:75%;
+	float:left; 
+}
+.NwvrsnAdDolBtn{
+	display:inline-block;
+	float:left;
+	width:25%;
+	}	
+
+.newSet, .solution {
+    width:100%;
+    margin-left: 0px;
+}
+.KeypadArea {
+    width:135%;
+    margin-left:-34%;
+    margin-top:60px;
+}
+.Handcursor1{
+		z-index:20;
+		margin-top:19px;
+		width:5%;
+	}
+@keyframes move{
+		0%{
+			top:0%;
+			    left: 58%;
+
+		}
+		100%{
+			 top: -110%;
+			 left: 50%;
+			 display:none;
+		}
+	}
+
+.Printer{width:100%;display:inline-block;margin-top:0px;}
+.PrintImgDiv{width:5%; float:left; margin-left:1.5%;padding-top: 2px;}
+.copyRight{font-size: 70%;font-weight: normal;}
+
+
+}
+@media (min-width:641px) and (max-width: 720px) and (orientation:portrait)
+{
+	.container-fluid{
+		width:641px;
+		left:calc((100% - 641px) / 2);
+		font-size: 28px;
+	}
+.prompt_New{font-size: 31px;}	
+.done,.newSet,.solution
+	{
+		font-size:24px;
+	}
+	.keypadNote{
+ 
+    font-size: 32px !important;
+	
+	}
+	.ThreeCommonBtns{
+    font-size: 28px !important;
+    height: 42px;
+    margin-left: 28px;
+	}
+	.button{
+    font-size: 34px !important;
+    margin-left: 4%;
+	margin-top: 6px;
+    padding: 0px 10px 0px 10px;
+	width:5%;
+	}
+	.button:hover{margin-left: 4%;width:5%;}
+	.button:active{margin-left: 4%;width:5%;}
+	.ThreeCommonBtns {
+    margin-left: 4%;
+    width: 20%;
+	}
+ 	.input{
+ 	font-size: 30px !important;
+    height: 55px;
+	width: 35%;
+	
+	}
+	.CommonAreaQuesNdKeypad {
+     padding-bottom: 6px;
+}
+.enterText, .WhatText {
+    font-weight: bold;
+	margin-left: 44%;
+    margin-top: 1%;
+    position: absolute;
+    font-size: 28px;
+	}
+.IncorrectText,.CorrectText {
+    font-weight: bold;
+    margin-left: 48%;
+    margin-top: 1%;
+    position: absolute;
+    font-size: 28px;
+}
+.containerHeaderQues, .footer {
+    width:100%;
+    display:inline-block;
+    margin-left:0%;
+}
+.InputDoneAndKeypad{
+	display:inline-block;
+	width:75%;
+	float:left; 
+}
+.NwvrsnAdDolBtn{
+	display:inline-block;
+	float:left;
+	width:25%;
+	}	
+.InputDoneAndKeypad{
+	display:inline-block;
+	width:75%;
+	float:left; 
+}
+.NwvrsnAdDolBtn{
+	display:inline-block;
+	float:left;
+	width:25%;
+	}	
+
+.newSet, .solution {
+    width:100%;
+    margin-left: 0px;
+}
+.KeypadArea {
+    width:135%;
+    margin-left:-34%;
+    margin-top:60px;
+}
+.Handcursor1 {
+    z-index: 20;
+    margin-top: 26px;
+    width: 3%;
+    margin-left: 26px;
+}
+@keyframes move{
+		0%{
+			top:0%;
+			    left: 58%;
+
+		}
+		100%{
+			 top: -110%;
+			 left: 50%;
+			 display:none;
+		}
+	}
+
+.Printer{width:100%;display:inline-block;margin-top:0px;}
+.PrintImgDiv{width:5%; float:left; margin-left:1.5%;padding-top: 2px;}
+.copyRight{font-size: 70%;font-weight: normal;}
+
+
+
+}
+
+
+@media (min-width: 721px) and (max-width: 800px) and (orientation:portrait)
+{
+
+	.container-fluid
+	{
+		width:721px;
+		left:calc((100% - 721px) / 2);
+		font-size: 32px;
+	}
+.prompt_New{font-size: 31px;}	
+.done,.newSet,.solution
+	{
+		font-size:24px;
+	}
+	.keypadNote{
+ 
+    font-size: 32px !important;
+	
+	}
+	.ThreeCommonBtns{
+    font-size: 28px !important;
+    height: 42px;
+    margin-left: 28px;
+	}
+	.button{
+    font-size: 34px !important;
+    margin-left: 4%;
+	margin-top: 6px;
+    padding: 0px 10px 0px 10px;
+	width:5%;
+	}
+	.button:hover{margin-left: 4%;width:5%;}
+	.button:active{margin-left: 4%;width:5%;}
+	.ThreeCommonBtns {
+    margin-left: 4%;
+    width: 20%;
+	}
+ 	.input{
+ 	font-size: 30px !important;
+    height: 55px;
+	width: 35%;
+	
+	}
+	.CommonAreaQuesNdKeypad {
+     padding-bottom: 6px;
+}
+.enterText, .WhatText {
+    font-weight: bold;
+	margin-left: 44%;
+    margin-top: 1%;
+    position: absolute;
+    font-size: 32px;
+	}
+.IncorrectText,.CorrectText {
+    font-weight: bold;
+    margin-left: 48%;
+    margin-top: 1%;
+    position: absolute;
+    font-size: 32px;
+}
+.containerHeaderQues, .footer {
+    width:100%;
+    display:inline-block;
+    margin-left:0%;
+}
+.InputDoneAndKeypad{
+	display:inline-block;
+	width:75%;
+	float:left; 
+}
+.NwvrsnAdDolBtn{
+	display:inline-block;
+	float:left;
+	width:25%;
+	}	
+.InputDoneAndKeypad{
+	display:inline-block;
+	width:75%;
+	float:left; 
+}
+.NwvrsnAdDolBtn{
+	display:inline-block;
+	float:left;
+	width:25%;
+	}	
+
+.newSet, .solution {
+    width:100%;
+    margin-left: 0px;
+}
+.KeypadArea {
+    width:135%;
+    margin-left:-34%;
+    margin-top:60px;
+}
+.Handcursor1 {
+    z-index: 20;
+    margin-top: 30px;
+    width: 3%;
+    margin-left: 30px;
+}
+@keyframes move{
+		0%{
+			top:0%;
+			    left: 58%;
+
+		}
+		100%{
+			 top: -110%;
+			 left: 50%;
+			 display:none;
+		}
+	}
+
+
+.Printer{width:100%;display:inline-block;margin-top:0px;}
+.PrintImgDiv{width:5%; float:left; margin-left:1.5%;padding-top: 2px;}
+.copyRight{font-size: 70%;font-weight: normal;}
+
+
+
+
+}
+
+
+@media (min-width: 801px) and (max-width: 880px) and (orientation:portrait)
+{
+	.container-fluid
+	{
+		width:801px;
+		left:calc((100% - 801px) / 2);
+		font-size: 35px;
+	}
+.done,.newSet,.solution
+	{
+		font-size:24px;
+	}
+	.keypadNote{
+ 
+    font-size: 32px !important;
+	
+
+	}
+	.ThreeCommonBtns{
+    font-size: 28px !important;
+    height: 42px;
+    margin-left: 28px;
+	}
+	.button{
+    font-size: 34px !important;
+    margin-left: 4.5%;
+	margin-top: 6px;
+    padding: 0px 10px 0px 10px;
+	width:5%;
+	}
+	.button:hover{margin-left: 4.5%;width:5%;}
+	.button:active{margin-left: 4.5%;width:5%;}
+	.ThreeCommonBtns {
+    margin-left: 4%;
+    width: 20%;
+	}
+ 	.input{
+ 	font-size: 30px !important;
+    height: 55px;
+	width: 35%;
+	
+	}
+	.CommonAreaQuesNdKeypad {
+     padding-bottom: 6px;
+}
+.enterText, .WhatText {
+    font-weight: bold;
+	margin-left: 44%;
+    margin-top: 1%;
+    position: absolute;
+    font-size: 35px;
+	}
+.IncorrectText,.CorrectText {
+    font-weight: bold;
+    margin-left: 48%;
+    margin-top: 1%;
+    position: absolute;
+    font-size: 35px;
+}
+.containerHeaderQues, .footer {
+    width:100%;
+    display:inline-block;
+    margin-left:0%;
+}
+.InputDoneAndKeypad{
+	display:inline-block;
+	width:75%;
+	float:left; 
+}
+.NwvrsnAdDolBtn{
+	display:inline-block;
+	float:left;
+	width:25%;
+	}	
+.InputDoneAndKeypad{
+	display:inline-block;
+	width:75%;
+	float:left; 
+}
+.NwvrsnAdDolBtn{
+	display:inline-block;
+	float:left;
+	width:25%;
+	}	
+
+.newSet, .solution {
+    width:100%;
+    margin-left: 0px;
+}
+.KeypadArea {
+    width:135%;
+    margin-left:-34%;
+    margin-top:60px;
+}
+.Handcursor1 {
+    z-index: 20;
+    margin-top: 26px;
+    width: 3%;
+    margin-left: 36px;
+}
+@keyframes move{
+		0%{
+			top:0%;
+			    left: 58%;
+
+		}
+		100%{
+			 top: -110%;
+			 left: 50%;
+			 display:none;
+		}
+	}
+.Printer{width:100%;display:inline-block;margin-top:0px;}
+.PrintImgDiv{width:5%; float:left; margin-left:1.5%;padding-top: 2px;}
+.copyRight{font-size: 70%;font-weight: normal;}
+
+}
+
+
+@media (min-width: 881px) and (max-width: 960px) and (orientation:portrait)
+{
+	.container-fluid
+	{
+		width:881px;
+		left:calc((100% - 881px) / 2);
+		font-size: 40px;
+	}
+
+	.ThreeCommonBtns{
+    font-size: 28px !important;
+    height: 42px;
+    margin-left: 28px;
+	}
+	.button{
+    font-size: 34px !important;
+    margin-left: 4.5%;
+	margin-top: 6px;
+    padding: 0px 10px 0px 10px;
+	width:5%;
+	}
+	.button:hover{margin-left: 4.5%;width:5%;}
+	.button:active{margin-left: 4.5%;width:5%;}
+	.ThreeCommonBtns {
+    margin-left: 4%;
+    width: 20%;
+	}
+ 	.input{
+ 	font-size: 30px !important;
+    height: 55px;
+	width: 35%;
+	
+	}
+	.CommonAreaQuesNdKeypad {
+     padding-bottom: 6px;
+}
+.enterText, .WhatText {
+    font-weight: bold;
+	margin-left: 44%;
+    margin-top: 1%;
+    position: absolute;
+    font-size: 40px;
+	}
+.IncorrectText,.CorrectText {
+    font-weight: bold;
+    margin-left: 48%;
+    margin-top: 1%;
+    position: absolute;
+    font-size: 40px;
+}
+.containerHeaderQues, .footer {
+    width:100%;
+    display:inline-block;
+    margin-left:0%;
+}
+.InputDoneAndKeypad{
+	display:inline-block;
+	width:75%;
+	float:left; 
+}
+.NwvrsnAdDolBtn{
+	display:inline-block;
+	float:left;
+	width:25%;
+	}	
+.InputDoneAndKeypad{
+	display:inline-block;
+	width:75%;
+	float:left; 
+}
+.NwvrsnAdDolBtn{
+	display:inline-block;
+	float:left;
+	width:25%;
+	}	
+
+.newSet, .solution {
+    width:100%;
+    margin-left: 0px;
+}
+.KeypadArea {
+    width:135%;
+    margin-left:-34%;
+    margin-top:66px;
+}
+.Handcursor1 {
+    z-index: 20;
+    margin-top: 30px;
+    width: 3%;
+    margin-left: 40px;
+}
+@keyframes move{
+		0%{
+			    top:0%;
+			    left: 58%;
+
+		}
+		100%{
+			 top: -118%;
+			 left: 50%;
+			 display:none;
+		}
+	}
+
+.Printer{width:100%;display:inline-block;margin-top:0px;}
+.PrintImgDiv{width:5%; float:left; margin-left:1.5%;padding-top: 2px;}
+.copyRight{font-size: 70%;font-weight: normal;}
+
+
+}
+
+@media (min-width: 961px) and (max-width: 1040px) and (orientation:portrait)
+{
+	.container-fluid
+	{
+		width:961px;
+		left:calc((100% - 961px) / 2);
+		font-size: 44px;
+	}
+	.ThreeCommonBtns{
+    font-size: 28px !important;
+    height: 42px;
+    margin-left: 28px;
+	}
+	.button{
+    font-size: 34px !important;
+    margin-left: 4.5%;
+	margin-top: 6px;
+    padding: 0px 10px 0px 10px;
+	width:5%;
+	}
+	.button:hover{margin-left: 4.5%;width:5%;}
+	.button:active{margin-left: 4.5%;width:5%;}
+	.ThreeCommonBtns {
+    margin-left: 4%;
+    width: 20%;
+	}
+ 	.input{
+ 	font-size: 30px !important;
+    height: 55px;
+	width: 35%;
+	
+	}
+	.CommonAreaQuesNdKeypad {
+     padding-bottom: 6px;
+}
+.enterText, .WhatText {
+    font-weight: bold;
+	margin-left: 44%;
+    margin-top: 1%;
+    position: absolute;
+    font-size: 40px;
+	}
+.IncorrectText,.CorrectText {
+    font-weight: bold;
+    margin-left: 48%;
+    margin-top: 1%;
+    position: absolute;
+    font-size: 40px;
+}
+.containerHeaderQues, .footer {
+    width:100%;
+    display:inline-block;
+    margin-left:0%;
+}
+.InputDoneAndKeypad{
+	display:inline-block;
+	width:75%;
+	float:left; 
+}
+.NwvrsnAdDolBtn{
+	display:inline-block;
+	float:left;
+	width:25%;
+	}	
+.InputDoneAndKeypad{
+	display:inline-block;
+	width:75%;
+	float:left; 
+}
+.NwvrsnAdDolBtn{
+	display:inline-block;
+	float:left;
+	width:25%;
+	}	
+
+.newSet, .solution {
+    width:100%;
+    margin-left: 0px;
+}
+.KeypadArea {
+    width:135%;
+    margin-left:-34%;
+    margin-top:75px;
+}
+.Handcursor1 {
+    z-index: 20;
+    margin-top: 30px;
+    width: 3%;
+    margin-left: 44px;
+}
+@keyframes move{
+		0%{
+			    top:0%;
+			    left: 58%;
+
+		}
+		100%{
+			 top: -125%;
+			 left: 50%;
+			 display:none;
+		}
+	}
+
+.Printer{width:100%;display:inline-block;margin-top:0px;}
+.PrintImgDiv{width:5%; float:left; margin-left:1.5%;padding-top: 2px;}
+.copyRight{font-size: 70%;font-weight: normal;}
+
+
+}
+@media (min-width: 1041px)  and (orientation:portrait)
+{
+	.container-fluid
+	{
+		width:1041px;
+		left:calc((100% - 1041px) / 2);
+		font-size: 48px;
+	}
+ .done,.newSet,.solution
+	{
+		font-size:24px;
+	}
+	.button{
+    font-size: 34px !important;
+    margin-left: 4.5%;
+	margin-top: 6px;
+    padding: 0px 10px 0px 10px;
+	width:5%;
+	}
+	.button:hover{margin-left: 4.5%;width:5%;}
+	.button:active{margin-left: 4.5%;width:5%;}
+	.ThreeCommonBtns {
+    margin-left: 4%;
+    width: 20%;
+	}	.ThreeCommonBtns{
+    font-size: 30px !important;
+    height: 42px;
+    margin-left: 28px;
+	}
+
+ 	.input{
+ 	font-size: 30px !important;
+    height: 55px;
+	width: 35%;
+	
+	}
+	.CommonAreaQuesNdKeypad {
+     padding-bottom: 6px;
+}
+.enterText, .WhatText {
+    font-weight: bold;
+	margin-left: 44%;
+    margin-top: 1%;
+    position: absolute;
+    font-size: 40px;
+	}
+.IncorrectText,.CorrectText {
+    font-weight: bold;
+    margin-left: 48%;
+    margin-top: 1%;
+    position: absolute;
+    font-size: 40px;
+}
+.containerHeaderQues, .footer {
+    width:100%;
+    display:inline-block;
+    margin-left:0%;
+}
+.InputDoneAndKeypad{
+	display:inline-block;
+	width:75%;
+	float:left; 
+}
+.NwvrsnAdDolBtn{
+	display:inline-block;
+	float:left;
+	width:25%;
+	}	
+.InputDoneAndKeypad{
+	display:inline-block;
+	width:75%;
+	float:left; 
+}
+.NwvrsnAdDolBtn{
+	display:inline-block;
+	float:left;
+	width:25%;
+	}	
+
+.newSet, .solution {
+    width:100%;
+    margin-left: 0px;
+}
+.KeypadArea {
+    width:135%;
+    margin-left:-34%;
+    margin-top:85px;
+}
+.Handcursor1 {
+    z-index: 20;
+    margin-top: 25px;
+    width: 3%;
+    margin-left: 48px;
+}
+@keyframes move{
+		0%{
+			    top:0%;
+			    left: 58%;
+
+		}
+		100%{
+			 top: -125%;
+			 left: 50%;
+			 display:none;
+		}
+	}
+
+.Printer{width:100%;display:inline-block;margin-top:0px;}
+.PrintImgDiv{width:5%; float:left; margin-left:1.5%;padding-top: 2px;}
+.copyRight{font-size: 70%;font-weight: normal;}
+ 
+}
+@media (min-width: 320px)  and (orientation:portrait)
+{
+	.prompt
+	{
+		width:25%;
+	}
+	.quesPart {
+    width: 100%;
+}
+.input{border:1px solid #000;}
+
+}
+.input{
+	font-weight:bold;
+}
+
+
+
+
+
+

@@ -1,0 +1,2338 @@
+.red_clr{color:#C00;}
+/*.bold{font-weight:bold;}*/
+/*tr,td{border:1px solid #CCC;}*/
+.tab1 {
+    width: 60%;
+    margin-left: 17.5%;
+    margin-top: 1em;
+}
+.TAL{text-align:left;}
+.TAR{text-align:right;}
+.TAC{text-align:center}
+.Td1{width:30%;}
+.Td2{width:10%;}
+.Td3{width:60%;}
+
+.tab1 td{padding-top:2%;}
+.BlueCol{color:#00F;}
+.GreenDark{color:#060;}
+.correct,.incorrect{width: 100%;}
+.InputNdDone{margin-left: 2%;}
+.CommaText{margin-left:12%;}
+.button {
+    width: 12%;
+    margin-left: 0.5%;
+	margin-top:0.8%;
+}
+.button:hover{width: 12%;
+    margin-left: 0.5%;margin-top:0.8%;}
+.button:active {width: 12%;
+    margin-left: 0.5%;margin-top:0.8%;}
+	
+	.btn13 {
+    width: 5%;
+    margin-left: 0.5%;
+}
+.btn13:hover{width: 5%;
+    margin-left: 0.5%;}
+.btn13:active {width: 5%;
+    margin-left: 0.5%;}
+	
+	
+.Nowrap{white-space:nowrap;}
+.bdr_rt{border-right:1px solid #900;}
+
+.tab2{border-collapse:collapse;width:50%;}
+.finalAns1{font-weight:bold;margin-left:15%;color:#C00;}
+.tab1 .FstTD{padding-top:0%;}
+.input{width: 20%;}
+
+.left2{
+	margin-left:11%;
+}
+.left{
+	margin-left:19%;
+}
+
+.div1{
+	position:absolute;
+}
+
+
+
+.td{
+	border-top:2px solid #000;
+}
+.td1{
+	border-bottom:2px solid #000;
+}
+.tbl_first{
+	border-collapse:collapse;
+}
+.tbl_first{
+	width:40%;
+	display:inline-table;
+	margin-left:20%;
+}
+
+.arrow_image {
+    position: relative;
+}
+
+.arrow {
+    width: 65%;
+    position: absolute;
+    top: 0;
+    right: 28%;
+}
+.img{
+	width:100%;
+}
+.table1{
+	margin-left:30%;
+}
+
+.td_1{ vertical-align: top;
+    text-align: right;
+    }
+.td_2{vertical-align: top;}
+.bdr_btm{border-bottom:0.05em solid black;}
+
+.rel {
+    position: relative;
+}
+
+.td_2 {
+    vertical-align: top;
+}
+
+.flt_rgt{float:right; width:85%;}
+
+.tab2{width:12%; border-collapse:collapse;}
+
+.tab2_cap{
+	width:11%;
+	margin-left:1.5%;
+}
+
+.img_part {
+    width: 6%;
+    position: absolute;
+    top: 53%;
+    left: 5%;
+}
+
+.img_part1 {
+   width: 9%;
+    position: absolute;
+    top: 50%;
+    left: 6%;
+}
+
+.img_part2 {
+    width: 14%;
+    position: absolute;
+    top: 54%;
+    left: 5%;
+}
+
+.conclusion {
+    position: absolute;
+    margin-left: 35%;
+    margin-top: 10%;
+}
+.hidden{
+	visibility:hidden;
+	}
+.td_11{
+	width:30%;
+}
+
+.td_12{
+	width:10%;
+}
+
+.td_13{
+	width:5%;
+}
+
+.td_ques {
+    padding-left: 1.5em;
+}
+
+.td_14{
+	width:80%;
+}
+
+.ltr_space{
+	letter-spacing:0.26em;
+}
+.brdr_1{
+	border:2px solid;
+	padding:5px;
+	}
+   	.td_111{
+		    width: 3.8em;
+		}
+.paddingtopbtm30{display:flex;flex-wrap: wrap;}		
+.InputNdDone{display: flex;width: 94%;justify-content: space-between;}
+
+.InputDoneAndKeypad{display: flex;}
+
+
+.InputTextNeed1{width:20%; display:flex; justify-content: center;}
+.InputTextNeed2{width:5%;}
+.InputTextNeed3{width:15%;}
+.InputTextNeed4{width:2%;}
+.InputTextNeed5{width:25%;}
+.InputTextNeed6{width:2%;}
+.InputTextNeed7{width:10%;}
+.InputTextNeed8{width:15%;}
+.InputNdDone {
+    margin-left: 5%!important;
+}
+.Word, .NumberS{position:absolute; right:1.5rem; top:-1.5rem; font-size:0.80em; color:blue; font-weight:bold;}
+.Word{right:6.5rem;}
+.tick, .cross {
+    position: absolute;
+}
+.remark{
+    position: absolute;
+    left: -3em;
+    top: 1.5em;
+    display: inline-block;
+}
+@media (min-width: 531px) and (max-width: 610px)
+{
+	
+.div1 {
+    top: -1%;
+    left: -0.2%;
+    width: 13%;
+}
+
+.conclusion {
+    position: absolute;
+    margin-left: 35%;
+    margin-top: 4%;
+}
+
+.img_part {
+    width: 60%;
+    position: absolute;
+    top: 0;
+}
+
+
+
+
+.img_part1 {
+    width: 90%;
+    position: absolute;
+    top: 0;
+}
+	
+.input 
+{
+    width: 18%;
+}
+.clear {
+    margin-left: 1%;
+}
+
+.tab1 td {
+    padding-top: 1.5%;
+}
+.button {margin-left: 0.7%;}
+.button:hover{margin-left: 0.7%;}
+.button:active {margin-left: 0.7%;}
+
+.InputNdDone {
+    margin-left: 18%;
+}
+@keyframes  move{
+		0%{
+			top:50%;
+			left: 14%;
+		}
+		100%{
+    
+   top: -135%;
+    left: 56%;
+
+	display: none;
+    
+		}
+	}
+	
+	
+}
+
+@media (min-width: 611px) and (max-width: 690px)
+{
+	
+	
+.div1 {
+    top: -2%;
+    left: -0.2%;
+    width: 13%;
+}
+
+.img_part {
+    width: 6%;
+    position: absolute;
+    top: 55%;
+    left: 5%;
+}
+
+.img_part1 {
+    width: 10%;
+    position: absolute;
+    top: 54%;
+    left: 5%;
+}
+
+.img_part2 {
+    width: 14%;
+    position: absolute;
+    top: 54%;
+    left: 5%;
+}
+	
+	
+		.input 
+{
+    width: 18%;
+}
+.clear {
+    margin-left: 1%;
+}
+
+.button {
+    margin-left: 0.8%;
+}
+.InputNdDone {
+    margin-left: 15%;
+}
+@keyframes  move{
+		0%{
+			top:50%;
+			left: 14%;
+		}
+		100%{
+    
+   top: -135%;
+    left: 56%;
+
+	display: none;
+    
+		}
+	}
+	
+	
+.button {
+    margin-left: 0.65%;
+}
+.ThreeCommonBtns {
+    margin-left: 0.5%;
+    width: 7.5%;
+    
+}
+.btn13 {
+    width: 4.8%;
+    margin-left: 0.5%;
+}
+}
+
+@media (min-width: 691px) and (max-width: 770px)
+{
+		.input 
+{
+    width: 18%;
+}
+
+
+.img_part {
+    width: 7%;
+    position: absolute;
+    top: 55%;
+    left: 5%;
+}
+
+.img_part1 {
+    width: 11%;
+    position: absolute;
+    top: 54%;
+    left: 5.5%;
+}
+
+.img_part2 {
+    width: 15%;
+    position: absolute;
+    top: 54%;
+    left: 6%;
+}
+
+
+.div1 {
+    top: -2%;
+    left: -0.2%;
+    width: 14%;
+}
+
+.clear {
+    margin-left: 1%;
+}
+
+.button {
+    margin-left: 0.8%;
+}
+.InputNdDone {
+    margin-left: 15%;
+}
+@keyframes  move{
+		0%{
+			top:50%;
+			left: 14%;
+		}
+		100%{
+    
+   top: -135%;
+    left: 56%;
+
+	display: none;
+    
+		}
+	}
+	
+
+
+.ThreeCommonBtns {
+    margin-left: 0.5%;
+    width: 7.5%;
+    
+}
+.button {
+    margin-left: 0.65%;
+}
+}
+
+@media (min-width: 771px) and (max-width: 850px)
+{
+	.input 
+{
+    width: 18%;
+}
+
+.div1 {
+    top: -2%;
+    left: -0.2%;
+    width: 14%;
+}
+
+.img_part {
+    width: 7%;
+    position: absolute;
+    top: 54%;
+    left: 6%;
+}
+
+.img_part1 {
+    width: 11%;
+    position: absolute;
+    top: 54%;
+    left: 6.5%;
+}
+
+.img_part2 {
+    width: 17%;
+    position: absolute;
+    top: 54%;
+    left: 6%;
+}
+
+.clear {
+    margin-left: 1%;
+}
+
+.tab1 td {
+    padding-top: 1%;
+}
+.button {
+    margin-left: 0.8%;
+}
+@keyframes  move{
+		0%{
+			top:50%;
+			left: 14%;
+		}
+		100%{
+    
+   top: -135%;
+    left: 56%;
+
+	display: none;
+    
+		}
+	}
+	
+	.InputNdDone {
+    margin-left: 14%;
+}
+
+.ThreeCommonBtns {
+    margin-left: 0.5%;
+    width: 7.5%;
+    
+}
+.button {
+    margin-left: 0.65%;
+}
+}
+
+@media (min-width: 851px) and (max-width: 930px)
+{
+.clear {
+    margin-left: 1%;
+}
+
+.div1 {
+    top: -2%;
+    left: -0.2%;
+    width: 14%;
+}
+
+.img_part {
+    width: 6.2%;
+    position: absolute;
+    top: 54%;
+    left: 5%;
+}
+
+.img_part1 {
+    width: 10.5%;
+    position: absolute;
+    top: 54%;
+    left: 5.5%;
+}
+
+.img_part2 {
+    width: 15%;
+    position: absolute;
+    top: 54%;
+    left: 6%;
+}
+
+
+.button {
+    margin-left: 0.8%;
+}
+@keyframes  move{
+		0%{
+			top:50%;
+			left: 14%;
+		}
+		100%{
+    
+   top: -135%;
+    left: 56%;
+
+	display: none;
+    
+		}
+	}
+	
+		.InputNdDone {
+    margin-left: 14%;
+}
+
+
+.ThreeCommonBtns {
+    margin-left: 0.5%;
+    width: 7.5%;
+    
+}
+}
+
+@media (min-width: 931px) and (max-width: 1010px)
+{
+.clear {
+    margin-left: 1%;
+}
+
+.div1 {
+    top: -2%;
+    left: -0.2%;
+    width: 14%;
+}
+
+.img_part {
+    width: 6.2%;
+    position: absolute;
+    top: 54%;
+    left: 5%;
+}
+
+.img_part1 {
+    width: 10.5%;
+    position: absolute;
+    top: 54%;
+    left: 5.5%;
+}
+
+.img_part2 {
+    width: 15%;
+    position: absolute;
+    top: 54%;
+    left: 6%;
+}
+
+.button {
+    margin-left: 0.8%;
+}
+@keyframes  move{
+		0%{
+			top:50%;
+			left: 14%;
+		}
+		100%{
+    
+   top: -135%;
+    left: 56%;
+
+	display: none;
+    
+		}
+	}
+	
+		.InputNdDone {
+    margin-left: 14%;
+}
+
+
+.ThreeCommonBtns {
+    margin-left: 1%;
+    width: 7.5%;
+    
+}
+}
+
+@media (min-width: 1011px) and (max-width: 1100px)
+{
+	
+.div1 {
+    top: -1%;
+    left: -0.2%;
+    width: 13%;
+}
+
+.img_part {
+    width: 6.2%;
+    position: absolute;
+    top: 54%;
+    left: 5%;
+}
+
+.img_part1 {
+    width: 10.5%;
+    position: absolute;
+    top: 54%;
+    left: 5.5%;
+}
+
+.img_part2 {
+    width: 15%;
+    position: absolute;
+    top: 54%;
+    left: 5%;
+}
+	
+.clear {
+    margin-left: 2%;
+}
+
+
+.button {
+    margin-left: 0.8%;
+}
+@keyframes  move{
+		0%{
+			top:50%;
+			left: 14%;
+		}
+		100%{
+    
+   top: -135%;
+    left: 56%;
+
+	display: none;
+    
+		}
+	}
+	
+		.InputNdDone {
+    margin-left: 14%;
+}
+
+
+.ThreeCommonBtns {
+    margin-left: 1%;
+    width: 7%;
+    
+}
+}
+
+@media (min-width: 1101px) and (max-width: 1285px)
+{
+	
+	
+.div1 {
+    top: -1%;
+    left: -0.2%;
+    width: 16%;
+}
+
+
+.img_part {
+    width: 5.5%;
+    position: absolute;
+    top: 53%;
+    left: 5%;
+}
+
+.img_part1 {
+    width: 10%;
+    position: absolute;
+    top: 53%;
+    left: 5%;
+}
+
+.img_part2 {
+    width: 14%;
+    position: absolute;
+    top: 54%;
+    left: 5%;
+}
+.input {
+    width: 18%;
+}
+	
+@keyframes  move{
+		0%{
+			top:50%;
+			left: 14%;
+		}
+		100%{
+    
+   top: -138%;
+    left: 56%;
+
+	display: none;
+    
+		}
+	}
+	.ThreeCommonBtns {
+    margin-left: 2%;
+    width: 8%;
+   
+}
+	}
+
+@media (min-width: 1286px) and (max-width: 1400px)
+{
+	
+.div1 {
+    top: -1%;
+    left: -0.2%;
+    width: 16%;
+}
+	
+@keyframes  move{
+		0%{
+			top:50%;
+			left: 14%;
+		}
+		100%{
+    
+   top: -130%;
+    left: 56%;
+
+	display: none;
+    
+		}
+	}
+	
+.input {
+    width: 20%;
+}
+.enterText, .WhatText,.partialText {
+    font-weight: bold;
+    margin-left: 26%;
+}	
+.ThreeCommonBtns {
+   
+    width: 8%;
+   
+}
+
+
+}
+
+@media (min-width: 1401px) and (max-width: 1550px)
+{
+	
+.div1 {
+    top: -1%;
+    left: -0.2%;
+    width: 16%;
+}
+
+.img_part {
+    width: 5.5%;
+    position: absolute;
+    top: 56%;
+    left: 4%;
+}
+
+.img_part1 {
+    width: 9%;
+    position: absolute;
+    top: 53%;
+    left: 4.5%;
+}
+
+.img_part2 {
+    width: 12%;
+    position: absolute;
+    top: 54%;
+    left: 5%;
+}
+	
+	@keyframes  move{
+		0%{
+			top:0%;
+			left: 28%;
+		}
+		100%{
+    
+    top: -52%;
+    left: 41%;
+
+	display: none;
+    
+		}
+	}
+		.input {
+    width: 18%;
+}
+
+.tab1 {
+    width: 48%;
+    margin-left: 25%;
+}
+.ThreeCommonBtns {
+  
+    width: 8%;
+  
+}
+
+.tick, .cross {top: 1.8rem;right: 3.5rem;}
+.tick1, .cross1 {right: 3.5rem;}
+
+@keyframes  move{
+		0%{
+			top:50%;
+			left: 14%;
+		}
+		100%{
+    
+   top: -130%;
+    left: 56%;
+
+	display: none;
+    
+		}
+	}
+
+}
+
+@media (min-width: 1551px) and (max-width: 1700px)
+{
+	
+.div1 {
+    top: -1%;
+    left: -0.2%;
+    width: 14%;
+}
+
+.conclusion {
+    position: absolute;
+    margin-left: 35%;
+    margin-top: 10%;
+}
+
+
+
+.img_part {
+    width: 5.5%;
+    position: absolute;
+    top: 56%;
+    left: 4%;
+}
+
+.img_part1 {
+    width: 8%;
+    position: absolute;
+    top: 53%;
+    left: 4.5%;
+}
+
+.img_part2 {
+    width: 12%;
+    position: absolute;
+    top: 54%;
+    left: 4%;
+}
+	
+	@keyframes  move{
+		0%{
+			top:50%;
+			left: 14%;
+		}
+		100%{
+    
+   top: -135%;
+    left: 56%;
+
+	display: none;
+    
+		}
+	}
+	
+			.input {
+    width: 18%;
+}
+
+.tab1 {
+    width: 48%;
+    margin-left: 25%;
+}
+.ThreeCommonBtns {
+  
+    width: 8%;
+	margin-left:2%;
+  
+}
+}
+
+@media (min-width: 1701px) and (max-width: 1850px)
+{
+	
+	
+.div1 {
+    top: -1%;
+    left: -0.2%;
+    width: 14%;
+}
+
+.conclusion {
+    position: absolute;
+    margin-left: 35%;
+    margin-top: 10%;
+}
+
+.img_part {
+    width: 5.5%;
+    position: absolute;
+    top: 56%;
+    left: 4%;
+}
+
+.img_part1 {
+    width: 8%;
+    position: absolute;
+    top: 53%;
+    left: 4.5%;
+}
+
+.img_part2 {
+    width: 12%;
+    position: absolute;
+    top: 54%;
+    left: 4%;
+}
+
+	
+	@keyframes  move{
+		0%{
+			top:50%;
+			left: 14%;
+		}
+		100%{
+    
+   top: -135%;
+    left: 56%;
+
+	display: none;
+    
+		}
+	}
+	
+	.input {
+    width: 18%;
+}
+
+.tab1 {
+    width: 48%;
+    margin-left: 25%;
+}
+
+.ThreeCommonBtns {
+  
+    width: 8%;
+	margin-left:2%;
+  
+}
+}
+
+@media (min-width: 1851px) and (max-width: 2000px)
+{
+	
+
+.img_part {
+    width: 4.5%;
+    position: absolute;
+    top: 56%;
+    left: 4%;
+}
+
+.img_part1 {
+    width: 7.5%;
+    position: absolute;
+    top: 53%;
+    left: 4%;
+}
+
+.img_part2 {
+    width: 11%;
+    position: absolute;
+    top: 54%;
+    left: 4%;
+}
+
+.conclusion {
+    position: absolute;
+    margin-left: 35%;
+    margin-top: 10%;
+}
+
+
+.div1 {
+    top: -1%;
+    left: -0.2%;
+    width: 14%;
+}
+	
+	@keyframes  move{
+		0%{
+			top:50%;
+			left: 14%;
+		}
+		100%{
+    
+   top: -135%;
+    left: 56%;
+
+	display: none;
+    
+		}
+	}
+	
+	.input {
+    width: 18%;
+}
+
+.tab1 {
+    width: 48%;
+    margin-left: 25%;
+}
+
+.ThreeCommonBtns {
+    margin-left: 2%;
+    width: 8%;
+}
+}
+
+@media (min-width: 2001px)
+{
+	
+	
+.div1 {
+    top: -1%;
+    left: -0.2%;
+    width: 14%;
+}
+
+.conclusion {
+    position: absolute;
+    margin-left: 35%;
+    margin-top: 10%;
+}
+
+
+.img_part {
+    width: 4.5%;
+    position: absolute;
+    top: 56%;
+    left: 4%;
+}
+
+.img_part1 {
+    width: 7.5%;
+    position: absolute;
+    top: 53%;
+    left: 4%;
+}
+
+.img_part2 {
+    width: 11%;
+    position: absolute;
+    top: 54%;
+    left: 4%;
+}
+
+	@keyframes  move{
+		0%{
+			top:50%;
+			left: 14%;
+		}
+		100%{
+    
+   top: -135%;
+    left: 56%;
+
+	display: none;
+    
+		}
+	}
+	.tab1 {
+    width: 48%;
+    margin-left: 25%;
+}
+	
+		.input {
+    width: 18%;
+}
+
+.ThreeCommonBtns {
+    margin-left: 2%;
+    width: 8%;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+ 					/*<-- Portrait-->*/
+@media (min-width: 320px) and (orientation:portrait){		
+/*tr,td{border:1px solid #000;}	*/		
+.clear{
+    margin-left:0%;
+}
+.ThreeCommonBtns {
+    margin-left: 7px;
+    margin-top: 8px;
+}
+
+.FstTD{padding-left:0%;}
+.Comma_prompt{text-align:center;}
+.CommaText{margin-left:0%;}
+.vat{vertical-align:top;}
+.Tal{text-align:left;}
+.Nowrap{white-space:normal;}
+.tab2{width:17%; border-collapse:collapse;}
+.done{
+	float:right;
+	margin-top:10px;
+	margin-right:10.5%;
+}
+
+
+.conclusion {
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 24%;
+}
+.tab1 {
+    width: 55%;
+    margin-left: 33%;
+    margin-top: 2em;
+}
+.button {
+    width: 30%;
+    margin-left: 2%;
+}
+
+.button:hover{  width: 30%;
+    margin-left: 2%;}
+.button:active {  width:30%;
+    margin-left: 2%;}
+	
+	.btn13  {
+    width: 8%;
+    margin-left: 0.1%;
+}
+
+.btn13:hover{  width:8%;
+    margin-left: 0.1%;}
+.btn13:active {  width: 8%;
+    margin-left: 0.1%;}
+
+
+
+	
+	
+}
+@media (min-width: 320px) and (max-width: 370px) and (orientation:portrait)
+{
+	
+.div1 {
+    top: -2%;
+    left: -0.2%;
+    width: 25%;
+}
+.input {
+    width: 44%;
+}
+
+
+
+.img_part {
+    width: 11%;
+    position: absolute;
+    top: 52%;
+    left: 9%;
+}
+.img_part1 {
+    width: 20%;
+    position: absolute;
+    top: 52%;
+    left: 9%;
+}
+.img_part2 {
+    width: 27%;
+    position: absolute;
+    top: 52%;
+    left: 9%;
+}
+
+
+
+
+.newQues{
+	margin-top:6px;
+}
+.done {
+    float: right;
+    margin-top: 10px;
+    margin-right: 3.5%;
+}
+@keyframes  move{
+		0%{
+			top:53%;
+			left: 60%;
+		}
+		100%{
+    
+   top: -65%;
+    left: 47%;
+
+	display: none;
+    
+		}
+	}
+	.InputNdDone {
+    margin-left: 0%;
+}
+
+
+}
+
+@media (min-width: 371px) and (max-width: 420px) and (orientation:portrait)
+{
+	
+.div1 {
+    top: -2%;
+    left: -0.2%;
+    width: 25%;
+}
+
+.img_part {
+    width: 13%;
+    position: absolute;
+    top: 53%;
+    left: 9%;
+}
+.img_part1 {
+    width: 20%;
+    position: absolute;
+    top: 52%;
+    left: 10%;
+}
+.img_part2 {
+    width: 28%;
+    position: absolute;
+    top: 52%;
+    left: 10%;
+}
+
+
+.clear {
+    margin-left: 5%;
+}
+
+.InputNdDone {
+    margin-left: 6%;
+}
+.done {
+    float: right;
+    margin-top: 10px;
+    margin-right: -3.5%;
+}
+@keyframes  move{
+		0%{
+			top:51%;
+			left: 36%;
+		}
+		100%{
+    
+   top: -70%;
+    left: 47%;
+
+	display: none;
+    
+		}
+	}
+	.InputNdDone {
+    margin-left: 0%;
+}
+	.input {
+    width: 45%;
+}
+
+}
+
+
+@media (min-width: 421px) and (max-width: 470px) and (orientation:portrait)
+{
+.clear {
+    margin-left: 3%;
+}
+
+.img_part {
+    width: 13%;
+    position: absolute;
+    top: 53%;
+    left: 9%;
+}
+.img_part1 {
+    width: 20%;
+    position: absolute;
+    top: 52%;
+    left: 10%;
+}
+.img_part2 {
+    width: 28%;
+    position: absolute;
+    top: 52%;
+    left: 10%;
+}
+
+
+.InputNdDone {
+    margin-left: 4%;
+}
+
+.div1 {
+    top: -2%;
+    left: -0.2%;
+    width: 25%;
+}
+
+.input {
+    width: 32%;
+}
+.done {
+    float: right;
+    margin-top: 10px;
+    margin-right: 0.5%;
+}
+
+@keyframes  move{
+		0%{
+			top:51%;
+			left: 36%;
+		}
+		100%{
+    
+   top: -74%;
+    left: 47%;
+
+	display: none;
+    
+		}
+	}
+	.InputNdDone {
+    margin-left: 0%;
+}
+	.input {
+    width: 45%;
+}
+
+}
+
+@media (min-width: 471px) and (max-width: 520px) and (orientation:portrait)
+{
+.clear {
+    margin-left: 3%;
+}
+
+.img_part {
+    width: 13%;
+    position: absolute;
+    top: 53%;
+    left: 9%;
+}
+.img_part1 {
+    width: 20%;
+    position: absolute;
+    top: 52%;
+    left: 10%;
+}
+.img_part2 {
+    width: 29%;
+    position: absolute;
+    top: 52%;
+    left: 10%;
+}
+
+
+
+
+.InputNdDone {
+    margin-left: 4%;
+}
+
+.div1 {
+    top: -2%;
+    left: -0.2%;
+    width: 25%;
+}
+
+.input {
+    width: 32%;
+}
+.done {
+    float: right;
+    margin-top: 10px;
+    margin-right: -1.5%;
+}
+@keyframes  move{
+		0%{
+			top:51%;
+			left: 36%;
+		}
+		100%{
+    
+   top: -80%;
+    left: 47%;
+
+	display: none;
+    
+		}
+	}
+	.InputNdDone {
+    margin-left: 0%;
+}
+	.input {
+    width: 45%;
+}
+
+.NumberS{
+    top: -24px!important;
+    left: 7.5px!important;
+}
+.Word{
+    top: -24px!important;
+    
+}
+}
+
+
+@media (min-width: 521px) and (max-width: 560px) and (orientation:portrait)
+{
+.clear {
+    margin-left: 3%;
+}
+
+.InputNdDone {
+    margin-left: 5%;
+}
+
+.img_part {
+    width: 13%;
+    position: absolute;
+    top: 53%;
+    left: 9%;
+}
+.img_part1 {
+    width: 20%;
+    position: absolute;
+    top: 52%;
+    left: 10%;
+}
+.img_part2 {
+    width: 29%;
+    position: absolute;
+    top: 52%;
+    left: 10%;
+}
+
+.div1 {
+    top: -2%;
+    left: -0.2%;
+    width: 25%;
+}
+
+.input {
+    width: 32%;
+}
+.done {
+    float: right;
+    margin-top: 10px;
+    margin-right: -0.5%;
+}
+@keyframes  move{
+		0%{
+			top:51%;
+			left: 36%;
+		}
+		100%{
+    
+   top: -80%;
+    left: 47%;
+
+	display: none;
+    
+		}
+	}
+	.InputNdDone {
+    margin-left: 0%;
+}
+	.input {
+    width: 45%;
+}
+.NumberS{
+    top: -24px!important;
+    left: 7.5px!important;
+}
+.Word{
+    top: -24px!important;
+    
+}
+}
+
+
+@media (min-width: 561px) and (max-width: 640px) and (orientation:portrait)
+{
+.clear {
+    margin-left: 6%;
+}
+.input {
+    width: 32%;
+}
+
+.InputNdDone {
+    margin-left: 5%;
+}
+
+.img_part {
+    width: 13%;
+    position: absolute;
+    top: 53%;
+    left: 9%;
+}
+.img_part1 {
+    width: 20%;
+    position: absolute;
+    top: 52%;
+    left: 10%;
+}
+.img_part2 {
+    width: 29%;
+    position: absolute;
+    top: 52%;
+    left: 10%;
+}
+.div1 {
+    top: -2%;
+    left: -0.2%;
+    width: 25%;
+}
+
+.done {
+    float: right;
+    margin-top: 10px;
+    margin-right: -0.5%;
+}
+
+@keyframes  move{
+		0%{
+			top:51%;
+			left: 36%;
+		}
+		100%{
+    
+   top: -80%;
+    left: 47%;
+
+	display: none;
+    
+		}
+	}
+	.InputNdDone {
+    margin-left: 0%;
+}
+	.input {
+    width: 45%;
+}
+
+
+.button {
+    font-size: 26px !important;
+
+}
+.NumberS{
+    top: -24px!important;
+    left: 7.5px!important;
+}
+.Word{
+    top: -24px!important;
+    
+}
+.btn13 {
+    width: 6%!important;
+  
+}
+}
+
+
+@media (min-width:641px) and (max-width: 720px) and (orientation:portrait)
+{
+.clear {
+    margin-left: 6%;
+}
+.input {
+    width: 32%;
+}
+
+.conclusion {
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 32%;
+}
+
+.InputNdDone {
+    margin-left: 5%;
+}
+
+.img_part {
+    width: 11%;
+    position: absolute;
+    top: 55%;
+    left: 7%;
+}
+.img_part1 {
+    width: 16%;
+    position: absolute;
+    top: 52%;
+    left: 8%;
+}
+.img_part2 {
+    width: 23%;
+    position: absolute;
+    top: 52%;
+    left: 8%;
+}
+
+.div1 {
+    top: -2%;
+    left: -0.2%;
+    width: 20%;
+}
+
+
+
+.tab1 td {
+    padding-top: 2%;
+}
+.done {
+    float: right;
+    margin-top: 10px;
+    margin-right: 0.5%;
+}
+@keyframes  move{
+		0%{
+			top:51%;
+			left: 36%;
+		}
+		100%{
+    
+   top: -76%;
+    left: 47%;
+
+	display: none;
+    
+		}
+	}
+	.InputNdDone {
+    margin-left: 0%;
+}
+	.input {
+    width: 45%;
+}
+
+.button {
+    font-size: 29px !important;
+
+}
+.ThreeCommonBtns {
+    margin-left: 0.5%;
+    width: 16.5%;
+}
+}
+
+
+@media (min-width: 721px) and (max-width: 800px) and (orientation:portrait)
+{
+.clear {
+    margin-left: 6%;
+}
+
+.conclusion {
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 32%;
+}
+
+.div1 {
+    top: -2%;
+    left: -0.2%;
+    width: 20%;
+}
+
+.img_part {
+    width: 11%;
+    position: absolute;
+    top: 55%;
+    left: 7%;
+}
+.img_part1 {
+    width: 16%;
+    position: absolute;
+    top: 52%;
+    left: 8%;
+}
+.img_part2 {
+    width: 23%;
+    position: absolute;
+    top: 52%;
+    left: 8%;
+}
+
+
+
+
+.input {
+    width: 32%;
+}
+
+
+.tab1 td {
+    padding-top: 2%;
+}
+.done {
+    float: right;
+    margin-top: 10px;
+    margin-right: 0.5%;
+}
+
+.InputNdDone {
+    margin-left: 5%;
+}
+
+@keyframes  move{
+		0%{
+			top:51%;
+			left: 36%;
+		}
+		100%{
+    
+   top: -72%;
+    left: 47%;
+
+	display: none;
+    
+		}
+	}
+	.InputNdDone {
+    margin-left: 0%;
+}
+	.input {
+    width: 45%;
+}
+.NumberS{
+    top: -30px!important;
+    left: 10.0px!important;
+}
+.Word{
+    top: -30px!important;
+    
+}
+.ThreeCommonBtns {
+    margin-left: 0.5%;
+    width: 16.5%;
+}
+}
+
+
+@media (min-width: 801px) and (max-width: 880px) and (orientation:portrait)
+{
+.clear {
+    margin-left: 3%;
+}
+.input {
+    width: 32%;
+}
+
+.img_part {
+    width: 9%;
+    position: absolute;
+    top: 55%;
+    left: 7%;
+}
+.img_part1 {
+    width: 15%;
+    position: absolute;
+    top: 54%;
+    left: 7%;
+}
+.img_part2 {
+    width: 21%;
+    position: absolute;
+    top: 55%;
+    left: 7%;
+}
+
+
+
+.div1 {
+    top: 0%;
+    left: -0.2%;
+    width: 20%;
+}
+
+.tab1 td {
+    padding-top: 2.5%;
+}
+.done {
+    float: right;
+    margin-top: 10px;
+    margin-right: 0.5%;
+}
+
+.InputNdDone {
+    margin-left: 5%;
+}
+
+@keyframes  move{
+		0%{
+			top:0%;
+			left: 53%;
+		}
+		100% {
+    top: -66%;
+    left:73%;
+    display: none;
+}
+
+	}
+	.InputNdDone {
+    margin-left: 0%;
+}
+	.input {
+    width: 45%;
+}
+.NumberS{
+    top: -40px!important;
+    left: 10.0px!important;
+}
+.Word{
+    top: -40px!important;
+    
+}
+.ThreeCommonBtns {
+    margin-left: 0.5%;
+    width: 16.5%;
+}
+}
+
+
+@media (min-width: 881px) and (max-width: 960px) and (orientation:portrait)
+{
+.clear {
+    margin-left: 7%;
+}
+.input {
+    width: 32%;
+}
+.div1 {
+    top: -2%;
+    left: -0.2%;
+    width: 25%;
+}
+
+.img_part {
+    width: 9%;
+    position: absolute;
+    top: 55%;
+    left: 7%;
+}
+.img_part1 {
+    width: 15%;
+    position: absolute;
+    top: 54%;
+    left: 8%;
+}
+.img_part2 {
+    width: 21%;
+    position: absolute;
+    top: 55%;
+    left: 8%;
+}
+
+
+
+.tab1 td {
+    padding-top: 2.5%;
+}
+.done {
+    float: right;
+    margin-top: 10px;
+    margin-right: 0.5%;
+}
+
+.InputNdDone {
+    margin-left: 5%;
+}
+
+@keyframes  move{
+		0%{
+			top: 50%;
+    left: 35.5%;
+		}
+		100% {
+   top: -79%;
+    left: 47.5%;
+    display: none;
+}
+
+	}
+	.InputNdDone {
+    margin-left: 0%;
+}
+	.input {
+    width: 45%;
+}
+.ThreeCommonBtns {
+    margin-left: 0.5%;
+    width: 16.5%;
+}
+.NumberS{
+    top: -40px!important;
+    left: 10.0px!important;
+}
+.Word{
+    top: -40px!important;
+    
+}
+}
+
+@media (min-width: 961px) and (max-width: 1040px) and (orientation:portrait)
+{
+
+.clear {
+    margin-left: 5%;
+}
+.input {
+    width: 32%;
+}
+
+.conclusion {
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 28%;
+}
+
+
+.div1 {
+    top: 0%;
+    left: -0.2%;
+    width: 20%;
+}
+
+.img_part {
+    width: 9%;
+    position: absolute;
+    top: 55%;
+    left: 7%;
+}
+.img_part1 {
+    width: 15%;
+    position: absolute;
+    top: 54%;
+    left: 8%;
+}
+.img_part2 {
+    width: 21%;
+    position: absolute;
+    top: 55%;
+    left: 8%;
+}
+
+
+.tab1 td {
+    padding-top: 2.5%;
+}
+.done {
+    float: right;
+    margin-top: 10px;
+    margin-right: 0.5%;
+}
+
+.InputNdDone {
+    margin-left: 5%;
+}
+
+
+	
+@keyframes  move{
+		0%{
+			top: 50%;
+    left: 35.5%;
+		}
+		100% {
+   top: -82%;
+    left: 47.5%;
+    display: none;
+}
+
+	}
+	.InputNdDone {
+    margin-left: 0%;
+}
+	.input {
+    width: 45%;
+}
+.ThreeCommonBtns {
+    margin-left: 0.5%;
+    width: 16.5%;
+}
+.NumberS{
+    top: -40px!important;
+    left: 10.0px!important;
+}
+.Word{
+    top: -40px!important;
+    
+}
+.remark {
+  
+   
+    top: 2.5em!important;
+   
+}
+}
+
+@media (min-width: 1041px)  and (orientation:portrait)
+{
+.clear {
+    margin-left: 5%;
+}
+.input {
+    width: 32%;
+}
+
+.img_part {
+    width: 10%;
+    position: absolute;
+    top: 55%;
+    left: 7%;
+}
+.img_part1 {
+    width: 15%;
+    position: absolute;
+    top: 54%;
+    left: 8%;
+}
+.img_part2 {
+    width: 22%;
+    position: absolute;
+    top: 55%;
+    left: 8%;
+}
+
+
+.div1 {
+    top: -2%;
+    left: -0.2%;
+    width: 20%;
+}
+.done {
+    float: right;
+    margin-top: 10px;
+    margin-right: 0.5%;
+}
+
+.InputNdDone {
+    margin-left: 5%;
+}
+
+@keyframes  move{
+		0%{
+			top: 50%;
+    left: 35.5%;
+		}
+		100% {
+   top: -80%;
+    left: 47.5%;
+    display: none;
+}
+
+	}
+	.InputNdDone {
+    margin-left: 0%;
+}
+	.input {
+    width: 45%;
+}
+.ThreeCommonBtns {
+    margin-left: 0.5%;
+    width: 16.5%;
+}
+.NumberS{
+    top: -40px!important;
+    left: 10.0px!important;
+}
+.Word{
+    top: -40px!important;
+    
+}
+.remark {
+  
+   
+    top: 2.5em!important;
+   
+}
+}
+.input {
+	  width:90%;
+	  } 
+@media (min-width: 320px) and (orientation:portrait){
+.tbl_first{
+	width:60%;
+	display:inline-table;
+	margin-left:0%;
+}
+.td_111 {
+    width: 3.8em;
+    vertical-align: top;
+    padding-top: 0.2em;
+}
+	
+	.btn13  {
+    width: 8%;
+    margin-left: 0.1%;
+}
+
+.remark {
+    position: absolute;
+    top: 51%;
+    right: 40%;
+}
+
+.btn13 :hover{  width:8%;
+    margin-left: 0.1%;}
+.btn13 :active {  width: 8%;
+    margin-left: 0.1%;}
+.paddingtopbtm30{flex-direction:column;}
+.NwvrsnAdDolBtn{order:2; display: flex; margin-top:1em;}
+.InputDoneAndKeypad{order:1;}
+.KeypadArea{order:3;}
+.solution {
+     margin-top: 0%;
+	 margin-left:6%;
+}
+.KeypadArea {
+    width: 98%;
+    margin-left: 0%;
+    margin-top: 18px;
+}
+.InputDoneAndKeypad {width:100%;}
+
+.InputTextNeed1{width:25%;align-items: center; font-size:0.96em;}
+.InputTextNeed2{width:5%;align-items: center; display:flex; font-size:0.96em;}
+.InputTextNeed3{width:18%;}
+.InputTextNeed4{width:0%;}
+.InputTextNeed5{width:30%;}
+.InputTextNeed6{width:2%;}
+.InputTextNeed7{width:10%;}
+.InputTextNeed8{width:0%;}
+.InputNdDone {
+    margin-left: 0%!important;
+    width: 100%;
+}
+.input {
+    width: 85%;
+}
+.remark {
+    position: absolute;
+    left: -6.5em;
+    top: 3.5em;
+    display: inline-block;
+}
+.tick1, .cross1,.tick2, .cross2 {
+    position: absolute;
+    top: 0em!important;
+    right: 0.7em!important;
+}
+.tick2, .cross2 {right: 1.2em!important;}
+.respond{white-space:nowrap}
+}
+/*----- 32 -------*/
+
+
+
+
+
+
+
+
+
+
+.fraction {
+    display: inline-block;
+    vertical-align: middle; 
+    margin: 0 0.2em 0.4ex;
+    text-align: center;
+
+}
+.fraction > span {
+    display: block;
+    padding-top: 0.1em;
+}
+
+
+.fraction span.fdn {border-top: 2px solid black;
+padding:0px 3px;
+}
+
+
+.fraction span.fup{
+padding:0px 3px;
+}
+
+.fraction span.fdn{
+padding:0px 3px;
+}
+
+
+.fraction span.bar {display: none;}
+
+
+.blue span.fdn {border-top: 2px solid blue;}
+.purple span.fdn {border-top: 2px solid purple;}
+.red span.fdn {border-top: 2px solid #C00;}
+
+
+
+
+.td{
+	border-top:2px solid #000;
+}
+.td1{
+	border-bottom:2px solid #000;
+}
+.tbl_first{
+	border-collapse:collapse;
+}
+
+
+.TAC{
+	text-align:center;
+}
+.TAR{
+	text-align:right;
+}
+
+
+.pding{
+	padding:15px;
+}
+
+
+
+.div_wdth{
+	width:80%;
+	margin-left:20%;
+	display:inline-block;
+}
+
+
+
+
+
+
+
+
+.tab:focus,.done1:focus
+{
+	outline:none;
+}
+.remark{display:inline;
+
+}
+.header {
+	
+	background-image: none;
+ 	
+}
+.bold{font-weight:bold;}
+
+
+.SolutionRemark
+{
+	float:left;
+	display:inline-block;
+
+}
+.doneDiv{
+	float:none;	
+		}
